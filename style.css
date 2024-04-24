@@ -33,6 +33,7 @@ h1 {
 	font-size: 2rem;
 	padding: 15px 0;
 	font-family: "Rubik Dirt", cursive;
+	text-align: center;
 }
 
 .description-section {
@@ -42,6 +43,14 @@ h1 {
 
 .text-section {
 	font-size: 1.2rem;
+	/* letter-spacing: 0.1rem; */
+	font-weight: bold;
+}
+
+.btn-info {
+	font-size: 1.1rem;
+	margin: 20px;
+	/* font-weight: bold; */
 }
 
 .dark-text {
@@ -90,15 +99,51 @@ h1 {
 	color: #615151;
 }
 
+#subtitle {
+	height: 2rem;
+}
+
+.subtitle {
+	border-right: 0.15em solid orange; /* El borde derecho que simula el cursor parpadeante */
+	white-space: nowrap; /* Evita que el texto se rompa */
+	overflow: hidden; /* Oculta el texto que desborda el contenedor */
+	animation: typing 4s steps(40, end), blink-caret 0.5s step-end infinite; /* Animación para el efecto de máquina de escribir */
+}
+
+.mobile {
+	display: none;
+}
+
+/* Animación de escritura */
+@keyframes typing {
+	from {
+		width: 0;
+	}
+	to {
+		width: 100%;
+	}
+}
+
+/* Animación del cursor parpadeante */
+@keyframes blink-caret {
+	from,
+	to {
+		border-color: transparent;
+	}
+	50% {
+		border-color: orange;
+	}
+}
+
 /* About me */
 
 .about-me {
-	height: 500px;
+	height: 600px;
 	padding: 10px;
 }
 
 .about-me .container-mine {
-	max-width: 600px;
+	max-width: 800px;
 	text-align: center;
 }
 
@@ -154,7 +199,7 @@ h1 {
 }
 
 .projects img {
-	height: 100%;
+	/* height: 100%; */
 	width: 100%;
 	padding: 10px;
 	border: 10px;
@@ -187,8 +232,18 @@ h1 {
 	position: relative;
 }
 
+.project .in-progress {
+	width: 50%;
+	display: block;
+	margin: 0 auto;
+}
+
 .project:hover img {
 	opacity: 0.2;
+}
+
+.project:hover .in-progress {
+	opacity: 1;
 }
 
 .project:hover .overlay {
@@ -211,10 +266,50 @@ h1 {
 	color: blue;
 }
 
+/* Articles */
+
+.articles {
+	min-height: 500px;
+	padding: 30px;
+}
+
+.articles .card {
+	width: 80%;
+	max-width: 600px;
+	margin: 20px;
+}
+
+.articles .card-header {
+	font-weight: bold;
+}
 /* Responsive design */
+
+@media screen and (max-width: 400px) {
+	.overlay p {
+		font-size: 18px;
+	}
+
+	.overlay i {
+		font-size: 40px;
+	}
+}
+
 @media screen and (max-width: 767px) {
 	.navbar-brand {
 		display: none;
+	}
+
+	.about-me .text-section {
+		font-size: 0.9rem;
+		font-weight: 400;
+	}
+
+	.subtitle {
+		display: none;
+	}
+
+	.mobile {
+		display: block;
 	}
 }
 
