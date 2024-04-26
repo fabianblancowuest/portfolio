@@ -10,6 +10,8 @@ section {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	font-family: "Quicksand", sans-serif;
+	/* font-weight: bold; */
 }
 
 .logo {
@@ -159,6 +161,17 @@ h1 {
 	padding: 40px 40px 60px 40px;
 }
 
+.experience .row {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.experience .column {
+	height: 500px;
+	width: 500px;
+}
+
 .experience .column {
 	padding: 20px;
 	border: 2px solid #8080804d;
@@ -254,6 +267,10 @@ h1 {
 
 .project:hover .overlay {
 	opacity: 1;
+}
+
+.projects .btn {
+	margin-bottom: 100px;
 }
 
 .overlay .icons-container {
@@ -448,6 +465,24 @@ footer {
 	color: #aeaeae;
 	padding: 20px;
 }
+
+/* Modal */
+
+.modal-content {
+	font-weight: bold;
+	font-family: "Quicksand", sans-serif;
+}
+
+.modal-title {
+	margin-left: auto;
+	/* font-family: "Rubik Dirt", system-ui; */
+}
+
+.modal-content button {
+	display: block;
+	margin: 0 auto;
+}
+
 /* Responsive design */
 
 @media screen and (max-width: 400px) {
@@ -476,6 +511,10 @@ footer {
 
 	.carousel-item {
 		height: 80vh;
+	}
+
+	.experience .column {
+		height: 100vh;
 	}
 }
 
