@@ -3,6 +3,30 @@
 	--dark-color: #1b1b32;
 }
 
+/* Sweet Alert */
+
+.swal2-title {
+	font-family: "Quicksand", sans-serif;
+	font-size: 1.3rem;
+}
+
+.swal2-content {
+	font-family: "Quicksand", sans-serif;
+	font-size: 1.3rem;
+}
+.swal2-popup .swal2-actions button {
+	margin-top: 1rem;
+	font-family: Arial, sans-serif;
+	color: black;
+	font-weight: bold;
+	padding: 0.5rem 3rem;
+}
+/* Aplica un tamaño personalizado al contenedor del diálogo */
+.swal2-popup {
+	padding: 2rem 1rem;
+	width: 50vw;
+}
+
 /* General styles */
 
 section {
@@ -14,6 +38,14 @@ section {
 	/* font-weight: bold; */
 }
 
+.navbar {
+	font-family: "Quicksand", sans-serif;
+	font-size: 1.1rem;
+}
+
+.navbar ul li {
+	margin-left: 12px;
+}
 .logo {
 	display: block;
 	width: 50px;
@@ -170,6 +202,7 @@ h1 {
 .experience .column {
 	height: 500px;
 	width: 500px;
+	font-size: 1.05rem;
 }
 
 .experience .column {
@@ -494,7 +527,7 @@ footer {
 	}
 
 	.about-me {
-		height: 100vh;
+		min-height: 100vh;
 	}
 
 	.mobile {
@@ -512,10 +545,6 @@ footer {
 	.carousel-item {
 		height: 80vh;
 	}
-
-	.experience .column {
-		height: 100vh;
-	}
 }
 
 @media screen and (max-width: 767px) {
@@ -531,6 +560,10 @@ footer {
 		display: block;
 	}
 
+	.about-me .container-mine {
+		min-height: fit-content;
+	}
+
 	.experience,
 	.projects,
 	.articles {
@@ -540,6 +573,20 @@ footer {
 	.description-section {
 		padding: 0 40px;
 		text-align: center;
+	}
+
+	.projects .btn-info {
+		margin-bottom: 120px;
+	}
+
+	.experience .column {
+		font-size: 1.1rem;
+		height: fit-content;
+	}
+
+	.navbar li a {
+		font-size: 1.2rem;
+		margin-top: 10px;
 	}
 }
 
