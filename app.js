@@ -21,44 +21,62 @@ document.addEventListener("DOMContentLoaded", function () {
 	// }, 3000);
 
 	// typewriter effect
-	function typeWriterEffect() {
+	function typeWriterEffect(phrases) {
 		subtitle.textContent = "";
 
-		let i = 0;
+		let currentIndex = 0;
+
 		function type() {
-			if (i < text.length) {
-				subtitle.textContent += text.charAt(i);
-				i++;
-				setTimeout(type, 100); // Velocidad de escritura en milisegundos
-			} else {
-				setTimeout(erase, 2000); // Tiempo de espera antes de borrar
+			const text = phrases[currentIndex];
+			let i = 0;
+
+			function typeCharacter() {
+				if (i < text.length) {
+					subtitle.textContent += text.charAt(i);
+					i++;
+					setTimeout(typeCharacter, 100); // Velocidad de escritura en milisegundos
+				} else {
+					setTimeout(erase, 2000); // Tiempo de espera antes de borrar
+				}
 			}
+
+			typeCharacter();
 		}
 
-		// eraser effect
 		function erase() {
-			if (subtitle.textContent.length > 0) {
-				subtitle.textContent = text.substring(
-					0,
-					subtitle.textContent.length - 1,
-				);
-				setTimeout(erase, 50); // Velocidad de borrado en milisegundos
-			} else {
-				setTimeout(typeWriterEffect, 1000); // Tiempo de espera antes de empezar de nuevo
+			const text = phrases[currentIndex];
+			let i = text.length - 1;
+
+			function eraseCharacter() {
+				if (i >= 0) {
+					subtitle.textContent = text.substring(0, i);
+					i--;
+					setTimeout(eraseCharacter, 50); // Velocidad de borrado en milisegundos
+				} else {
+					currentIndex = (currentIndex + 1) % phrases.length; // Avanzar al siguiente índice
+					setTimeout(type, 1000); // Tiempo de espera antes de empezar la próxima frase
+				}
 			}
+
+			eraseCharacter();
 		}
 
 		type();
 	}
 
-	typeWriterEffect(); // Iniciar el efecto
+	const phrases = [
+		"I build websites and web applications👷‍♂️",
+		"Full-Stack Web Developer💻",
+		"Welcome to my portfolio💼",
+	];
+
+	typeWriterEffect(phrases); // Iniciar el efecto
 });
 
 const logo = document.getElementById("logo");
 let index = 0;
 
 logo.addEventListener("click", () => {
-	// alert("Hola");
 	const phrases = [
 		'"I’m not a great programmer; I’m just a good programmer with great habits. ― Kent Beck"',
 		'"You might not think that programmers are artists, but programming is an extremely creative profession. It’s logic-based creativity. – John Romero"',
