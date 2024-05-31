@@ -583,6 +583,10 @@ footer {
 
 .section-subtitle {
 	width: 100%;
+	font-weight: bold;
+	margin: 1em 0;
+	background-color: rgba(220, 220, 220, 0.2);
+	/* letter-spacing: 1px; */
 }
 
 .cv-project-title h3 {
