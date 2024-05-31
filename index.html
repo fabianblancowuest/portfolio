@@ -43,6 +43,9 @@
                         alt="Website Logo"></a>
                 <ul class="navbar-nav d-flex justify-content-center align-items-center">
                     <li class="nav-item">
+                        <a class="nav-link" href="#cv" data-toggle="modal" data-target="#cvModal">CV</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">About me</a>
                     </li>
                     <li class="nav-item">
@@ -219,14 +222,14 @@
                         </div>
                     </div>
                 </div>
-                <!-- Videogames -->
+                <!-- Mi primer casa -->
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="project">
                         <img src="img/projects/mi-primer-casa.png" alt="Mi Primer Casa Sorteo">
                         <div class="overlay">
                             <p>Mi Primer Casa - Sorteo</p>
                             <div class="icons-container">
-                                <a href="https://github.com/fabianblancowuest/mi-primer-casa-respaldo" _blank"
+                                <a href="https://github.com/fabianblancowuest/mi-primer-casa-respaldo" target="_blank"
                                     rel="noopener noreferrer"><i class="bi bi-github"></i></a>
                                 <a href="https://www.miprimercasa.ar/grafica/VentaWEB/webVentaTAlon.aspx?Operador=6CEE5E04"
                                     target="_blank" rel="noopener noreferrer"><i class="bi bi-laptop"></i></a>
@@ -451,6 +454,90 @@
                             <i class="bi bi-send-check-fill"></i>
                         </button>
                     </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#cvModal">
+        Ver Curriculum Vitae
+    </button>
+    <!-- Curriculum Vitae -->
+    <!-- Ventana Modal -->
+    <div class="modal fade" id="cvModal" tabindex="-1" role="dialog" aria-labelledby="cvModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="cvModalLabel">Curriculum Vitae</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <!-- Contenido del CV -->
+                    <section class="cv">
+                        <header class="cv-header">
+                            <h2>Fabián Blanco Wuest</h2>
+                            <p>FullStack Developer</p>
+                            <p>Argentina, Buenos Aires | +543704790617 | fabianblancowuest@gmail.com</p>
+                            <div class="cv-header-links">
+                                <a href="">LinkedIn</a>
+                                <span> - </span>
+                                <a href="">GitHub</a>
+                            </div>
+                        </header>
+                        <div class="cv-line"></div>
+                        <main>
+                            <p>Full Stack Developer con formación en JavaScript, ReactJS, Node.js, Java, Express, CSS,
+                                Bootstrap, HTML,
+                                MongoDB, Postgre SQL y Sequelize. Conocimientos en metodologías ágiles, GIT, UX, UI,
+                                estructura de
+                                datos, algoritmos. Experiencia en desarrollo de Front End y Back End / arquitectura de
+                                datos. Con actitud
+                                positiva, adaptabilidad, análisis de problemas y automotivación. Nivel de Inglés: Upper
+                                Intermediate.</p>
+                        </main>
+                        <section class="projects-cv">
+                            <article>
+                                <div class="cv-project-title">
+                                    <h2>FullStack Developer - Smahh</h2>
+                                    <span>ago. 2023 - sep. 2023</span>
+                                </div>
+                                <div class="cv-project-description">
+                                    <p>
+                                        Este proyecto se centró en el desarrollo de una aplicación para la venta de
+                                        servicios de ciberseguridad,
+                                        simulando la implementación de soluciones tecnológicas en un entorno
+                                        empresarial. Aunque el nombre
+                                        "Smahh" es ficticio, el proyecto se diseñó para abordar desafíos reales en la
+                                        venta y gestión de servicios de
+                                        ciberseguridad.
+                                    </p>
+                                    <ul>
+                                        <li>Diseñar y desarrollar una App responsive para clientes que incluye: Login de
+                                            usuario, registro de usuario
+                                            en base de datos, envío de formulario y email, alta de tickets de venta de
+                                            servicios de ciberseguridad.</li>
+                                        <li>Desarrollar Landing Page, Dashboard, About, Services.</li>
+                                    </ul>
+                                    <h3>Tecnologías utilizadas</h3>
+                                    <ul>
+                                        <li>Front: JavaScript, React.js, Redux, CSS, HTML.</li>
+                                        <li>Back: Node.js, Express.js.</li>
+                                        <li>Base de datos: PostgreSQL y Sequelize.</li>
+                                    </ul>
+                                    <div class="cv-project-links">
+                                        <a
+                                            href="https://rickandmorty-client-b19y.onrender.com/">https://rickandmorty-client-b19y.onrender.com/</a>
+                                        <a
+                                            href="https://github.com/fabianblancowuest/rick_and_morty_app">https://github.com/fabianblancowuest/rick_and_morty_app</a>
+                                    </div>
+                                </div>
+                            </article>
+                        </section>
+                    </section>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
                 </div>
             </div>
         </div>

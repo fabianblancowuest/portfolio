@@ -516,6 +516,36 @@ footer {
 	margin: 0 auto;
 }
 
+.cv {
+	margin: 1em auto;
+	max-width: 1000px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	line-height: 2;
+}
+
+.cv-header {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.cv-header h2,
+.cv-header p {
+	text-align: center;
+}
+
+.cv-header-links {
+	text-align: center;
+}
+
+.cv-line {
+	border-top: 1.5px solid rgba(0, 0, 0, 0.5);
+	margin: 1em 0;
+	width: 100%;
+}
+
 /* Responsive design */
 
 @media screen and (max-width: 400px) {
