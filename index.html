@@ -28,6 +28,11 @@
     <!-- Sweet Alert -->
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 </head>
 
 <body>
@@ -46,7 +51,7 @@
                         <a class="nav-link" href="#cv" data-toggle="modal" data-target="#cvModal">CV</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">About me</a>
+                        <a class="nav-link active" aria-current="page" href="#about-me">About me</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#projects">Projects</a>
@@ -118,20 +123,6 @@
                         <span class="badge rounded-pill text-bg-primary">MongoDB</span>
                     </div>
                 </div>
-                <!-- Articles -->
-                <!-- <div class="column col-12 col-md-4">
-                    <i class="bi bi-newspaper"></i>
-                    <p class="title-experience">Articles</p>
-                    <p>I have written several articles about core Javascript, the advantages and disadvantages of using
-                        Single Page Applications (SPAs), comparisons of design patterns, and the benefits of using
-                        React in web development.
-                    </p>
-                    <div class="badges-container">
-                        <span class="badge rounded-pill text-bg-primary">Write</span>
-                        <span class="badge rounded-pill text-bg-primary">Edit</span>
-                        <span class="badge rounded-pill text-bg-primary">Blogs</span>
-                    </div>
-                </div> -->
                 <!-- Student -->
                 <div class="column col-12 col-md-6">
                     <!-- <i class="bi bi-highlighter"></i> -->
@@ -259,117 +250,6 @@
             </button>
         </a>
     </section>
-    <!-- Articles -->
-    <!-- <section class="articles justify-content-start">
-        <h2 class="title-section dark-text">Articles</h2>
-        <div class="card">
-            <div class="card-header">
-                More recents
-            </div>
-
-            <ul class="list-group list-group-flush">
-                <a href="https://andrewly.medium.com/pros-and-cons-between-single-page-and-multi-page-apps-8f4b26acd9c9"
-                    target="_blank" rel="noopener noreferrer">
-                    <li class="list-group-item">Pros and Cons Between Single Page and Multi-Page Apps</li>
-                </a>
-                <a href="https://medium.com/@stephenthecurt/33-fundamentals-every-javascript-developer-should-know-13dd720a90d1"
-                    target="_blank" rel="noopener noreferrer">
-                    <li class="list-group-item">33 JavaScript concepts every developer should know.
-                    </li>
-                </a>
-                <a href="https://www.freecodecamp.org/news/why-use-react-for-web-development/" target="_blank"
-                    rel="noopener noreferrer">
-                    <li class="list-group-item">Why You Should Use React.js For Web Development
-                    </li>
-                </a>
-                <a href="https://www.gluo.mx/blog/design-patterns-cuantos-son-beneficios-y-cuales-son-los-mejores"
-                    target="_blank" rel="noopener noreferrer">
-                    <li class="list-group-item">Design Patterns: How many are there, benefits and which are the best?
-                    </li>
-                </a>
-                <a href="https://roadmap.sh/frontend" target="_blank" rel="noopener noreferrer">
-                    <li class="list-group-item">
-                        What is Frontend Development?
-                    </li>
-                </a>
-                <a href="https://www.wmtips.com/css/advantages-using-css/" target="_blank" rel="noopener noreferrer">
-                    <li class="list-group-item">9 Advantages of Using CSS
-
-                    </li>
-                </a>
-            </ul>
-        </div>
-
-        <a href="https://freecodecamp.org/espanol/news" target="_blank" rel="noopener noreferrer">
-            <button type="button" class="btn btn-info">See more articles
-                <i class="bi bi-arrow-right-circle-fill"></i>
-            </button>
-        </a>
-    </section> -->
-    <!-- Testimonies -->
-    <!-- <section id="testimonies" class="testimonies light-section">
-        <h2 class="title-section">Testimonies</h2>
-        <h3 class="description-section">These are some testimonies of my clients...</h3> -->
-
-    <!-- Carousel -->
-
-    <!-- <div id="testimonies-carousel" class="carousel carousel-dark slide">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class="container">
-                        <img class="testimony-image rounded-circle" src="img/clients/cliente1.svg"
-                            alt="Picture of Gino">
-                        <p class="testimony-text">
-                            I'm truly grateful for Fabián's efforts; he has exceeded my expectations and even gone
-                            beyond what I asked of him.
-                        </p>
-                        <div class="testimony-info">
-                            <p class="client">Gino</p>
-                            <p class="position">Project Manager in Despegar</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="container">
-                        <img class="testimony-image rounded-circle" src="img/clients/woman.jpg" alt="Picture of Nora">
-                        <p class="testimony-text">
-                            Fabián has been an outstanding member of the team; his drive to improve and analytical
-                            skills have truly impressed me.
-                        </p>
-                        <div class="testimony-info">
-                            <p class="client">Nora</p>
-                            <p class="position">Technical Lead in Mercado Libre</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="container">
-                        <img class="testimony-image rounded-circle" src="img/clients/cliente3.svg"
-                            alt="Picture of Leonardo">
-                        <p class="testimony-text">
-                            Fabián has consistently completed the assigned tasks with precision, consistently addressing
-                            details with innovative solutions.
-                        </p>
-                        <div class="testimony-info">
-                            <p class="client">Leonardo</p>
-                            <p class="position">Lead Architect in Globant</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#testimonies-carousel"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#testimonies-carousel"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div> -->
-
-
 
     </section>
     <!-- Contact -->
@@ -420,9 +300,9 @@
         </div>
         <div class="copyright">Created by Fabian Blanco Wuest (2024) &#169;</div>
     </footer>
-    <!-- Modal -->
+    <!-- Contact Modal -->
     <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-dialog modal-dialog-centered form">
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="contactModalLabel">Contact Form</h5>
@@ -458,21 +338,19 @@
             </div>
         </div>
     </div>
-    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#cvModal">
-        Ver Curriculum Vitae
-    </button>
-    <!-- Curriculum Vitae -->
-    <!-- Ventana Modal -->
-    <div class="modal fade" id="cvModal" tabindex="-1" role="dialog" aria-labelledby="cvModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg" role="document">
+
+    <!-- Cv Modal -->
+    <div class="modal fade cv-modal" id="cvModal" tabindex="-1" role="dialog" aria-labelledby="cvModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg-custom" role="document">
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="cvModalLabel">Curriculum Vitae</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
+                    <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close">
+                        <!-- <span aria-hidden="true">&times;</span> -->
                     </button>
                 </div>
-                <div class="modal-body">
+                <div class="modal-body modal-body-cv">
                     <!-- Contenido del CV -->
                     <section class="cv">
                         <header class="cv-header">
@@ -497,9 +375,11 @@
                                 Intermediate.</p>
                         </main>
                         <section class="projects-cv">
+                            <h2 class="cv-projects-title">Proyectos</h2>
+                            <!-- Smahh -->
                             <article>
                                 <div class="cv-project-title">
-                                    <h2>FullStack Developer - Smahh</h2>
+                                    <h3>FullStack Developer - Smahh</h3>
                                     <span>ago. 2023 - sep. 2023</span>
                                 </div>
                                 <div class="cv-project-description">
@@ -526,21 +406,89 @@
                                         <li>Base de datos: PostgreSQL y Sequelize.</li>
                                     </ul>
                                     <div class="cv-project-links">
-                                        <a
-                                            href="https://rickandmorty-client-b19y.onrender.com/">https://rickandmorty-client-b19y.onrender.com/</a>
-                                        <a
-                                            href="https://github.com/fabianblancowuest/rick_and_morty_app">https://github.com/fabianblancowuest/rick_and_morty_app</a>
+                                        <a href="https://rickandmorty-client-b19y.onrender.com/">Sitio Web</a>
+                                        <a href="https://github.com/fabianblancowuest/rick_and_morty_app">Repositorio en
+                                            GitHub</a>
                                     </div>
                                 </div>
                             </article>
-                        </section>
-                    </section>
+                            <!-- Rick and Morty -->
+                            <article>
+                                <div class="cv-project-title">
+                                    <h3>Full Stack Developer – RickandMorty App</h3>
+                                    <span>jun. 2023 - ago. 2023</span>
+                                </div>
+                                <div class="cv-project-description">
+                                    <p>
+                                        Este Proyecto se centró en el desarrollo de una aplicación basada en la famosa
+                                        serie de televisión “Rick and Morty” en la cual se puede acceder a tarjetas con
+                                        información de los personajes de la serie a través del consumo del api oficial
+                                        de Rick and Morty.
+                                    </p>
+                                    <ul>
+                                        <li>Diseñar y desarrollar una App para estudiantes que incluye: Login de
+                                            usuario, registro de usuario en base de datos, búsqueda de personajes de la
+                                            serie, acceso a detalles, guardado en favoritos, filtrado por nombre y
+                                            género.</li>
+                                        <li>Desarrollar varías páginas de navegación como Home, About y Favorites.
+                                        </li>
+                                    </ul>
+                                    <h3>Tecnologías utilizadas</h3>
+                                    <ul>
+                                        <li>Front: JavaScript, React.js, Redux, CSS, HTML.</li>
+                                        <li>Back: Node.js, Express.js.</li>
+                                        <li>Base de datos: PostgreSQL y Sequelize.</li>
+                                    </ul>
+                                    <div class="cv-project-links">
+                                        <a href="https://rickandmorty-client-b19y.onrender.com/">Sitio Web</a>
+                                        <a href="https://github.com/fabianblancowuest/rick_and_morty_app">Repostorio en
+                                            GitHub</a>
+                                    </div>
+                                </div>
+                            </article>
+                            <article>
+                                <div class="cv-project-title">
+                                    <h3>Mi Primer Casa S.A - Sorteo – Web Designer</h3>
+                                    <span>mayo. 2024</span>
+                                </div>
+                                <div class="cv-project-description">
+                                    <p>
+                                        Este proyecto se centra en una aplicación responsive de venta de números, para
+                                        un sorteo que se realiza el día de la madre en Argentina en el año 2024. Donde
+                                        el usuario elige uno o más números para participar de dicho sorteo, luego elige
+                                        los premios en los que desea participar y por último selecciona el método de
+                                        pago.
+                                    </p>
+                                    <ul>
+                                        <li>Diseñar la maquetación de la aplicación web resposive (optimizada para
+                                            teléfonos y tablets).</li>
+                                        <li>Maquetador único y principal del proyecto.</li>
+                                        <li>Trabajar con hojas de estilos en cascada con el lenguaje de diseño CSS.</li>
+                                        <li>No se utilizaron frameworks ni librerías de CSS.</li>
+                                    </ul>
+                                    <h3>Tecnologías utilizadas</h3>
+                                    <ul>
+                                        <li>CSS</li>
+                                        <li>Vanilla JavaScript</li>
+                                        <div class="cv-project-links">
+                                            <a
+                                                href="https://www.miprimercasa.ar/grafica/VentaWEB/webVentaTAlon.aspx?Operador=6CEE5E04">Sitio
+                                                Web</a>
+                                            <a href="https://github.com/fabianblancowuest/mi-primer-casa-respaldo">Repositorio
+                                                en GitHub</a>
+                                        </div>
+                                </div>
                 </div>
+                </article>
+                </section>
+                </section>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-info" data-dismiss="modal">Cerrar <i
+                            class="bi bi-x-circle-fill"></i></button>
                 </div>
             </div>
         </div>
+    </div>
     </div>
 
     <!-- Scripts -->

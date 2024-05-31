@@ -499,21 +499,42 @@ footer {
 	padding: 20px;
 }
 
-/* Modal */
+/* Contact Modal */
 
 .modal-content {
 	font-weight: bold;
 	font-family: "Quicksand", sans-serif;
 }
 
+.form {
+	max-width: 700px;
+}
+
+.form textarea {
+	min-height: 300px;
+}
+
 .modal-title {
 	margin-left: auto;
-	/* font-family: "Rubik Dirt", system-ui; */
 }
 
 .modal-content button {
 	display: block;
 	margin: 0 auto;
+}
+
+/* Cv Modal */
+
+.modal-header {
+	text-align: center;
+}
+
+.modal-lg-custom {
+	max-width: 60%;
+}
+
+.modal-body-cv {
+	padding: 1em 4em;
 }
 
 .cv {
@@ -544,6 +565,29 @@ footer {
 	border-top: 1.5px solid rgba(0, 0, 0, 0.5);
 	margin: 1em 0;
 	width: 100%;
+}
+
+.cv-projects-title {
+	display: block;
+	width: 100%;
+	font-weight: bold;
+	text-align: left;
+	margin: 1em 0;
+}
+
+.projects-cv h3 {
+	font-size: 1.5rem;
+	font-weight: bold;
+	margin-top: 1.5em;
+}
+
+.cv-project-links {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.cv-project-links a {
+	text-decoration: none;
 }
 
 /* Responsive design */
