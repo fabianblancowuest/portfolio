@@ -518,12 +518,15 @@ footer {
 	margin-left: auto;
 }
 
-.modal-content button {
+.btn-submit {
 	display: block;
 	margin: 0 auto;
 }
 
 /* Cv Modal */
+
+.modal-title {
+}
 
 .modal-header {
 	text-align: center;
@@ -553,41 +556,119 @@ footer {
 }
 
 .cv-header h2,
-.cv-header p {
+.cv-header h5 {
 	text-align: center;
 }
 
+.header-info {
+	text-align: center;
+}
+
+.mobile-info {
+	display: none;
+}
+
+.cv-info {
+	/* margin-bottom: 1em; */
+}
 .cv-header-links {
 	text-align: center;
 }
 
 .cv-line {
-	border-top: 1.5px solid rgba(0, 0, 0, 0.5);
+	border-top: 2px solid rgba(0, 0, 0, 0.5);
 	margin: 1em 0;
 	width: 100%;
 }
 
-.cv-projects-title {
-	display: block;
+.section-subtitle {
 	width: 100%;
-	font-weight: bold;
-	text-align: left;
-	margin: 1em 0;
 }
 
-.projects-cv h3 {
+.cv-project-title h3 {
 	font-size: 1.5rem;
 	font-weight: bold;
-	margin-top: 1.5em;
+	margin-top: 0.5em;
 }
 
 .cv-project-links {
 	display: flex;
-	justify-content: space-evenly;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 4rem;
 }
 
 .cv-project-links a {
 	text-decoration: none;
+}
+
+.line-project {
+	margin: 2em 0;
+	width: 100%;
+	border-top: 0.5px solid rgba(0, 0, 0, 0.3);
+}
+
+.cv-download {
+	width: fit-content;
+	margin-left: 0.5em;
+}
+
+.bi-download {
+	font-size: 1.5rem;
+	color: black;
+}
+
+.btn-download-cv {
+	display: block;
+	text-align: center;
+	margin: 1em 0;
+}
+
+.btn-download-cv button {
+	font-size: 1.1rem;
+}
+
+.modal-footer {
+	justify-content: center;
+}
+
+@media (max-width: 700px) {
+	.modal-lg-custom {
+		max-width: 100%;
+	}
+
+	.modal-body-cv {
+		padding: 1em 2em;
+	}
+
+	.cv-project-links {
+		display: flex;
+		justify-content: center;
+		gap: 1rem;
+	}
+
+	.cv-project-links a {
+		display: block;
+		width: 100%;
+	}
+
+	.header-info {
+		display: none;
+	}
+
+	.mobile-info {
+		display: block;
+	}
+}
+
+@media (min-width: 700px) and (max-width: 900px) {
+	.modal-lg-custom {
+		max-width: 90%;
+	}
+
+	.modal-body-cv {
+		padding: 1em 3em;
+	}
 }
 
 /* Responsive design */

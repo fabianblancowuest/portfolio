@@ -330,7 +330,7 @@
                             <textarea class="form-control" name="user_message" id="message" rows="8"
                                 placeholder="Leave your message..." required></textarea>
                         </div>
-                        <button type="submit" class="btn btn-info">Submit
+                        <button type="submit" class="btn btn-info btn-submit">Submit
                             <i class="bi bi-send-check-fill"></i>
                         </button>
                     </form>
@@ -342,10 +342,12 @@
     <!-- Cv Modal -->
     <div class="modal fade cv-modal" id="cvModal" tabindex="-1" role="dialog" aria-labelledby="cvModalLabel"
         aria-hidden="true">
-        <div class="modal-dialog modal-lg-custom" role="document">
+        <div class="modal-dialog modal-dialog-centered modal-lg-custom" role="document">
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="cvModalLabel">Curriculum Vitae</h5>
+                    <a href="./docs/CV-fabian-blanco-wuest.pdf" download="CV-fabian-blanco-wuest.pdf"
+                        class="cv-download"><i class="bi bi-download"></i></i></i></a>
                     <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close">
                         <!-- <span aria-hidden="true">&times;</span> -->
                     </button>
@@ -355,16 +357,24 @@
                     <section class="cv">
                         <header class="cv-header">
                             <h2>Fabián Blanco Wuest</h2>
-                            <p>FullStack Developer</p>
-                            <p>Argentina, Buenos Aires | +543704790617 | fabianblancowuest@gmail.com</p>
-                            <div class="cv-header-links">
-                                <a href="">LinkedIn</a>
-                                <span> - </span>
-                                <a href="">GitHub</a>
-                            </div>
+                            <h5>FullStack Developer</h3>
+                                <p class="header-info">Argentina, Formosa | +543704790617 | fabianblancowuest@gmail.com
+                                </p>
+                                <ul class="mobile-info">
+                                    <li>Argentina, Formosa</li>
+                                    <li>+543704790617</li>
+                                    <li>fabianblancowuest@gmail.com</li>
+                                </ul>
+                                <div class="cv-header-links">
+                                    <a href="https://www.linkedin.com/in/fabianblancowuest/" target="_blank"
+                                        rel="noopener noreferrer">LinkedIn</a>
+                                    <span> - </span>
+                                    <a href="https://github.com/fabianblancowuest" target="_blank"
+                                        rel="noopener noreferrer">GitHub</a>
+                                </div>
                         </header>
-                        <div class="cv-line"></div>
-                        <main>
+                        <div class="line-project"></div>
+                        <main class="cv-info">
                             <p>Full Stack Developer con formación en JavaScript, ReactJS, Node.js, Java, Express, CSS,
                                 Bootstrap, HTML,
                                 MongoDB, Postgre SQL y Sequelize. Conocimientos en metodologías ágiles, GIT, UX, UI,
@@ -374,126 +384,193 @@
                                 positiva, adaptabilidad, análisis de problemas y automotivación. Nivel de Inglés: Upper
                                 Intermediate.</p>
                         </main>
+                        <div class="line-project"></div>
                         <section class="projects-cv">
-                            <h2 class="cv-projects-title">Proyectos</h2>
-                            <!-- Smahh -->
-                            <article>
-                                <div class="cv-project-title">
-                                    <h3>FullStack Developer - Smahh</h3>
-                                    <span>ago. 2023 - sep. 2023</span>
-                                </div>
-                                <div class="cv-project-description">
-                                    <p>
-                                        Este proyecto se centró en el desarrollo de una aplicación para la venta de
-                                        servicios de ciberseguridad,
-                                        simulando la implementación de soluciones tecnológicas en un entorno
-                                        empresarial. Aunque el nombre
-                                        "Smahh" es ficticio, el proyecto se diseñó para abordar desafíos reales en la
-                                        venta y gestión de servicios de
-                                        ciberseguridad.
-                                    </p>
-                                    <ul>
-                                        <li>Diseñar y desarrollar una App responsive para clientes que incluye: Login de
-                                            usuario, registro de usuario
-                                            en base de datos, envío de formulario y email, alta de tickets de venta de
-                                            servicios de ciberseguridad.</li>
-                                        <li>Desarrollar Landing Page, Dashboard, About, Services.</li>
-                                    </ul>
-                                    <h3>Tecnologías utilizadas</h3>
-                                    <ul>
-                                        <li>Front: JavaScript, React.js, Redux, CSS, HTML.</li>
-                                        <li>Back: Node.js, Express.js.</li>
-                                        <li>Base de datos: PostgreSQL y Sequelize.</li>
-                                    </ul>
-                                    <div class="cv-project-links">
-                                        <a href="https://smahh-client.onrender.com/" target="_blank"
-                                            rel="noopener noreferrer">Sitio Web</a>
-                                        <a href="https://github.com/LucianoAscuet/Cyber-Security" target="_blank"
-                                            rel="noopener noreferrer">Repositorio en
-                                            GitHub</a>
+                            <h3 class="section-subtitle">PROYECTOS</h2>
+                                <!-- Smahh -->
+                                <article>
+                                    <div class="cv-project-title">
+                                        <h3>FullStack Developer - Smahh</h3>
+                                        <span>ago. 2023 - sep. 2023</span>
                                     </div>
-                                </div>
-                            </article>
-                            <!-- Rick and Morty -->
-                            <article>
-                                <div class="cv-project-title">
-                                    <h3>Full Stack Developer – RickandMorty App</h3>
-                                    <span>jun. 2023 - ago. 2023</span>
-                                </div>
-                                <div class="cv-project-description">
-                                    <p>
-                                        Este Proyecto se centró en el desarrollo de una aplicación basada en la famosa
-                                        serie de televisión “Rick and Morty” en la cual se puede acceder a tarjetas con
-                                        información de los personajes de la serie a través del consumo del api oficial
-                                        de Rick and Morty.
-                                    </p>
-                                    <ul>
-                                        <li>Diseñar y desarrollar una App para estudiantes que incluye: Login de
-                                            usuario, registro de usuario en base de datos, búsqueda de personajes de la
-                                            serie, acceso a detalles, guardado en favoritos, filtrado por nombre y
-                                            género.</li>
-                                        <li>Desarrollar varías páginas de navegación como Home, About y Favorites.
-                                        </li>
-                                    </ul>
-                                    <h3>Tecnologías utilizadas</h3>
-                                    <ul>
-                                        <li>Front: JavaScript, React.js, Redux, CSS, HTML.</li>
-                                        <li>Back: Node.js, Express.js.</li>
-                                        <li>Base de datos: PostgreSQL y Sequelize.</li>
-                                    </ul>
-                                    <div class="cv-project-links">
-                                        <a href="https://rickandmorty-client-b19y.onrender.com/" target="_blank"
-                                            rel="noopener noreferrer">Sitio Web</a>
-                                        <a href="https://github.com/fabianblancowuest/rick_and_morty_app"
-                                            target="_blank" rel="noopener noreferrer">Repostorio en
-                                            GitHub</a>
-                                    </div>
-                                </div>
-                            </article>
-                            <article>
-                                <div class="cv-project-title">
-                                    <h3>Mi Primer Casa S.A - Sorteo – Web Designer</h3>
-                                    <span>mayo. 2024</span>
-                                </div>
-                                <div class="cv-project-description">
-                                    <p>
-                                        Este proyecto se centra en una aplicación responsive de venta de números, para
-                                        un sorteo que se realiza el día de la madre en Argentina en el año 2024. Donde
-                                        el usuario elige uno o más números para participar de dicho sorteo, luego elige
-                                        los premios en los que desea participar y por último selecciona el método de
-                                        pago.
-                                    </p>
-                                    <ul>
-                                        <li>Diseñar la maquetación de la aplicación web resposive (optimizada para
-                                            teléfonos y tablets).</li>
-                                        <li>Maquetador único y principal del proyecto.</li>
-                                        <li>Trabajar con hojas de estilos en cascada con el lenguaje de diseño CSS.</li>
-                                        <li>No se utilizaron frameworks ni librerías de CSS.</li>
-                                    </ul>
-                                    <h3>Tecnologías utilizadas</h3>
-                                    <ul>
-                                        <li>CSS</li>
-                                        <li>Vanilla JavaScript</li>
+                                    <div class="cv-project-description">
+                                        <p>
+                                            Este proyecto se centró en el desarrollo de una aplicación para la venta de
+                                            servicios de ciberseguridad,
+                                            simulando la implementación de soluciones tecnológicas en un entorno
+                                            empresarial. Aunque el nombre
+                                            "Smahh" es ficticio, el proyecto se diseñó para abordar desafíos reales en
+                                            la
+                                            venta y gestión de servicios de
+                                            ciberseguridad.
+                                        </p>
+                                        <ul>
+                                            <li>Diseñar y desarrollar una App responsive para clientes que incluye:
+                                                Login de
+                                                usuario, registro de usuario
+                                                en base de datos, envío de formulario y email, alta de tickets de venta
+                                                de
+                                                servicios de ciberseguridad.</li>
+                                            <li>Desarrollar Landing Page, Dashboard, About, Services.</li>
+                                        </ul>
+                                        <h4>Tecnologías utilizadas</h4>
+                                        <ul>
+                                            <li>Front: JavaScript, React.js, Redux, CSS, HTML.</li>
+                                            <li>Back: Node.js, Express.js.</li>
+                                            <li>Base de datos: PostgreSQL y Sequelize.</li>
+                                        </ul>
                                         <div class="cv-project-links">
-                                            <a href="https://www.miprimercasa.ar/grafica/VentaWEB/webVentaTAlon.aspx?Operador=6CEE5E04"
-                                                target="_blank" rel="noopener noreferrer">Sitio
-                                                Web</a>
-                                            <a href="https://github.com/fabianblancowuest/mi-primer-casa-respaldo"
-                                                target="_blank" rel="noopener noreferrer">Repositorio
-                                                en GitHub</a>
+                                            <a href="https://smahh-client.onrender.com/" target="_blank"
+                                                rel="noopener noreferrer">Sitio Web</a>
+                                            <a href="https://github.com/LucianoAscuet/Cyber-Security" target="_blank"
+                                                rel="noopener noreferrer">Repositorio en
+                                                GitHub</a>
                                         </div>
-                                </div>
-                </div>
-                </article>
-                </section>
-                </section>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-info" data-dismiss="modal">Cerrar <i
-                            class="bi bi-x-circle-fill"></i></button>
+                                    </div>
+                                </article>
+                                <div class="line-project"></div>
+                                <!-- Rick and Morty -->
+                                <article>
+                                    <div class="cv-project-title">
+                                        <h3>Full Stack Developer – RickandMorty App</h3>
+                                        <span>jun. 2023 - ago. 2023</span>
+                                    </div>
+                                    <div class="cv-project-description">
+                                        <p>
+                                            Este Proyecto se centró en el desarrollo de una aplicación basada en la
+                                            famosa
+                                            serie de televisión “Rick and Morty” en la cual se puede acceder a tarjetas
+                                            con
+                                            información de los personajes de la serie a través del consumo del api
+                                            oficial
+                                            de Rick and Morty.
+                                        </p>
+                                        <ul>
+                                            <li>Diseñar y desarrollar una App para estudiantes que incluye: Login de
+                                                usuario, registro de usuario en base de datos, búsqueda de personajes de
+                                                la
+                                                serie, acceso a detalles, guardado en favoritos, filtrado por nombre y
+                                                género.</li>
+                                            <li>Desarrollar varías páginas de navegación como Home, About y Favorites.
+                                            </li>
+                                        </ul>
+                                        <h4>Tecnologías utilizadas</h4>
+                                        <ul>
+                                            <li>Front: JavaScript, React.js, Redux, CSS, HTML.</li>
+                                            <li>Back: Node.js, Express.js.</li>
+                                            <li>Base de datos: PostgreSQL y Sequelize.</li>
+                                        </ul>
+                                        <div class="cv-project-links">
+                                            <a href="https://rickandmorty-client-b19y.onrender.com/" target="_blank"
+                                                rel="noopener noreferrer">Sitio Web</a>
+                                            <a href="https://github.com/fabianblancowuest/rick_and_morty_app"
+                                                target="_blank" rel="noopener noreferrer">Repositorio en
+                                                GitHub</a>
+                                        </div>
+                                    </div>
+                                </article>
+                                <div class="line-project"></div>
+                                <article>
+                                    <div class="cv-project-title">
+                                        <h3>Mi Primer Casa S.A - Sorteo – Web Designer</h3>
+                                        <span>mayo. 2024</span>
+                                    </div>
+                                    <div class="cv-project-description">
+                                        <p>
+                                            Este proyecto se centra en una aplicación responsive de venta de números,
+                                            para
+                                            un sorteo que se realiza el día de la madre en Argentina en el año 2024.
+                                            Donde
+                                            el usuario elige uno o más números para participar de dicho sorteo, luego
+                                            elige
+                                            los premios en los que desea participar y por último selecciona el método de
+                                            pago.
+                                        </p>
+                                        <ul>
+                                            <li>Diseñar la maquetación de la aplicación web resposive (optimizada para
+                                                teléfonos y tablets).</li>
+                                            <li>Maquetador único y principal del proyecto.</li>
+                                            <li>Trabajar con hojas de estilos en cascada con el lenguaje de diseño CSS.
+                                            </li>
+                                            <li>No se utilizaron frameworks ni librerías de CSS.</li>
+                                        </ul>
+                                        <h4>Tecnologías utilizadas</h4>
+                                        <ul>
+                                            <li>CSS</li>
+                                            <li>Vanilla JavaScript</li>
+                                            <div class="cv-project-links">
+                                                <a href="https://www.miprimercasa.ar/grafica/VentaWEB/webVentaTAlon.aspx?Operador=6CEE5E04"
+                                                    target="_blank" rel="noopener noreferrer">Sitio
+                                                    Web</a>
+                                                <a href="https://github.com/fabianblancowuest/mi-primer-casa-respaldo"
+                                                    target="_blank" rel="noopener noreferrer">Repositorio
+                                                    en GitHub</a>
+                                            </div>
+                                    </div>
+                                </article>
+                        </section>
+                        <div class="cv-line"></div>
+                        <!-- CV skills -->
+                        <section>
+                            <article class="cv-skills">
+                                <h3>TECNOLOGÍAS:</h3>
+                                <ul>
+                                    <li>
+                                        Lenguajes de Programación Y Diseño: JavaScript, Node.js, Java,
+                                        CSS.
+                                    </li>
+                                    <li>
+                                        Bibliotecas y Frameworks: React.js, Express.js, Sequelize,
+                                        Bootstrap.
+                                    </li>
+                                    <li>
+                                        Bases de Datos: MongoDB, PostgreSQL y Sequelize.
+                                    </li>
+                                    <li>
+                                        Herramientas: Git, Insomia, Postman, Slack, Figma, Vite.
+                                    </li>
+                                    <li>
+                                        Agile: Scrum.
+                                    </li>
+
+                                </ul>
+                                <h3>EDUCACIÓN PROFESIONAL</h3>
+                                <ul>
+                                    <li>Full Stack Web Developer. Henry Bootcamp. 800 horas de cursado teórico-práctico.
+                                        2023.</li>
+                                    <li>Full Stack Developer – Egg Education. 500 horas de cursado teórico-practico.
+                                        2022.</li>
+                                    <li>Especialización Técnica en Desarrollo de Software – Instituto Politécnico
+                                        Formosa. 1040 horas de cursado teórico practico. 2020.</li>
+                                    <li>Tecnicatura Superior en Informática – Tercer Año - UPCN. 2018.
+                                    </li>
+                                </ul>
+                                <h3>EDUCACIÓN COMPLEMENTARIA</h3>
+                                <ul>
+                                    <li>FreeCodeCamp – JavaScript Algorithms and Data Structures. 2022.</li>
+                                    <li>Argentina Programa – Primera Etapa. 2023.</li>
+                                </ul>
+                                <h3>IDIOMAS</h3>
+                                <ul>
+                                    <li>Inglés B2 - Upper Intermediate.</li>
+                                </ul>
+                            </article>
+                        </section>
+                    </section>
+                    <div class="btn-download-cv">
+                        <a href="./docs/CV-fabian-blanco-wuest.pdf" download="CV-fabian-blanco-wuest.pdf"
+                            class="cv-download">
+                            <button class="btn btn-secondary">Descargar CV <i
+                                    class="bi bi-cloud-arrow-down-fill"></i></button>
+                        </a>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-info btn-close-cv" data-dismiss="modal">Cerrar <i
+                                class="bi bi-x-circle-fill"></i></button>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
     </div>
 
     <!-- Scripts -->
