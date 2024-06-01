@@ -59,6 +59,68 @@ const languagesTexts = {
 	},
 };
 
+const cvTexts = {
+	en: {
+		cvInfo: `Full Stack Developer with background in JavaScript, ReactJS, Node.js, Java, Express, CSS, Bootstrap, HTML, MongoDB, PostgreSQL and Sequelize, specialized in Front-end. Knowledge in agile methodologies, GIT, UX, UI, data structure, algorithms. Experience in Front End and Back End development / data architecture. Positive attitude, adaptability, problem analysis and self-motivation.  English level: Upper Intermediate.`,
+		// Projects
+		smahh: `This project focused on the development of an application for the sale of cybersecurity services, simulating the implementation of technological solutions in a business environment. Although the name "Smahh" is fictitious, the project was designed to address real challenges in selling and managing cybersecurity services.`,
+		smahhTasks: [
+			`Design and develop a responsive App for clients that includes: User login, user registration in database, form and email submission, registration of cybersecurity services sales tickets.`,
+			`Develop Landing Page, Dashboard, About, Services.`,
+		],
+		techsUsed: `Technologies used:`,
+		rym: `This project focused on the development of an application based on the famous TV series "Rick and Morty" in which you can access cards with information about the characters of the series through the consumption of the official API of Rick and Morty.`,
+		rymTasks: [
+			`Design and develop an App for students that includes: User login, user registration in database, search for characters of the series, access to details, saving in favourites, filtering by name and gender.`,
+			`Develop various navigation pages such as Home, About and Favorites.`,
+		],
+		mpc: `This project focuses on a responsive application for selling numbers, for a draw that takes place on Mother's Day in Argentina in the year 2024. Where the user chooses one or more numbers to participate in said draw, then chooses the prizes in those who wish to participate and finally select the payment method. `,
+		mpcTasks: [
+			`Design the layout of the responsive web application (optimized for phones and tablets).`,
+			`Sole and main layout designer of the project.`,
+			`Work with cascading style sheets with the CSS design language.`,
+			`No CSS frameworks or libraries were used.`,
+		],
+		cvProjectLinks: ["Website", "Repository on GitHub"],
+		sectionTitle: [
+			"PROJECTS",
+			"TECHNOLOGIES",
+			"PROFESSIONAL EDUCATION",
+			"COMPLEMENTARY EDUCATION",
+			"LANGUAGES",
+		],
+	},
+	es: {
+		cvInfo: `Full Stack Developer con formación en JavaScript, ReactJS, Node.js, Java, Express, CSS, Bootstrap, HTML, MongoDB, Postgre SQL y Sequelize. Conocimientos en metodologías ágiles, GIT, UX, UI, estructura de datos, algoritmos. Experiencia en desarrollo de Front End y Back End / arquitectura de datos. Con actitud positiva, adaptabilidad, análisis de problemas y automotivación.  Nivel de Inglés: Upper Intermediate.`,
+		smahh: `Este proyecto se centró en el desarrollo de una aplicación para la venta de servicios de ciberseguridad, simulando la implementación de soluciones tecnológicas en un entorno empresarial. Aunque el nombre "Smahh" es ficticio, el proyecto se diseñó para abordar desafíos reales en la venta y gestión de servicios de ciberseguridad.`,
+		smahhTasks: [
+			`Diseñar y desarrollar una App responsive para clientes que incluye: Login de usuario, registro de usuario en base de datos, envío de formulario y email, alta de tickets de venta de servicios de ciberseguridad.`,
+			`Desarrollar Landing Page, Dashboard, About, Services.`,
+		],
+		techsUsed: `Tecnologías utilizadas:`,
+		rym: `Este Proyecto se centró en el desarrollo de una aplicación basada en la famosa serie de televisión “Rick and Morty” en la cual se puede acceder a tarjetas con información de los personajes de la serie a través del consumo del api oficial de Rick and Morty.`,
+		rymTasks: [
+			`Diseñar y desarrollar una App para estudiantes que incluye: Login de usuario, registro de usuario en base de datos, búsqueda de personajes de la serie, acceso a detalles, guardado en favoritos, filtrado por nombre y género.`,
+			`Desarrollar varías páginas de navegación como Home, About y Favorites.`,
+		],
+		mpc: `Este proyecto se centra en una aplicación responsive de venta de números, para un sorteo que se realiza el día de la madre en Argentina en el año 2024. Donde el usuario elige uno o más números para participar de dicho sorteo, luego elige los premios en los que desea participar y por último selecciona el método de pago.`,
+		mpcTasks: [
+			`Diseñar la maquetación de la aplicación web resposive (optimizada para teléfonos y tablets).`,
+			`Maquetador único y principal del proyecto.`,
+			`Trabajar con hojas de estilos en cascada con el lenguaje de diseño CSS.`,
+			`No se utilizaron frameworks ni librerías de CSS.`,
+		],
+		cvProjectLinks: ["Sitio Web", "Repositorio en GitHub"],
+		sectionTitle: [
+			"PROYECTOS",
+			"TECNOLOGÍAS",
+			"EDUCACIÓN PROFESIONAL",
+			"EDUCACIÓN COMPLEMENTARIA",
+			"IDIOMAS",
+		],
+	},
+};
+
 document.addEventListener("DOMContentLoaded", () => {
 	const languageSelector = document.getElementById("language-selector");
 	const aboutMe = document.querySelectorAll("#about-me-description p");
@@ -113,11 +175,51 @@ document.addEventListener("DOMContentLoaded", () => {
 			languagesTexts[language].nav.projectsLink;
 		document.getElementById("contact-link").textContent =
 			languagesTexts[language].nav.contactLink;
-	}
 
+		// CV Language
+		const smahhTasks = document.querySelectorAll("#cv-smahh-tasks li");
+		const rymTasks = document.querySelectorAll("#cv-rym-tasks li");
+		const mpcTasks = document.querySelectorAll("#cv-mpc-tasks li");
+		const techUsedTitle = document.getElementsByClassName("cv-techs-used");
+		const cvProjectLinks = document.querySelectorAll(".cv-project-links a");
+
+		document.getElementById("cv-info").textContent = cvTexts[language].cvInfo;
+		document.getElementById("cv-smahh-description").textContent =
+			cvTexts[language].smahh;
+		for (let i = 0; i < smahhTasks.length; i++) {
+			smahhTasks[i].textContent = cvTexts[language].smahhTasks[i];
+		}
+
+		for (let i = 0; i < techUsedTitle.length; i++) {
+			techUsedTitle[i].textContent = cvTexts[language].techsUsed;
+		}
+
+		document.getElementById("cv-rym-description").textContent =
+			cvTexts[language].rym;
+
+		for (let i = 0; i < rymTasks.length; i++) {
+			rymTasks[i].textContent = cvTexts[language].rymTasks[i];
+		}
+		document.getElementById("cv-mpc-description").textContent =
+			cvTexts[language].mpc;
+
+		for (let i = 0; i < techUsedTitle.length; i++) {
+			techUsedTitle[i].textContent = cvTexts[language].techsUsed;
+		}
+
+		for (let i = 0; i < mpcTasks.length; i++) {
+			mpcTasks[i].textContent = cvTexts[language].mpcTasks[i];
+		}
+
+		for (let i = 0; i < cvProjectLinks.length; i++) {
+			for (let j = 0; j < cvProjectLinks[i].length; j++) {
+				cvProjectLinks[j].textContent = cvTexts[language].cvProjectLinks[i];
+			}
+		}
+		console.log(cvProjectLinks);
+	}
 	// Establece el idioma inicial
+
 	changeLanguage(languageSelector.value);
 	console.log("select language");
-	console.log(btnProjectsIco);
-	console.log(navLinks);
 });
