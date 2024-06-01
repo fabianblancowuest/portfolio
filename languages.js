@@ -1,7 +1,13 @@
 const languagesTexts = {
 	en: {
+		nav: {
+			cvLink: "CV",
+			aboutMeLink: "About me",
+			projectsLink: "Projects",
+			contactLink: "Contact",
+		},
 		hi: "Hi, I'm Fabián Blanco Wuest",
-		subtitle: "I build websites and web applications 💻😄.",
+		subtitleMobile: "I build websites and web applications 💻😄.",
 		aboutMe: "Meet Fabián Blanco Wuest",
 		presentation: [
 			`I am a passionate developer based in Argentina, who began his career in the world of front-end development. Over time, I have expanded my skills and now specialize in developing client/server applications using the MERN and PERN stacks. My goal is to contribute to innovative and challenging projects that not only enrich my professional experience, but also mark a significant milestone in my career.`,
@@ -23,8 +29,14 @@ const languagesTexts = {
 		btnProjects: `See more projects `,
 	},
 	es: {
+		nav: {
+			cvLink: "CV",
+			aboutMeLink: "Acerca de",
+			projectsLink: "Proyectos",
+			contactLink: "Contacto",
+		},
 		hi: "Hola, soy Fabián Blanco Wuest",
-		subtitle: "Construyo sitios web y aplicaciones web. 💻😄",
+		subtitleMobile: "Construyo sitios web y aplicaciones web. 💻😄",
 		aboutMe: "Conoce a Fabián Blanco Wuest",
 		presentation: [
 			`Soy un apasionado desarrollador radicado en Argentina, que comenzó su carrera en el mundo del desarrollo front-end. Con el tiempo, amplié mis habilidades y ahora me especializo en el desarrollo de aplicaciones cliente/servidor utilizando las pilas MERN y PERN. Mi objetivo es contribuir a proyectos innovadores y desafiantes que no sólo enriquezcan mi experiencia profesional, sino que también marquen un hito significativo en mi carrera.`,
@@ -40,11 +52,10 @@ const languagesTexts = {
 		letsTalk: "¡Hablemos!",
 		contactPhrase:
 			"Contáctame para iniciar tu proyecto de desarrollo web y haré realidad tu visión.",
-		contactBtn: `Contact `,
+		contactBtn: `Contacto `,
 		footerPhrase: `Aprendo y creo todos los días.
         Hagamos un proyecto juntos.`,
 		btnProjects: `Ver mas proyectos `,
-		// Añade aquí más textos en español
 	},
 };
 
@@ -61,6 +72,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
 	function changeLanguage(language) {
 		document.getElementById("title").textContent = languagesTexts[language].hi;
+		document.getElementById("subtitle-mobile").textContent =
+			languagesTexts[language].subtitleMobile;
 		// document.getElementById("subtitle").textContent =
 		// 	languagesTexts[language].subtitle;
 		document.getElementById("about-me-title").textContent =
@@ -92,12 +105,19 @@ document.addEventListener("DOMContentLoaded", () => {
 			languagesTexts[language].btnProjects;
 		document.getElementById("btn-projects").appendChild(btnProjectsIco);
 		document.getElementById("contact-btn").appendChild(contactIco);
-
-		// Añade más cambios de textos según sea necesario
+		document.getElementById("cv-link").textContent =
+			languagesTexts[language].nav.cvLink;
+		document.getElementById("about-me-link").textContent =
+			languagesTexts[language].nav.aboutMeLink;
+		document.getElementById("projects-link").textContent =
+			languagesTexts[language].nav.projectsLink;
+		document.getElementById("contact-link").textContent =
+			languagesTexts[language].nav.contactLink;
 	}
 
 	// Establece el idioma inicial
 	changeLanguage(languageSelector.value);
 	console.log("select language");
 	console.log(btnProjectsIco);
+	console.log(navLinks);
 });

@@ -45,16 +45,41 @@ section {
 	letter-spacing: 1px;
 }
 
-.navbar ul li {
-	margin-left: 16px;
+.navbar .nav-link {
+	display: flex;
+	justify-content: center;
+	/* margin-left: 16px; */
 }
+
+@media (min-width: 1200px) {
+	.navbar .nav-link {
+		width: 126px;
+	}
+
+	.navbar .nav-link-small {
+		width: 80px;
+	}
+}
+
+@media (max-width: 768px) {
+	.navbar .nav-link-small {
+		margin-top: 0.5em;
+	}
+}
+
+@media (max-width: 320px) {
+	.navbar .form-select {
+		margin-top: 1em;
+	}
+}
+
 .logo {
 	display: block;
 	width: 50px;
 	margin: 0 20px;
 }
 
-h1 {
+.title {
 	font-size: 2.5rem;
 	font-family: "Rubik Dirt", system-ui;
 	font-weight: 400;
@@ -687,7 +712,6 @@ footer {
 	border: none;
 	background-color: transparent;
 	font-size: 1.5rem;
-	margin-right: 0.5em;
 }
 
 @media (max-width: 768px) {
@@ -737,7 +761,7 @@ footer {
 
 /* Responsive design */
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
 	h1 {
 		font-size: 32px;
 	}
@@ -747,6 +771,10 @@ footer {
 
 	.about-me {
 		min-height: 100vh;
+	}
+
+	.about-me .text-section {
+		font-size: 0.5rem;
 	}
 
 	.mobile {
@@ -766,9 +794,13 @@ footer {
 	}
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
 	.navbar-brand {
 		display: none;
+	}
+
+	.navbar {
+		padding-bottom: 1em;
 	}
 
 	.subtitle {
@@ -779,8 +811,17 @@ footer {
 		display: block;
 	}
 
+	.hero-principal {
+		padding-top: 1em;
+		padding-bottom: 1em;
+	}
+
 	.about-me .container-mine {
 		min-height: fit-content;
+	}
+
+	.about-me .text-section {
+		font-size: 1.05rem;
 	}
 
 	.experience,

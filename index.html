@@ -56,23 +56,24 @@
                         </select>
                     </li>
                     <li class="nav-item">
-                        <button id="btn-toggle" class="btn-toggle-mode nav-link"><i
+                        <button id="btn-toggle" class="btn-toggle-mode nav-link nav-link-small"><i
                                 class="bi bi-brightness-high-fill"></i></button>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#cv" data-toggle="modal" data-target="#cvModal">CV</a>
+                        <a id="cv-link" class="nav-link nav-link-small" href="#cv" data-toggle="modal"
+                            data-target="#cvModal">CV</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#about-me">About me</a>
+                        <a id="about-me-link" class="nav-link active" aria-current="page" href="#about-me">About me</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#projects">Projects</a>
+                        <a id="projects-link" class="nav-link" href="#projects">Projects</a>
                     </li>
                     <!-- <li class="nav-item">
                         <a class="nav-link" href="#testimonies">Testimonies</a>
                     </li> -->
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
+                        <a id="contact-link" class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -82,12 +83,9 @@
     <section class="hero align-items-stretch section">
         <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
             <img class="profile-img rounded-circle" src="/img/Link.png" alt="Foto Fabián">
-            <h1 id="title" class="text">Hi, I'm Fabián Blanco Wuest</h1>
+            <h1 id="title" class="title text">Hi, I'm Fabián Blanco Wuest</h1>
             <h2 class="subtitle text" id="subtitle">I build websites and web applications. 💻😄</h2>
             <h2 id="subtitle-mobile" class="mobile">I build websites and web applications. 💻😄</h2>
-        </div>
-        <div class="hero-inferior">
-            <img class="hero-inferior-image img-fluid" src="img/hero-inferior.svg" alt="">
         </div>
     </section>
     <section id="about-me" class="about-me dark-section">

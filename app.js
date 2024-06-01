@@ -163,5 +163,3 @@ document.getElementById("btn-toggle").addEventListener("click", () => {
 	console.log("click");
 	console.log(icons);
 });
-
-document.addEventListener("DOMContentLoaded", function () {});
