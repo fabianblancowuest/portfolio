@@ -134,7 +134,7 @@ h1 {
 	box-shadow: 0.1rem 0.1rem 1rem rgba(0, 0, 0, 0.504);
 }
 
-.hero-principal h2 {
+.hero-principal .subtitle {
 	font-size: 1.5rem;
 	color: #615151;
 }
@@ -634,6 +634,28 @@ footer {
 
 .modal-footer {
 	justify-content: center;
+}
+
+/* Dark Mode */
+
+.dark-mode {
+	background-color: #0a0a23;
+	color: white;
+}
+
+.dark-mode-text {
+	color: white !important;
+}
+
+.dark-icon-hover:hover {
+	color: #ffd700 !important;
+}
+
+.btn-toggle-mode {
+	border: none;
+	background-color: transparent;
+	font-size: 1.5rem;
+	margin-right: 0.5em;
 }
 
 @media (max-width: 700px) {

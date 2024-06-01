@@ -103,4 +103,49 @@ logo.addEventListener("click", () => {
 	}
 });
 
+const sections = document.getElementsByClassName("section");
+const texts = document.getElementsByClassName("text");
+const icons = document.getElementsByClassName("icon");
+const modals = document.getElementsByClassName("modal-content");
+
+document.getElementById("btn-toggle").addEventListener("click", () => {
+	for (let i = 0; i < sections.length; i++) {
+		sections[i].classList.toggle("dark-mode");
+	}
+	for (let i = 0; i < texts.length; i++) {
+		texts[i].classList.toggle("dark-mode-text");
+	}
+	for (let i = 0; i < icons.length; i++) {
+		icons[i].classList.toggle("dark-icon-hover");
+	}
+
+	if (sections[0].classList.contains("dark-mode")) {
+		for (let i = 0; i < modals.length; i++) {
+			modals[i].classList.toggle("dark-mode");
+		}
+	} else {
+		for (let i = 0; i < modals.length; i++) {
+			modals[i].classList.toggle("dark-mode");
+		}
+	}
+
+	const icon = document.querySelector("#btn-toggle i");
+	const button = document.getElementById("btn-toggle");
+
+	if (icon.classList.contains("bi-brightness-high")) {
+		icon.classList.remove("bi-brightness-high");
+		icon.classList.add("bi-brightness-high-fill");
+		button.classList.remove("icon-left"); // Elimina la clase que alinea el ícono a la izquierda
+		button.classList.add("icon-right"); // Agrega la clase que alinea el ícono a la derecha
+	} else {
+		icon.classList.remove("bi-brightness-high-fill");
+		icon.classList.add("bi-brightness-high");
+		button.classList.remove("icon-right"); // Elimina la clase que alinea el ícono a la derecha
+		button.classList.add("icon-left"); // Agrega la clase que alinea el ícono a la izquierda
+	}
+
+	console.log("click");
+	console.log(icons);
+});
+
 document.addEventListener("DOMContentLoaded", function () {});

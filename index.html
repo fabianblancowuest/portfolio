@@ -48,6 +48,10 @@
                         alt="Website Logo"></a>
                 <ul class="navbar-nav d-flex justify-content-center align-items-center">
                     <li class="nav-item">
+                        <button id="btn-toggle" class="btn-toggle-mode nav-link"><i
+                                class="bi bi-brightness-high-fill"></i></button>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="#cv" data-toggle="modal" data-target="#cvModal">CV</a>
                     </li>
                     <li class="nav-item">
@@ -67,11 +71,11 @@
         </div>
     </nav>
     <!-- Hero  -->
-    <section class="hero align-items-stretch">
+    <section class="hero align-items-stretch section">
         <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
             <img class="profile-img rounded-circle" src="/img/Link.png" alt="Foto Fabián">
-            <h1>Hi, I'm Fabián Blanco Wuest</h1>
-            <h2 class="subtitle" id="subtitle">I build websites and web applications. 💻😄</h2>
+            <h1 class="text">Hi, I'm Fabián Blanco Wuest</h1>
+            <h2 class="subtitle text" id="subtitle">I build websites and web applications. 💻😄</h2>
             <h2 class="mobile">I build websites and web applications. 💻😄</h2>
         </div>
         <div class="hero-inferior">
@@ -101,7 +105,7 @@
         </div>
     </section>
     <!-- Experience -->
-    <section class="experience light-section">
+    <section class="experience light-section section">
         <div class="container text-center">
             <div class="row">
                 <!-- Web Development -->
@@ -147,9 +151,9 @@
         </div>
     </section>
     <!-- Projects -->
-    <section id="projects" class="projects light-section d-flex flex-column">
-        <h2 class="title-section dark-text">My projects</h2>
-        <h3 class="description-section">Here are some of the projects I have recently created...</h3>
+    <section id="projects" class="projects light-section d-flex flex-column section">
+        <h2 class="title-section dark-text text">My projects</h2>
+        <h3 class="description-section text">Here are some of the projects I have recently created...</h3>
         <!-- Project Gallery -->
         <div class="container text-center container-projects">
             <div class="row">
@@ -161,9 +165,9 @@
                             <p>Smahh CyberSecurity</p>
                             <div class="icons-container">
                                 <a href="https://github.com/LucianoAscuet/Cyber-Security" target="_blank"
-                                    rel="noopener noreferrer"><i class="bi bi-github"></i></a>
+                                    rel="noopener noreferrer"><i class="bi bi-github text icon"></i></a>
                                 <a href="https://smahh-client.onrender.com/" target="_blank"
-                                    rel="noopener noreferrer"><i class="bi bi-laptop"></i></a>
+                                    rel="noopener noreferrer"><i class="bi bi-laptop text icon"></i></a>
                             </div>
                         </div>
                     </div>
@@ -176,9 +180,9 @@
                             <p>Rick And Morty App</p>
                             <div class="icons-container">
                                 <a href="https://github.com/fabianblancowuest/rick_and_morty_app" target="_blank"
-                                    rel="noopener noreferrer"><i class="bi bi-github"></i></a>
+                                    rel="noopener noreferrer"><i class="bi bi-github text icon"></i></a>
                                 <a href="https://rickandmorty-client-b19y.onrender.com/" target="_blank"
-                                    rel="noopener noreferrer"><i class="bi bi-laptop"></i></a>
+                                    rel="noopener noreferrer"><i class="bi bi-laptop text icon"></i></a>
                             </div>
                         </div>
                     </div>
@@ -191,9 +195,9 @@
                             <p>The Simpsons App</p>
                             <div class="icons-container">
                                 <a href="https://github.com/fabianblancowuest/the-simpsons-api" target=" _blank"
-                                    rel="noopener noreferrer"><i class="bi bi-github"></i></a>
+                                    rel="noopener noreferrer"><i class="bi bi-github text icon"></i></a>
                                 <a href="https://the-simpsons-app.netlify.app/" target="_blank"
-                                    rel="noopener noreferrer"><i class="bi bi-laptop"></i></a>
+                                    rel="noopener noreferrer"><i class="bi bi-laptop text icon"></i></a>
                             </div>
                         </div>
                     </div>
@@ -206,9 +210,9 @@
                             <p>DOMO</p>
                             <div class="icons-container">
                                 <a href="https://github.com/fabianblancowuest/domo" target="_blank"
-                                    rel="noopener noreferrer"><i class="bi bi-github"></i></a>
+                                    rel="noopener noreferrer"><i class="bi bi-github text icon"></i></a>
                                 <a href="https://domo-6yld.onrender.com/" target="_blank" rel="noopener noreferrer"><i
-                                        class="bi bi-laptop"></i></a>
+                                        class="bi bi-laptop text icon"></i></a>
                             </div>
                         </div>
                     </div>
@@ -221,9 +225,9 @@
                             <p>Mi Primer Casa - Sorteo</p>
                             <div class="icons-container">
                                 <a href="https://github.com/fabianblancowuest/mi-primer-casa-respaldo" target="_blank"
-                                    rel="noopener noreferrer"><i class="bi bi-github"></i></a>
+                                    rel="noopener noreferrer"><i class="bi bi-github text icon"></i></a>
                                 <a href="https://www.miprimercasa.ar/grafica/VentaWEB/webVentaTAlon.aspx?Operador=6CEE5E04"
-                                    target="_blank" rel="noopener noreferrer"><i class="bi bi-laptop"></i></a>
+                                    target="_blank" rel="noopener noreferrer"><i class="bi bi-laptop text icon"></i></a>
                             </div>
                         </div>
                     </div>
@@ -348,7 +352,7 @@
                     <h5 class="modal-title" id="cvModalLabel">Curriculum Vitae</h5>
                     <a href="./docs/CV-fabian-blanco-wuest.pdf" download="CV-fabian-blanco-wuest.pdf"
                         class="cv-download"><i class="bi bi-download"></i></i></i></a>
-                    <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close">
+                    <button type="button" class="btn-close btn-dark-mode" data-dismiss="modal" aria-label="Close">
                         <!-- <span aria-hidden="true">&times;</span> -->
                     </button>
                 </div>
