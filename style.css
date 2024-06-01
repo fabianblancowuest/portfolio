@@ -41,10 +41,12 @@ section {
 .navbar {
 	font-family: "Quicksand", sans-serif;
 	font-size: 1.1rem;
+	font-weight: bold;
+	letter-spacing: 1px;
 }
 
 .navbar ul li {
-	margin-left: 12px;
+	margin-left: 16px;
 }
 .logo {
 	display: block;
@@ -639,16 +641,46 @@ footer {
 /* Dark Mode */
 
 .dark-mode {
-	background-color: #0a0a23;
-	color: white;
+	background-color: #22272e;
+	color: rgb(197, 209, 222);
+}
+
+.dark-sections-mode {
+	background-color: RGB(20, 25, 30);
+}
+
+.dark-nav-bar {
+	background-color: #1c2128;
+	color: rgb(197, 209, 222);
+}
+
+.dark-btn-bars {
+	background-color: rgb(197, 209, 222);
+	color: #478be6;
 }
 
 .dark-mode-text {
-	color: white !important;
+	color: rgb(197, 209, 222) !important;
 }
 
 .dark-icon-hover:hover {
 	color: #ffd700 !important;
+}
+
+.dark-nav-link {
+	color: rgb(197, 209, 222) !important;
+}
+
+.btn-modal-dark:not(i) {
+	background-color: white;
+}
+
+.dark-mode .column:hover {
+	background-color: rgb(20, 25, 30) !important;
+}
+
+.btn-modal-dark {
+	color: white;
 }
 
 .btn-toggle-mode {
@@ -656,6 +688,12 @@ footer {
 	background-color: transparent;
 	font-size: 1.5rem;
 	margin-right: 0.5em;
+}
+
+@media (max-width: 768px) {
+	.btn-toggle-mode {
+		margin-right: 0;
+	}
 }
 
 @media (max-width: 700px) {

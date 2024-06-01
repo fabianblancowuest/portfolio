@@ -37,16 +37,24 @@
 
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-md navbar-light">
+    <nav id="navbar" class="navbar navbar-expand-md section">
         <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler"
-                aria-controls="navbar-toggler" aria-expanded="false" aria-label="Toggle navigation">
+            <button id="btn-bars" class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbar-toggler" aria-controls="navbar-toggler" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbar-toggler">
                 <a id="logo" class="navbar-brand" href="#"><img id="logo-img" src="img/codigo.png" width="60"
                         alt="Website Logo"></a>
                 <ul class="navbar-nav d-flex justify-content-center align-items-center">
+                    <li class="nav-item">
+                        <select id="language-selector" class="form-select">
+                            </option>
+                            <option value="en">English</option>
+                            <option value="es">Español</option>
+                        </select>
+                    </li>
                     <li class="nav-item">
                         <button id="btn-toggle" class="btn-toggle-mode nav-link"><i
                                 class="bi bi-brightness-high-fill"></i></button>
@@ -74,9 +82,9 @@
     <section class="hero align-items-stretch section">
         <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
             <img class="profile-img rounded-circle" src="/img/Link.png" alt="Foto Fabián">
-            <h1 class="text">Hi, I'm Fabián Blanco Wuest</h1>
+            <h1 id="title" class="text">Hi, I'm Fabián Blanco Wuest</h1>
             <h2 class="subtitle text" id="subtitle">I build websites and web applications. 💻😄</h2>
-            <h2 class="mobile">I build websites and web applications. 💻😄</h2>
+            <h2 id="subtitle-mobile" class="mobile">I build websites and web applications. 💻😄</h2>
         </div>
         <div class="hero-inferior">
             <img class="hero-inferior-image img-fluid" src="img/hero-inferior.svg" alt="">
@@ -84,24 +92,29 @@
     </section>
     <section id="about-me" class="about-me dark-section">
         <div class="container-mine">
-            <h2 class="title-section">Meet Fabián Blanco Wuest</h2>
-            <p class="text-section"> I am a passionate developer based in Argentina,
-                who began his career in the world of front-end development. Over time, I have expanded my skills and now
-                specialize in developing client/server applications using the MERN and PERN stacks. My goal is to
-                contribute to innovative and challenging projects that not only enrich my professional experience, but
-                also mark a significant milestone in my career.
-            </p>
-            <!-- <p class="text-section">
+            <h2 id="about-me-title" class="title-section">Meet Fabián Blanco Wuest</h2>
+            <div id="about-me-description">
 
-                Below you will find a selection of my most recent projects. Each one of them reflects my dedication,
-                creativity and technical skills. If something you see catches your attention or if you have any
-                collaboration proposals, do not hesitate to contact me. I am always open to new opportunities and
-                challenges.
-            </p> -->
-            <p class="text-section">
+                <p class="text-section"> I am a passionate developer based in Argentina,
+                    who began his career in the world of front-end development. Over time, I have expanded my skills and
+                    now
+                    specialize in developing client/server applications using the MERN and PERN stacks. My goal is to
+                    contribute to innovative and challenging projects that not only enrich my professional experience,
+                    but
+                    also mark a significant milestone in my career.
+                </p>
+                <p class="text-section">
 
-                I hope you enjoy browsing my portfolio! Kind regards.
-            </p>
+                    Below you will find a selection of my most recent projects. Each one of them reflects my dedication,
+                    creativity and technical skills. If something you see catches your attention or if you have any
+                    collaboration proposals, do not hesitate to contact me. I am always open to new opportunities and
+                    challenges.
+                </p>
+                <p class="text-section">
+
+                    I hope you enjoy browsing my portfolio! Kind regards.
+                </p>
+            </div>
         </div>
     </section>
     <!-- Experience -->
@@ -111,8 +124,9 @@
                 <!-- Web Development -->
                 <div class="column col-12 col-md-6">
                     <i class="bi bi-laptop"></i>
-                    <p class="title-experience">Web Development</p>
-                    <p>Full Stack Developer with training in JavaScript, ReactJS, Node.js, Java, Express, CSS, HTML,
+                    <p id="web-development-title" class="title-experience">Web Development</p>
+                    <p id="web-development-description">Full Stack Developer with training in JavaScript, ReactJS,
+                        Node.js, Java, Express, CSS, HTML,
                         MongoDB, Postgre SQL and Sequelize, specialized in Front-end. Knowledge of agile methodologies,
                         GIT, UX, UI, data structure, algorithms.
                     </p>
@@ -131,8 +145,8 @@
                 <div class="column col-12 col-md-6">
                     <!-- <i class="bi bi-highlighter"></i> -->
                     <i class="bi bi-mortarboard"></i>
-                    <p class="title-experience">Education</p>
-                    <p>
+                    <p id="education-title" class="title-experience">Education</p>
+                    <p id="education-description">
                         I hold a degree in Technological Specialization in Software Development and have completed
                         rigorous bootcamps including "Henry," "Egg Cooperation," and "Free Code Camp," among others.
                         Additionally, I am currently pursuing a Bachelor's Degree in Systems at the National
@@ -152,8 +166,9 @@
     </section>
     <!-- Projects -->
     <section id="projects" class="projects light-section d-flex flex-column section">
-        <h2 class="title-section dark-text text">My projects</h2>
-        <h3 class="description-section text">Here are some of the projects I have recently created...</h3>
+        <h2 id="projects-title" class="title-section dark-text text">My projects</h2>
+        <h3 id="projects-description" class="description-section text">Here are some of the projects I have recently
+            created...</h3>
         <!-- Project Gallery -->
         <div class="container text-center container-projects">
             <div class="row">
@@ -248,9 +263,9 @@
             </div>
         </div>
         <a href="https://github.com/fabianblancowuest?tab=repositories" target="_blank" rel="noopener noreferrer">
-            <button type="button" class="btn btn-info">
+            <button type="button" id="btn-projects" class="btn btn-info">
                 See more projects
-                <i class="bi bi-arrow-right-circle-fill"></i>
+                <i id="btn-projects-icon" class="bi bi-arrow-right-circle-fill"></i>
             </button>
         </a>
     </section>
@@ -261,16 +276,16 @@
         <div class="container">
             <div class="container text-center rectangle d-flex justify-content-evenly">
                 <div class="row">
-                    <div class="col-12 col-md-4 title-section">
+                    <div id="lets-talk" class="col-12 col-md-4 title-section">
                         Let's Talk!
                     </div>
-                    <div class="col-12 col-md-4 description">
+                    <div id="contact-me" class="col-12 col-md-4 description">
                         Contact me to start your web development project and I will make your vision come true.
                     </div>
                     <div class="col-12 col-md-4">
-                        <button type="button" data-bs-toggle="modal" data-bs-target="#contactModal">
+                        <button id="contact-btn" type="button" data-bs-toggle="modal" data-bs-target="#contactModal">
                             Contact
-                            <i class="bi bi-envelope-check-fill"></i>
+                            <i id="contact-icon" class="bi bi-envelope-check-fill"></i>
                         </button>
                     </div>
                 </div>
@@ -281,7 +296,8 @@
     <footer class="dark-section d-flex flex-column align-items-center justify-content-center">
         <!-- Image Logo -->
         <img id="logo-img-footer" class="footer-logo" src="img/codigo.png" width="70" alt="logo-portfolio">
-        <p class="footer-text text-center">I learn and make every day. <br>Let's make a project together.</p>
+        <p id="footer-text" class="footer-text text-center">I learn and make every day. <br>Let's make a project
+            together.</p>
         <div class="social-media-icons d-flex flex-wrap align-items-center justify-content-center">
             <a href="https://twitter.com/BlancoWues2703" target="_blank" rel="noopener noreferrer">
                 <i class="bi bi-twitter-x"></i>
@@ -310,7 +326,8 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="contactModalLabel">Contact Form</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <button type="button" class="btn-close btn-modal-dark" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
                     <form id="contact-form">
@@ -351,8 +368,8 @@
                 <div class="modal-header">
                     <h5 class="modal-title" id="cvModalLabel">Curriculum Vitae</h5>
                     <a href="./docs/CV-fabian-blanco-wuest.pdf" download="CV-fabian-blanco-wuest.pdf"
-                        class="cv-download"><i class="bi bi-download"></i></i></i></a>
-                    <button type="button" class="btn-close btn-dark-mode" data-dismiss="modal" aria-label="Close">
+                        class="cv-download"><i class="bi bi-download btn-modal-dark"></i></i></i></a>
+                    <button type="button" class="btn-close btn-modal-dark" data-dismiss="modal" aria-label="Close">
                         <!-- <span aria-hidden="true">&times;</span> -->
                     </button>
                 </div>
@@ -588,6 +605,7 @@
     <!-- Own scripts -->
     <script type="text/javascript" src="app.js"></script>
     <script type="text/javascript" src="email.js"></script>
+    <script type="text/javascript" src="languages.js"></script>
 </body>
 
 </html>

@@ -107,8 +107,20 @@ const sections = document.getElementsByClassName("section");
 const texts = document.getElementsByClassName("text");
 const icons = document.getElementsByClassName("icon");
 const modals = document.getElementsByClassName("modal-content");
+const navLinks = document.getElementsByClassName("nav-link");
+const navbar = document.getElementById("navbar");
+const barBtn = document.getElementById("btn-bars");
+const barBtnIcon = document.querySelector("#btn-bars span");
+const darkSections = document.getElementsByClassName("dark-section");
 
 document.getElementById("btn-toggle").addEventListener("click", () => {
+	navbar.classList.toggle("dark-nav-bar");
+	barBtn.classList.toggle("dark-btn-bars");
+	barBtnIcon.classList.toggle("dark-btn-bars");
+	for (let i = 0; i < darkSections.length; i++) {
+		darkSections[i].classList.toggle("dark-sections-mode");
+	}
+
 	for (let i = 0; i < sections.length; i++) {
 		sections[i].classList.toggle("dark-mode");
 	}
@@ -117,6 +129,10 @@ document.getElementById("btn-toggle").addEventListener("click", () => {
 	}
 	for (let i = 0; i < icons.length; i++) {
 		icons[i].classList.toggle("dark-icon-hover");
+	}
+
+	for (let i = 0; i < navLinks.length; i++) {
+		navLinks[i].classList.toggle("dark-nav-link");
 	}
 
 	if (sections[0].classList.contains("dark-mode")) {
