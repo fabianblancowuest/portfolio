@@ -169,9 +169,14 @@ document.addEventListener("DOMContentLoaded", () => {
 	const btnProjectsIco = document.getElementById("btn-projects-icon");
 	const contactIco = document.getElementById("contact-icon");
 
+	const html = document.querySelector("html");
+
 	languageSelector.addEventListener("change", (event) => {
 		const selectedLanguage = event.target.value;
 		changeLanguage(selectedLanguage);
+
+		// Change language atributte
+		html.lang = selectedLanguage;
 	});
 
 	function changeLanguage(language) {
@@ -264,8 +269,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 		for (let i = 0; i < cvProjectLinks.length; i++) {
 			for (let j = 0; j < cvProjectLinks[i].length; j++) {
-				cvProjectLinks[j].textContent =
-					cvTexts[language][i].cvProjectLinks[i][j];
+				cvProjectLinks[j].textContent = cvTexts[language].cvProjectLinks[j];
 			}
 		}
 
@@ -307,6 +311,11 @@ document.addEventListener("DOMContentLoaded", () => {
 		for (let i = 0; i < cvLanguages.length; i++) {
 			cvLanguages[i].textContent = cvTexts[language].languages[i];
 		}
+
+		// to download cv depending on the language
+		const downloadCVRoute = document.getElementById("link-download-cv");
+		downloadCVRoute.href = `./docs/CV-fabian-blanco-wuest-${language}.pdf`;
+		downloadCVRoute.download = `CV-fabian-blanco-wuest-${language}.pdf`;
 	}
 	// Establece el idioma inicial
 

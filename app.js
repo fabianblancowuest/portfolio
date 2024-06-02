@@ -139,10 +139,12 @@ document.getElementById("btn-toggle").addEventListener("click", () => {
 		for (let i = 0; i < modals.length; i++) {
 			modals[i].classList.toggle("dark-mode");
 		}
+		document.getElementById("btn-download-cv-i").style.color = "white";
 	} else {
 		for (let i = 0; i < modals.length; i++) {
 			modals[i].classList.toggle("dark-mode");
 		}
+		document.getElementById("btn-download-cv-i").style.color = "initial";
 	}
 
 	const icon = document.querySelector("#btn-toggle i");
