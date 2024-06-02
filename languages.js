@@ -89,6 +89,25 @@ const cvTexts = {
 			"COMPLEMENTARY EDUCATION",
 			"LANGUAGES",
 		],
+		textDatabase: `Database`,
+		technologies: [
+			`Programming and Design Languages`,
+			`Libraries and Frameworks`,
+			`Databases`,
+			`Tools`,
+			`Agile Methodologies`,
+		],
+		professionalEducation: [
+			`Full Stack Web Developer. Henry Bootcamp. 800 hours of theoretical-practical coursework. 2023.`,
+			`Full Stack Developer - Egg Education. 500 hours of theoretical-practical coursework. 2022.`,
+			`Technical Specialization in Software Development - Polytechnic Institute Formosa. 1040 hours of theoretical-practical course. 2020.`,
+			`Higher Technical Degree in Computer Science - Third Year - UPCN. 2018.`,
+		],
+		complementaryEducation: [
+			`FreeCodeCamp - JavaScript Algorithms and Data Structures. 2022.`,
+			`Argentina Programming - First Stage. 2023.`,
+		],
+		languages: [`English B2 - Upper Intermediate`, `Native Spanish`],
 		btnDownload: `Download CV `,
 		btnClose: "Close ",
 	},
@@ -120,6 +139,25 @@ const cvTexts = {
 			"EDUCACIÓN COMPLEMENTARIA",
 			"IDIOMAS",
 		],
+		textDatabase: `Bases de Datos`,
+		technologies: [
+			`Lenguajes de Programación y Diseño`,
+			`Bibliotecas y Frameworks`,
+			`Bases de Datos`,
+			`Herramientas`,
+			`Metodologías Ágiles`,
+		],
+		professionalEducation: [
+			`Full Stack Web Developer. Henry Bootcamp. 800 horas de cursado teórico-práctico. 2023.`,
+			`Full Stack Developer – Egg Education. 500 horas de cursado teórico-practico. 2022.`,
+			`Especialización Técnica en Desarrollo de Software – Instituto Politécnico Formosa. 1040 horas de cursado teórico practico. 2020.`,
+			`Tecnicatura Superior en Informática – Tercer Año - UPCN. 2018.`,
+		],
+		complementaryEducation: [
+			`FreeCodeCamp – JavaScript Algorithms and Data Structures. 2022.`,
+			`Argentina Programa – Primera Etapa. 2023.`,
+		],
+		languages: [`Inglés B2 - Upper Intermediate`, `Español Nativo`],
 		btnDownload: `Descargar CV `,
 		btnClose: `Cerrar `,
 	},
@@ -189,6 +227,7 @@ document.addEventListener("DOMContentLoaded", () => {
 		const sectionTitles = document.getElementsByClassName("section-subtitle");
 		const downloadCvIco = document.getElementById("download-cv-ico");
 		const closeCvIco = document.getElementById("close-cv-ico");
+		const technologies = document.getElementsByClassName("technology-text");
 
 		document.getElementById("cv-info").textContent = cvTexts[language].cvInfo;
 
@@ -229,6 +268,28 @@ document.addEventListener("DOMContentLoaded", () => {
 					cvTexts[language][i].cvProjectLinks[i][j];
 			}
 		}
+
+		for (let i = 0; i < technologies.length; i++) {
+			technologies[i].textContent = cvTexts[language].technologies[i] + ":";
+		}
+
+		const educationsItems = document.querySelectorAll(
+			"#cv-education-skills li",
+		);
+
+		const complementaryEducationsItems = document.querySelectorAll(
+			"#cv-complementary-education li",
+		);
+
+		for (let i = 0; i < educationsItems.length; i++) {
+			educationsItems[i].textContent =
+				cvTexts[language].professionalEducation[i];
+		}
+
+		for (let i = 0; i < complementaryEducationsItems.length; i++) {
+			complementaryEducationsItems[i].textContent =
+				cvTexts[language].complementaryEducation[i];
+		}
 		document.getElementById("btn-download-cv").textContent =
 			cvTexts[language].btnDownload;
 		document.getElementById("btn-download-cv").appendChild(downloadCvIco);
@@ -238,6 +299,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
 		document.getElementById("btn-close-cv").appendChild(closeCvIco);
 		console.log(closeCvIco);
+		const dbText = document.getElementsByClassName("database-text");
+		const cvLanguages = document.querySelectorAll("#cv-languages li");
+		for (let i = 0; i < dbText.length; i++) {
+			dbText[i].textContent = cvTexts[language].textDatabase + ":";
+		}
+		for (let i = 0; i < cvLanguages.length; i++) {
+			cvLanguages[i].textContent = cvTexts[language].languages[i];
+		}
 	}
 	// Establece el idioma inicial
 
