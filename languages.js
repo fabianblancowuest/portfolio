@@ -83,12 +83,14 @@ const cvTexts = {
 		],
 		cvProjectLinks: ["Website", "Repository on GitHub"],
 		sectionTitle: [
-			"PROJECTS",
+			"PRINCIPAL PROJECTS",
 			"TECHNOLOGIES",
 			"PROFESSIONAL EDUCATION",
 			"COMPLEMENTARY EDUCATION",
 			"LANGUAGES",
 		],
+		btnDownload: `Download CV `,
+		btnClose: "Close ",
 	},
 	es: {
 		cvInfo: `Full Stack Developer con formación en JavaScript, ReactJS, Node.js, Java, Express, CSS, Bootstrap, HTML, MongoDB, Postgre SQL y Sequelize. Conocimientos en metodologías ágiles, GIT, UX, UI, estructura de datos, algoritmos. Experiencia en desarrollo de Front End y Back End / arquitectura de datos. Con actitud positiva, adaptabilidad, análisis de problemas y automotivación.  Nivel de Inglés: Upper Intermediate.`,
@@ -112,12 +114,14 @@ const cvTexts = {
 		],
 		cvProjectLinks: ["Sitio Web", "Repositorio en GitHub"],
 		sectionTitle: [
-			"PROYECTOS",
+			"PROYECTOS PRINCIPALES",
 			"TECNOLOGÍAS",
 			"EDUCACIÓN PROFESIONAL",
 			"EDUCACIÓN COMPLEMENTARIA",
 			"IDIOMAS",
 		],
+		btnDownload: `Descargar CV `,
+		btnClose: `Cerrar `,
 	},
 };
 
@@ -182,10 +186,18 @@ document.addEventListener("DOMContentLoaded", () => {
 		const mpcTasks = document.querySelectorAll("#cv-mpc-tasks li");
 		const techUsedTitle = document.getElementsByClassName("cv-techs-used");
 		const cvProjectLinks = document.querySelectorAll(".cv-project-links a");
+		const sectionTitles = document.getElementsByClassName("section-subtitle");
+		const downloadCvIco = document.getElementById("download-cv-ico");
+		const closeCvIco = document.getElementById("close-cv-ico");
 
 		document.getElementById("cv-info").textContent = cvTexts[language].cvInfo;
+
+		for (let i = 0; i < sectionTitles.length; i++) {
+			sectionTitles[i].textContent = cvTexts[language].sectionTitle[i];
+		}
 		document.getElementById("cv-smahh-description").textContent =
 			cvTexts[language].smahh;
+
 		for (let i = 0; i < smahhTasks.length; i++) {
 			smahhTasks[i].textContent = cvTexts[language].smahhTasks[i];
 		}
@@ -213,10 +225,19 @@ document.addEventListener("DOMContentLoaded", () => {
 
 		for (let i = 0; i < cvProjectLinks.length; i++) {
 			for (let j = 0; j < cvProjectLinks[i].length; j++) {
-				cvProjectLinks[j].textContent = cvTexts[language].cvProjectLinks[i];
+				cvProjectLinks[j].textContent =
+					cvTexts[language][i].cvProjectLinks[i][j];
 			}
 		}
-		console.log(cvProjectLinks);
+		document.getElementById("btn-download-cv").textContent =
+			cvTexts[language].btnDownload;
+		document.getElementById("btn-download-cv").appendChild(downloadCvIco);
+		console.log(downloadCvIco);
+		document.getElementById("btn-close-cv").textContent =
+			cvTexts[language].btnClose;
+
+		document.getElementById("btn-close-cv").appendChild(closeCvIco);
+		console.log(closeCvIco);
 	}
 	// Establece el idioma inicial
 
