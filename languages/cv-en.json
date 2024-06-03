@@ -1,0 +1,50 @@
+{
+	"cvInfo": "Full Stack Developer with background in JavaScript, ReactJS, Node.js, Java, Express, CSS, Bootstrap, HTML, MongoDB, PostgreSQL and Sequelize, specialized in Front-end. Knowledge in agile methodologies, GIT, UX, UI, data structure, algorithms. Experience in Front End and Back End development / data architecture. Positive attitude, adaptability, problem analysis and self-motivation. English level: Upper Intermediate.",
+	"smahh": "This project focused on the development of an application for the sale of cybersecurity services, simulating the implementation of technological solutions in a business environment. Although the name \"Smahh\" is fictitious, the project was designed to address real challenges in selling and managing cybersecurity services.",
+	"smahhTasks": [
+		"Design and develop a responsive App for clients that includes: User login, user registration in database, form and email submission, registration of cybersecurity services sales tickets.",
+		"Develop Landing Page, Dashboard, About, Services."
+	],
+	"techsUsed": "Technologies used:",
+	"rym": "This project focused on the development of an application based on the famous TV series \"Rick and Morty\" in which you can access cards with information about the characters of the series through the consumption of the official API of Rick and Morty.",
+	"rymTasks": [
+		"Design and develop an App for students that includes: User login, user registration in database, search for characters of the series, access to details, saving in favourites, filtering by name and gender.",
+		"Develop various navigation pages such as Home, About and Favorites."
+	],
+	"mpc": "This project focuses on a responsive application for selling numbers, for a draw that takes place on Mother's Day in Argentina in the year 2024. Where the user chooses one or more numbers to participate in said draw, then chooses the prizes in those who wish to participate and finally select the payment method.",
+	"mpcTasks": [
+		"Design the layout of the responsive web application (optimized for phones and tablets).",
+		"Sole and main layout designer of the project.",
+		"Work with cascading style sheets with the CSS design language.",
+		"No CSS frameworks or libraries were used."
+	],
+	"cvProjectLinks": ["Website", "Repository on GitHub"],
+	"sectionTitle": [
+		"PRINCIPAL PROJECTS",
+		"TECHNOLOGIES",
+		"PROFESSIONAL EDUCATION",
+		"COMPLEMENTARY EDUCATION",
+		"LANGUAGES"
+	],
+	"textDatabase": "Database",
+	"technologies": [
+		"Programming and Design Languages",
+		"Libraries and Frameworks",
+		"Databases",
+		"Tools",
+		"Agile Methodologies"
+	],
+	"professionalEducation": [
+		"Full Stack Web Developer. Henry Bootcamp. 800 hours of theoretical-practical coursework. 2023.",
+		"Full Stack Developer - Egg Education. 500 hours of theoretical-practical coursework. 2022.",
+		"Technical Specialization in Software Development - Polytechnic Institute Formosa. 1040 hours of theoretical-practical course. 2020.",
+		"Higher Technical Degree in Computer Science - Third Year - UPCN. 2018."
+	],
+	"complementaryEducation": [
+		"FreeCodeCamp - JavaScript Algorithms and Data Structures. 2022.",
+		"Argentina Programming - First Stage. 2023."
+	],
+	"languages": ["English B2 - Upper Intermediate", "Native Spanish"],
+	"btnDownload": "Download CV ",
+	"btnClose": "Close "
+}

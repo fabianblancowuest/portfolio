@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
 	const text = subtitle.textContent;
 
 	// Change image logo dinamically
-	const images = ["img/codigo.png", "img/programacion.png"]; // Rutas de las imágenes del logo
+	const images = ["img/icons/codigo.png", "img/folder/programacion.png"]; // Rutas de las imágenes del logo
 	const logo = document.getElementById("logo-img");
 	let index = 0;
 

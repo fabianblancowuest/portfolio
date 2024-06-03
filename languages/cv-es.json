@@ -1,0 +1,50 @@
+{
+	"cvInfo": "Full Stack Developer con formación en JavaScript, ReactJS, Node.js, Java, Express, CSS, Bootstrap, HTML, MongoDB, Postgre SQL y Sequelize. Conocimientos en metodologías ágiles, GIT, UX, UI, estructura de datos, algoritmos. Experiencia en desarrollo de Front End y Back End / arquitectura de datos. Con actitud positiva, adaptabilidad, análisis de problemas y automotivación. Nivel de Inglés: Upper Intermediate.",
+	"smahh": "Este proyecto se centró en el desarrollo de una aplicación para la venta de servicios de ciberseguridad, simulando la implementación de soluciones tecnológicas en un entorno empresarial. Aunque el nombre \"Smahh\" es ficticio, el proyecto se diseñó para abordar desafíos reales en la venta y gestión de servicios de ciberseguridad.",
+	"smahhTasks": [
+		"Diseñar y desarrollar una App responsive para clientes que incluye: Login de usuario, registro de usuario en base de datos, envío de formulario y email, alta de tickets de venta de servicios de ciberseguridad.",
+		"Desarrollar Landing Page, Dashboard, About, Services."
+	],
+	"techsUsed": "Tecnologías utilizadas:",
+	"rym": "Este Proyecto se centró en el desarrollo de una aplicación basada en la famosa serie de televisión “Rick and Morty” en la cual se puede acceder a tarjetas con información de los personajes de la serie a través del consumo del api oficial de Rick and Morty.",
+	"rymTasks": [
+		"Diseñar y desarrollar una App para estudiantes que incluye: Login de usuario, registro de usuario en base de datos, búsqueda de personajes de la serie, acceso a detalles, guardado en favoritos, filtrado por nombre y género.",
+		"Desarrollar varías páginas de navegación como Home, About y Favorites."
+	],
+	"mpc": "Este proyecto se centra en una aplicación responsive de venta de números, para un sorteo que se realiza el día de la madre en Argentina en el año 2024. Donde el usuario elige uno o más números para participar de dicho sorteo, luego elige los premios en los que desea participar y por último selecciona el método de pago.",
+	"mpcTasks": [
+		"Diseñar la maquetación de la aplicación web resposive (optimizada para teléfonos y tablets).",
+		"Maquetador único y principal del proyecto.",
+		"Trabajar con hojas de estilos en cascada con el lenguaje de diseño CSS.",
+		"No se utilizaron frameworks ni librerías de CSS."
+	],
+	"cvProjectLinks": ["Sitio Web", "Repositorio en GitHub"],
+	"sectionTitle": [
+		"PROYECTOS PRINCIPALES",
+		"TECNOLOGÍAS",
+		"EDUCACIÓN PROFESIONAL",
+		"EDUCACIÓN COMPLEMENTARIA",
+		"IDIOMAS"
+	],
+	"textDatabase": "Bases de Datos",
+	"technologies": [
+		"Lenguajes de Programación y Diseño",
+		"Bibliotecas y Frameworks",
+		"Bases de Datos",
+		"Herramientas",
+		"Metodologías Ágiles"
+	],
+	"professionalEducation": [
+		"Full Stack Web Developer. Henry Bootcamp. 800 horas de cursado teórico-práctico. 2023.",
+		"Full Stack Developer – Egg Education. 500 horas de cursado teórico-practico. 2022.",
+		"Especialización Técnica en Desarrollo de Software – Instituto Politécnico Formosa. 1040 horas de cursado teórico practico. 2020.",
+		"Tecnicatura Superior en Informática – Tercer Año - UPCN. 2018."
+	],
+	"complementaryEducation": [
+		"FreeCodeCamp – JavaScript Algorithms and Data Structures. 2022.",
+		"Argentina Programa – Primera Etapa. 2023."
+	],
+	"languages": ["Inglés B2 - Upper Intermediate", "Español Nativo"],
+	"btnDownload": "Descargar CV ",
+	"btnClose": "Cerrar "
+}
