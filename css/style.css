@@ -90,7 +90,11 @@ section {
 	font-weight: 400;
 	font-style: normal;
 }
-
+@media (max-width: 500px) {
+	.title {
+		font-size: 2.3rem;
+	}
+}
 .dark-section {
 	color: white;
 	background-color: var(--dark-color);
@@ -533,7 +537,7 @@ footer {
 
 /* Responsive design */
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
 	h1 {
 		font-size: 32px;
 	}
@@ -550,7 +554,7 @@ footer {
 	}
 
 	.mobile {
-		font-size: 20px !important;
+		font-size: 22px !important;
 	}
 
 	.overlay p {
