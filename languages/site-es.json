@@ -12,10 +12,11 @@
 		"Explora mi portafolio💼"
 	],
 	"subtitleMobile": "Construyo sitios web y aplicaciones web. 💻😄",
-	"aboutMe": "Conoce a Fabián Blanco Wuest",
+	"aboutMe": "Una breve introducción sobre mi",
 	"presentation": [
-		"Soy un apasionado desarrollador radicado en Argentina, que comenzó su carrera en el mundo del desarrollo front-end. Con el tiempo, amplié mis habilidades y ahora me especializo en el desarrollo de aplicaciones cliente/servidor utilizando las pilas MERN y PERN. Mi objetivo es contribuir a proyectos innovadores y desafiantes que no sólo enriquezcan mi experiencia profesional, sino que también marquen un hito significativo en mi carrera.",
-		"A continuación encontrarás una selección de mis proyectos más recientes. Cada uno de ellos refleja mi dedicación, creatividad y habilidades técnicas. Si algo que ves te llama la atención o si tienes alguna propuesta de colaboración, no dudes en contactar conmigo. Siempre estoy abierto a nuevas oportunidades y desafíos."
+		"Soy un apasionado desarrollador de software radicado en Argentina, que comenzó su carrera en el mundo del desarrollo front-end. Con el tiempo, amplié mis habilidades y ahora me especializo en el desarrollo de aplicaciones cliente/servidor utilizando las pilas MERN y PERN. Mi objetivo es contribuir a proyectos innovadores y desafiantes que no sólo enriquezcan mi experiencia profesional, sino que también marquen un hito significativo en mi carrera.",
+		"A continuación encontrarás una selección de mis proyectos más recientes. Cada uno de ellos refleja mi dedicación, creatividad y habilidades técnicas. Si algo que ves te llama la atención o si tienes alguna propuesta de colaboración, no dudes en contactar conmigo. Siempre estoy abierto a nuevas oportunidades y desafíos.",
+		"Explora mi portafolio, encontrarás mis proyectos, mi curriculum vitae, frases motivadoras, un formulario donde puedas contactarme y más."
 	],
 	"webDevelopment": "Desarrollo Web",
 	"webDevelopmentDescription": "Desarrollador Full Stack con formación en JavaScript, ReactJS, Node.js, Java, Express, CSS, HTML, MongoDB, Postgre SQL y Sequelize, especializado en Front-end. Conocimiento de metodologías ágiles, GIT, UX, UI, estructura de datos, algoritmos.",
@@ -27,5 +28,14 @@
 	"contactPhrase": "Contáctame para iniciar tu proyecto de desarrollo web y haré realidad tu visión.",
 	"contactBtn": "Contacto ",
 	"footerPhrase": "Aprendo y creo todos los días. Hagamos un proyecto juntos.",
-	"btnProjects": "Ver mas proyectos "
+	"btnProjects": "Ver mas proyectos ",
+	"contactFormTitle": "Formulario de contacto",
+	"contactForm": ["Nombre", "Correo Electrónico", "Asunto", "Mensaje"],
+	"formPlaceHolders": [
+		"Escribe tu nombre...",
+		"Escribe tu correo electrónico...",
+		"Escribe el asunto...",
+		"Deja tu mensaje aquí..."
+	],
+	"btnForm": "Enviar "
 }

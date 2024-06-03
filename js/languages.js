@@ -5,8 +5,6 @@ document.addEventListener("DOMContentLoaded", () => {
 	const contactIco = document.getElementById("contact-icon");
 	const html = document.querySelector("html");
 
-	let url = `./languages/site-${html.lang}.json`;
-
 	languageSelector.addEventListener("change", (event) => {
 		const selectedLanguage = event.target.value;
 		changeLanguage(selectedLanguage);
@@ -20,10 +18,6 @@ document.addEventListener("DOMContentLoaded", () => {
 		return await response.json();
 	}
 
-	// Iniciar el efecto
-	// typeWriterEffect(phrases);
-
-	// typewriter effect
 	let typingTimeout;
 	let erasingTimeout;
 	let waitingTimeout;
@@ -120,6 +114,30 @@ document.addEventListener("DOMContentLoaded", () => {
 			languageTexts.nav.projectsLink;
 		document.getElementById("contact-link").textContent =
 			languageTexts.nav.contactLink;
+
+		const formLabels = document.querySelectorAll(".form-label");
+		const formPlaceholders = document.querySelectorAll(
+			".form-control[placeholder]",
+		);
+
+		formPlaceholders.forEach((item) => console.log(item));
+		// Contact Form
+		document.getElementById("contactModalLabel").textContent =
+			languageTexts.contactFormTitle;
+
+		for (let i = 0; i < formLabels.length; i++) {
+			formLabels[i].textContent = languageTexts.contactForm[i];
+		}
+		for (let i = 0; i < formPlaceholders.length; i++) {
+			formPlaceholders[i].placeholder = languageTexts.formPlaceHolders[i];
+		}
+
+		const btnFormIco = document.getElementById("btn-submit-ico");
+		const btnSubmitForm = document.getElementById("btn-submit-form");
+
+		btnSubmitForm.textContent = languageTexts.btnForm;
+		console.log(btnFormIco);
+		btnSubmitForm.appendChild(btnFormIco);
 
 		// CV Language
 		const smahhTasks = document.querySelectorAll("#cv-smahh-tasks li");

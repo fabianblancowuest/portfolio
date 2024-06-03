@@ -1,0 +1,53 @@
+/* Dark Mode */
+
+.dark-mode {
+	background-color: #22272e;
+	color: rgb(197, 209, 222);
+	/* color: white; */
+}
+
+.dark-sections-mode {
+	background-color: RGB(20, 25, 30);
+}
+
+.dark-nav-bar {
+	/* background-color: #1c2128; */
+	color: rgb(197, 209, 222);
+}
+
+.dark-btn-bars {
+	background-color: rgb(197, 209, 222);
+	color: #478be6;
+}
+
+.dark-mode-text {
+	color: rgb(197, 209, 222) !important;
+}
+
+.dark-icon-hover:hover {
+	color: #ffd700 !important;
+}
+
+.dark-nav-link {
+	color: rgb(197, 209, 222) !important;
+}
+
+.btn-modal-dark:not(i) {
+	background-color: white;
+}
+
+.dark-mode .column:hover {
+	background-color: rgb(20, 25, 30) !important;
+}
+
+.btn-toggle-mode {
+	border: none;
+	background-color: transparent;
+	font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+	.btn-toggle-mode {
+		margin-right: 0;
+	}
+}

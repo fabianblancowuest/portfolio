@@ -16,7 +16,6 @@ document.addEventListener("DOMContentLoaded", function () {
 	// 	logoFooter.src = images[index];
 	// 	ind = (ind + 1) % images.length;
 	// }, 3000);
-	const html = document.querySelector("html");
 });
 
 const logo = document.getElementById("logo");
@@ -86,10 +85,24 @@ document.getElementById("btn-toggle").addEventListener("click", () => {
 			modals[i].classList.toggle("dark-mode");
 		}
 		document.getElementById("btn-download-cv-i").style.color = "white";
+		document.getElementById("btn-download-cv").classList.toggle("btn-light");
+
+		// Texts from form contact
+		const formsLabels = document.getElementsByClassName("form-label");
+		for (let i = 0; i < formsLabels.length; i++) {
+			formsLabels[i].style.color = "white";
+		}
 	} else {
 		for (let i = 0; i < modals.length; i++) {
 			modals[i].classList.toggle("dark-mode");
 		}
+
+		// Texts from form contact
+		const formsLabels = document.getElementsByClassName("form-label");
+		for (let i = 0; i < formsLabels.length; i++) {
+			formsLabels[i].style.color = "initial";
+		}
+		document.getElementById("btn-download-cv").classList.toggle("btn-light");
 		document.getElementById("btn-download-cv-i").style.color = "initial";
 	}
 

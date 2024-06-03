@@ -1,0 +1,178 @@
+/* Cv Modal */
+
+.modal-header {
+	text-align: center;
+}
+
+.modal-lg-custom {
+	max-width: 60%;
+}
+
+.modal-body-cv {
+	padding: 1em 4em;
+}
+
+.cv {
+	margin: 1em auto;
+	max-width: 1000px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	line-height: 2;
+}
+
+.cv-header {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.cv-header h2,
+.cv-header h5 {
+	text-align: center;
+}
+
+.header-info {
+	text-align: center;
+}
+
+.mobile-info {
+	display: none;
+}
+
+.cv-info {
+	/* margin-bottom: 1em; */
+}
+.cv-header-links {
+	text-align: center;
+}
+
+.cv-line {
+	border-top: 2px solid rgba(0, 0, 0, 0.5);
+	margin: 1em 0;
+	width: 100%;
+}
+
+.section-subtitle {
+	width: 100%;
+	font-weight: bold;
+	margin: 1em 0;
+	background-color: rgba(220, 220, 220, 0.2);
+	/* letter-spacing: 1px; */
+}
+
+.cv-project-title h3 {
+	font-size: 1.5rem;
+	font-weight: bold;
+	margin-top: 0.5em;
+}
+
+.cv-project-links {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 4rem;
+}
+
+.cv-project-links a {
+	text-decoration: none;
+}
+
+.line-project {
+	margin: 2em 0;
+	width: 100%;
+	border-top: 0.5px solid rgba(0, 0, 0, 0.3);
+}
+
+.cv-download {
+	width: fit-content;
+	margin-left: 0.5em;
+}
+
+.bi-download {
+	font-size: 1.5rem;
+	color: black;
+}
+
+.btn-download-cv {
+	display: block;
+	text-align: center;
+	margin: 1em 0;
+}
+
+.btn-download-cv button {
+	font-size: 1.1rem;
+}
+
+.modal-footer {
+	justify-content: center;
+}
+
+.btn-close-cv {
+	display: block;
+	width: 130px;
+}
+
+@media (max-width: 700px) {
+	.modal-lg-custom {
+		max-width: 100%;
+	}
+
+	.modal-body-cv {
+		padding: 1em 2em;
+	}
+
+	.cv-project-links {
+		display: flex;
+		justify-content: center;
+		gap: 1rem;
+	}
+
+	.cv-project-links a {
+		display: block;
+		width: 100%;
+	}
+
+	.header-info {
+		display: none;
+	}
+
+	.mobile-info {
+		display: block;
+	}
+}
+
+/* Contact Modal */
+
+.modal-content {
+	font-weight: bold;
+	font-family: "Quicksand", sans-serif;
+}
+
+.form {
+	max-width: 700px;
+}
+
+.form textarea {
+	min-height: 300px;
+}
+
+.modal-title {
+	margin-left: auto;
+}
+
+.btn-submit {
+	display: block;
+	margin: 0 auto;
+	width: 130px;
+}
+
+@media (min-width: 700px) and (max-width: 900px) {
+	.modal-lg-custom {
+		max-width: 90%;
+	}
+
+	.modal-body-cv {
+		padding: 1em 3em;
+	}
+}
