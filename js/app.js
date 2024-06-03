@@ -62,6 +62,9 @@ document.getElementById("btn-toggle").addEventListener("click", () => {
 	navbar.classList.toggle("dark-nav-bar");
 	barBtn.classList.toggle("dark-btn-bars");
 	barBtnIcon.classList.toggle("dark-btn-bars");
+	const buttons = document.getElementsByClassName("btn");
+	const linesProjectCv = document.getElementsByClassName("line-project");
+
 	for (let i = 0; i < darkSections.length; i++) {
 		darkSections[i].classList.toggle("dark-sections-mode");
 	}
@@ -80,11 +83,27 @@ document.getElementById("btn-toggle").addEventListener("click", () => {
 		navLinks[i].classList.toggle("dark-nav-link");
 	}
 
+	for (let i = 0; i < linesProjectCv.length; i++) {
+		linesProjectCv[i].classList.toggle("dark-color-line-cv");
+	}
+
 	if (sections[0].classList.contains("dark-mode")) {
 		for (let i = 0; i < modals.length; i++) {
 			modals[i].classList.toggle("dark-mode");
 		}
 		document.getElementById("btn-download-cv-i").style.color = "white";
+		// btn projects
+		document.getElementById("btn-projects").classList.toggle("dark-btn-mine");
+
+		for (let i = 0; i < buttons.length; i++) {
+			buttons[i].classList.toggle("dark-mode-btn-text");
+		}
+		const overlayItems = document.getElementsByClassName("overlay");
+
+		for (let i = 0; i < overlayItems.length; i++) {
+			overlayItems[i].classList.toggle("dark-mode-overlay");
+		}
+
 		document.getElementById("btn-download-cv").classList.toggle("btn-light");
 
 		// Texts from form contact
@@ -120,6 +139,4 @@ document.getElementById("btn-toggle").addEventListener("click", () => {
 		button.classList.remove("icon-right"); // Elimina la clase que alinea el ícono a la derecha
 		button.classList.add("icon-left"); // Agrega la clase que alinea el ícono a la izquierda
 	}
-
-	console.log(icons);
 });

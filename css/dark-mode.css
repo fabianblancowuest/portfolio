@@ -1,8 +1,11 @@
 /* Dark Mode */
+:root {
+	--text-color: rgb(197, 209, 222);
+}
 
 .dark-mode {
 	background-color: #22272e;
-	color: rgb(197, 209, 222);
+	color: var(--text-color);
 	/* color: white; */
 }
 
@@ -11,17 +14,39 @@
 }
 
 .dark-nav-bar {
-	/* background-color: #1c2128; */
-	color: rgb(197, 209, 222);
+	background-color: #1c2128;
+	color: var(--text-color);
 }
 
 .dark-btn-bars {
-	background-color: rgb(197, 209, 222);
+	background-color: var(--text-color);
 	color: #478be6;
 }
 
 .dark-mode-text {
-	color: rgb(197, 209, 222) !important;
+	color: var(--text-color) !important;
+}
+
+.dark-mode-overlay {
+	color: rgb(255, 255, 255);
+}
+
+.dark-mode-btn-text {
+	color: white;
+	text-shadow: 1px 1px 3px black;
+}
+
+.dark-btn-mine {
+	background-color: #0d6efd;
+	color: white;
+}
+
+.dark-mode-btn-text:hover {
+	color: white;
+}
+
+.dark-icon-hover {
+	color: rgb(255, 255, 255) !important;
 }
 
 .dark-icon-hover:hover {
@@ -29,7 +54,7 @@
 }
 
 .dark-nav-link {
-	color: rgb(197, 209, 222) !important;
+	color: var(--text-color) !important;
 }
 
 .btn-modal-dark:not(i) {
@@ -40,10 +65,20 @@
 	background-color: rgb(20, 25, 30) !important;
 }
 
+.dark-form-select {
+	background-color: #22272e;
+	color: var(--text-color);
+	font-weight: bold;
+}
+
 .btn-toggle-mode {
 	border: none;
 	background-color: transparent;
 	font-size: 1.5rem;
+}
+
+.dark-color-line-cv {
+	border-top: 0.5px solid rgba(255, 255, 255, 0.5);
 }
 
 @media (max-width: 768px) {
