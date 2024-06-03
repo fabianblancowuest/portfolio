@@ -93,11 +93,11 @@ document.getElementById("btn-toggle").addEventListener("click", () => {
 		}
 		document.getElementById("btn-download-cv-i").style.color = "white";
 		// btn projects
-		document.getElementById("btn-projects").classList.toggle("dark-btn-mine");
+		// document.getElementById("btn-projects").classList.toggle("dark-btn-mine");
 
-		for (let i = 0; i < buttons.length; i++) {
-			buttons[i].classList.toggle("dark-mode-btn-text");
-		}
+		// for (let i = 0; i < buttons.length; i++) {
+		// 	buttons[i].classList.toggle("dark-mode-btn-text");
+		// }
 		const overlayItems = document.getElementsByClassName("overlay");
 
 		for (let i = 0; i < overlayItems.length; i++) {
@@ -121,7 +121,7 @@ document.getElementById("btn-toggle").addEventListener("click", () => {
 		for (let i = 0; i < formsLabels.length; i++) {
 			formsLabels[i].style.color = "initial";
 		}
-		document.getElementById("btn-download-cv").classList.toggle("btn-light");
+
 		document.getElementById("btn-download-cv-i").style.color = "initial";
 	}
 
