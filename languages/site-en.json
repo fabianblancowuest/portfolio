@@ -6,6 +6,11 @@
 		"contactLink": "Contact"
 	},
 	"hi": "Hi, I'm Fabián Blanco Wuest",
+	"phrases": [
+		"I build websites and web applications👷‍♂️",
+		"Full-Stack Web Developer💻",
+		"Browse my portfolio💼"
+	],
 	"subtitleMobile": "I build websites and web applications 💻😄.",
 	"aboutMe": "Meet Fabián Blanco Wuest",
 	"presentation": [
@@ -17,7 +22,7 @@
 	"education": "Education",
 	"educationDescription": "I hold a degree in Technological Specialization in Software Development and have completed rigorous bootcamps including \"Henry,\" \"Egg Cooperation,\" and \"Free Code Camp,\" among others. Additionally, I am currently pursuing a Bachelor's Degree in Systems at the National Technological University.",
 	"projects": "My projects",
-	"projectsInfo": "Here are some of the projects I have recently created...",
+	"projectsInfo": "These are some of the projects I have created and/or worked on recently...",
 	"letsTalk": "Let's Talk!",
 	"contactPhrase": "Contact me to start your web development project and I will make your vision come true.",
 	"contactBtn": "Contact ",

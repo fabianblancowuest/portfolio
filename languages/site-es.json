@@ -6,6 +6,11 @@
 		"contactLink": "Contacto"
 	},
 	"hi": "Hola, soy Fabián Blanco Wuest",
+	"phrases": [
+		"Creación de Sitios y Aplicaciones Web👷",
+		"Desarrollador Web Full-Stack💻",
+		"Explora mi portafolio💼"
+	],
 	"subtitleMobile": "Construyo sitios web y aplicaciones web. 💻😄",
 	"aboutMe": "Conoce a Fabián Blanco Wuest",
 	"presentation": [
@@ -17,7 +22,7 @@
 	"education": "Educación",
 	"educationDescription": "Soy graduado de una Especialización Técnica en Desarrollo de Software y he completado rigurosos bootcamps tales como \"Henry Bootcamp\", \"Egg Cooperación\" y \"Free Code Camp\", entre otros. Adicionalmente, mi objetivo es seguir la Licenciatura en Sistemas en la Universidad Tecnológica Nacional.",
 	"projects": "Mis proyectos",
-	"projectsInfo": "Estos son algunos de los proyectos que he creado recientemente...",
+	"projectsInfo": "Estos son algunos de los proyectos que he creado y/o trabajado recientemente...",
 	"letsTalk": "¡Hablemos!",
 	"contactPhrase": "Contáctame para iniciar tu proyecto de desarrollo web y haré realidad tu visión.",
 	"contactBtn": "Contacto ",

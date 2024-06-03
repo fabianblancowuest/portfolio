@@ -1,7 +1,4 @@
 document.addEventListener("DOMContentLoaded", function () {
-	const subtitle = document.querySelector(".subtitle");
-	const text = subtitle.textContent;
-
 	// Change image logo dinamically
 	const images = ["img/icons/codigo.png", "img/folder/programacion.png"]; // Rutas de las imágenes del logo
 	const logo = document.getElementById("logo-img");
@@ -19,58 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
 	// 	logoFooter.src = images[index];
 	// 	ind = (ind + 1) % images.length;
 	// }, 3000);
-
-	// typewriter effect
-	function typeWriterEffect(phrases) {
-		subtitle.textContent = "";
-
-		let currentIndex = 0;
-
-		function type() {
-			const text = phrases[currentIndex];
-			let i = 0;
-
-			function typeCharacter() {
-				if (i < text.length) {
-					subtitle.textContent += text.charAt(i);
-					i++;
-					setTimeout(typeCharacter, 100); // Velocidad de escritura en milisegundos
-				} else {
-					setTimeout(erase, 2000); // Tiempo de espera antes de borrar
-				}
-			}
-
-			typeCharacter();
-		}
-
-		function erase() {
-			const text = phrases[currentIndex];
-			let i = text.length - 1;
-
-			function eraseCharacter() {
-				if (i >= 0) {
-					subtitle.textContent = text.substring(0, i);
-					i--;
-					setTimeout(eraseCharacter, 50); // Velocidad de borrado en milisegundos
-				} else {
-					currentIndex = (currentIndex + 1) % phrases.length; // Avanzar al siguiente índice
-					setTimeout(type, 1000); // Tiempo de espera antes de empezar la próxima frase
-				}
-			}
-
-			eraseCharacter();
-		}
-
-		type();
-	}
-
-	const phrases = [
-		"I build websites and web applications👷‍♂️",
-		"Full-Stack Web Developer💻",
-		"Welcome to my portfolio💼",
-	];
-
-	typeWriterEffect(phrases); // Iniciar el efecto
+	const html = document.querySelector("html");
 });
 
 const logo = document.getElementById("logo");
@@ -162,6 +108,5 @@ document.getElementById("btn-toggle").addEventListener("click", () => {
 		button.classList.add("icon-left"); // Agrega la clase que alinea el ícono a la izquierda
 	}
 
-	console.log("click");
 	console.log(icons);
 });
