@@ -101,8 +101,11 @@ document.addEventListener("DOMContentLoaded", () => {
 			languageTexts.contactPhrase;
 		document.getElementById("contact-btn").textContent =
 			languageTexts.contactBtn;
-		document.getElementById("footer-text").textContent =
-			languageTexts.footerPhrase;
+		const footerText = document.querySelectorAll("#footer-text span");
+
+		for (let i = 0; i < footerText.length; i++) {
+			footerText[i].textContent = languageTexts.footerPhrase[i];
+		}
 		document.getElementById("btn-projects").textContent =
 			languageTexts.btnProjects;
 		document.getElementById("btn-projects").appendChild(btnProjectsIco);

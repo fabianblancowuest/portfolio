@@ -27,8 +27,8 @@
 	color: var(--text-color) !important;
 }
 
-.dark-mode-overlay {
-	color: rgb(255, 255, 255);
+.dark-mode-white-text {
+	color: #ffffff;
 }
 
 .dark-mode-btn-text {

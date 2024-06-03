@@ -27,7 +27,10 @@
 	"letsTalk": "¡Hablemos!",
 	"contactPhrase": "Contáctame para iniciar tu proyecto de desarrollo web y haré realidad tu visión.",
 	"contactBtn": "Contacto ",
-	"footerPhrase": "Aprendo y creo todos los días. Hagamos un proyecto juntos.",
+	"footerPhrase": [
+		"Aprendo y creo todos los días.",
+		"Hagamos un proyecto juntos."
+	],
 	"btnProjects": "Ver mas proyectos ",
 	"contactFormTitle": "Formulario de contacto",
 	"contactForm": ["Nombre", "Correo Electrónico", "Asunto", "Mensaje"],
