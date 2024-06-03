@@ -58,6 +58,7 @@ document.getElementById("btn-toggle").addEventListener("click", () => {
 	const linesProjectCv = document.getElementsByClassName("line-project");
 	const imgInProgress = document.getElementById("img-in-progress");
 
+	// Change img in dark mode
 	sections[0].classList.contains("dark-mode")
 		? (imgInProgress.src = "../img/folder/work-in-progress.png")
 		: (imgInProgress.src = "../img/projects/work-in-progress.png");
