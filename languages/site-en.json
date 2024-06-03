@@ -11,7 +11,11 @@
 		"Full-Stack Web Developer💻",
 		"Browse my portfolio💼"
 	],
-	"subtitleMobile": "I build websites and web applications 💻😄.",
+	"phrasesMobile": [
+		"I build websites and web apps👷‍♂️",
+		"Full-Stack Developer💻",
+		"Browse my portfolio💼"
+	],
 	"aboutMe": "Let me introduce myself",
 	"presentation": [
 		"I am a passionate developer based in Argentina, who began his career in the world of front-end development. Over time, I have expanded my skills and now specialize in developing client/server applications using the MERN and PERN stacks. My goal is to contribute to innovative and challenging projects that not only enrich my professional experience, but also mark a significant milestone in my career.",
