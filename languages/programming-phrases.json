@@ -1,15 +1,30 @@
 {
-	"phrases": [
-		"\"Programming is the art of telling another human being what one wants the computer to do. ― Donald Ervin Knuth\"",
-		"\"You might not think that programmers are artists, but programming is an extremely creative profession. It’s logic-based creativity. – John Romero\"",
-		"\"Programming is the art of algorithm design and the craft of debugging errant code. – Ellen Ullman\"",
-		"\"Any fool can write code that a computer can understand. Good programmers write code that humans can understand. ― Martin Fowler\"",
-		"\"If we want users to like our software, we should design it to behave like a likable person. – Alan Cooper\"",
-		"\"I’m not a great programmer; I’m just a good programmer with great habits. ― Kent Beck\"",
-		"\"Code is like humor. When you have to explain it, it’s bad. – Cory House\"",
-		"\"Confusion is part of programming. ― Felienne Hermans\"",
-		"\"Web development is difficult, only then it is fun to do. You just have to set your standards. If it were to be easy, would anyone do it? ― Olawale Daniel\"",
-		"\"When I wrote this code, only God and I understood what I did. Now only God knows. – Anonymous\"",
-		"\"Software and cathedrals are much the same — first we build them, then we pray.\""
-	]
+	"phrases": {
+		"en": [
+			"\"Programming is the art of telling another human being what one wants the computer to do. ― Donald Ervin Knuth\"",
+			"\"You might not think that programmers are artists, but programming is an extremely creative profession. It’s logic-based creativity. – John Romero\"",
+			"\"Programming is the art of algorithm design and the craft of debugging errant code. – Ellen Ullman\"",
+			"\"Any fool can write code that a computer can understand. Good programmers write code that humans can understand. ― Martin Fowler\"",
+			"\"If we want users to like our software, we should design it to behave like a likable person. – Alan Cooper\"",
+			"\"I’m not a great programmer; I’m just a good programmer with great habits. ― Kent Beck\"",
+			"\"Code is like humor. When you have to explain it, it’s bad. – Cory House\"",
+			"\"Confusion is part of programming. ― Felienne Hermans\"",
+			"\"Web development is difficult, only then it is fun to do. You just have to set your standards. If it were to be easy, would anyone do it? ― Olawale Daniel\"",
+			"\"When I wrote this code, only God and I understood what I did. Now only God knows. – Anonymous\"",
+			"\"Software and cathedrals are much the same — first we build them, then we pray.\""
+		],
+		"es": [
+			"\"La programación es el arte de decirle a otro ser humano lo que quiere que haga la computadora. -Donald Ervin Knuth\"",
+			"\"Puede que no pienses que los programadores sean artistas, pero la programación es una profesión extremadamente creativa. Es creatividad basada en la lógica. – John Romero\"",
+			"\"La programación es el arte del diseño de algoritmos y la habilidad para depurar código erróneo. – Ellen Ullman\"",
+			"\"Cualquier tonto puede escribir código que una computadora pueda entender. Los buenos programadores escriben código que los humanos pueden entender. ― Martin Fowler\"",
+			"\"Si queremos que a los usuarios les guste nuestro software, deberíamos diseñarlo para que se comporte como una persona agradable. – Alan Cooper\"",
+			"\"No soy un gran programador; solo soy un buen programador con grandes hábitos. ― Kent Beck\"",
+			"\"El código es como el humor. Cuando tienes que explicarlo, es malo. – Cory House\"",
+			"\"La confusión es parte de la programación. ― Felienne Hermans\"",
+			"\"El desarrollo web es difícil, solo entonces es divertido hacerlo. Solo tienes que establecer tus estándares. Si fuera fácil, ¿alguien lo haría? ― Olawale Daniel\"",
+			"\"Cuando escribí este código, solo Dios y yo entendimos lo que hice. Ahora solo Dios lo sabe. – Anónimo\"",
+			"\"El software y las catedrales son bastante similares: primero las construimos, luego rezamos.\""
+		]
+	}
 }

@@ -1,3 +1,5 @@
+const htmlLanguage = document.querySelector("html");
+
 document.addEventListener("DOMContentLoaded", function () {
 	// Change image logo dinamically
 	const images = ["img/icons/codigo.png", "img/icons/click-here.png"]; // Rutas de las imágenes del logo
@@ -26,11 +28,14 @@ logo.addEventListener("click", () => {
 		.then((response) => response.json())
 		.then((data) => {
 			console.log(data);
-			const phrases = data.phrases;
+			const phrases = data.phrases[htmlLanguage.lang];
 			if (index < phrases.length) {
+				// Sweet alert
 				Swal.fire({
 					title: phrases[index],
 					confirmButtonColor: "rgb(13,202,240)",
+					confirmButtonColorText: "red",
+					customClass: isDarkMode ? "dark-mode-alert" : null,
 				});
 				index++;
 			} else {
@@ -49,8 +54,10 @@ const navbar = document.getElementById("navbar");
 const barBtn = document.getElementById("btn-bars");
 const barBtnIcon = document.querySelector("#btn-bars span");
 const darkSections = document.getElementsByClassName("dark-section");
+let isDarkMode = false;
 
 document.getElementById("btn-toggle").addEventListener("click", () => {
+	isDarkMode = !isDarkMode;
 	navbar.classList.toggle("dark-nav-bar");
 	barBtn.classList.toggle("dark-btn-bars");
 	barBtnIcon.classList.toggle("dark-btn-bars");

@@ -3,6 +3,16 @@
 	--text-color: rgb(197, 209, 222);
 }
 
+.dark-mode-alert {
+	background-color: #22272e;
+	color: var(--text-color);
+}
+
+.light-mode-alert {
+	background-color: initial;
+	color: black;
+}
+
 .dark-mode {
 	background-color: #22272e;
 	color: var(--text-color);
