@@ -21,6 +21,8 @@ const btnSubmitForm = document.getElementById("btn-submit-form");
 const dbText = document.getElementsByClassName("database-text");
 const cvLanguages = document.querySelectorAll("#cv-languages li");
 
+const showLanguageMode = document.getElementById("language");
+
 // To consume data from any JSON file
 async function loadJSON(file) {
 	const response = await fetch(file);
@@ -34,6 +36,10 @@ async function changeLanguage(language) {
 	const languageTexts = await loadJSON(`/languages/site-${language}.json`);
 	const cvTexts = await loadJSON(`/languages/cv-${language}.json`);
 	currentLanguageTexts = languageTexts;
+
+	showLanguageMode.textContent = document
+		.querySelector("html")
+		.lang.toUpperCase();
 
 	updateContentBasedOnScreenSize(languageTexts);
 

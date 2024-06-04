@@ -54,10 +54,14 @@ const navbar = document.getElementById("navbar");
 const barBtn = document.getElementById("btn-bars");
 const barBtnIcon = document.querySelector("#btn-bars span");
 const darkSections = document.getElementsByClassName("dark-section");
+const showMode = document.getElementById("show-mode");
 let isDarkMode = false;
 
 document.getElementById("btn-toggle").addEventListener("click", () => {
 	isDarkMode = !isDarkMode;
+	isDarkMode
+		? (showMode.textContent = "Theme: Dark")
+		: (showMode.textContent = "Theme: Light");
 	navbar.classList.toggle("dark-nav-bar");
 	barBtn.classList.toggle("dark-btn-bars");
 	barBtnIcon.classList.toggle("dark-btn-bars");
@@ -120,14 +124,14 @@ document.getElementById("btn-toggle").addEventListener("click", () => {
 	const icon = document.querySelector("#btn-toggle i");
 	const button = document.getElementById("btn-toggle");
 
-	if (icon.classList.contains("bi-brightness-high")) {
-		icon.classList.remove("bi-brightness-high");
+	if (icon.classList.contains("bi-moon-stars-fill")) {
+		icon.classList.remove("bi-moon-stars-fill");
 		icon.classList.add("bi-brightness-high-fill");
 		button.classList.remove("icon-left"); // Elimina la clase que alinea el ícono a la izquierda
 		button.classList.add("icon-right"); // Agrega la clase que alinea el ícono a la derecha
 	} else {
 		icon.classList.remove("bi-brightness-high-fill");
-		icon.classList.add("bi-brightness-high");
+		icon.classList.add("bi-moon-stars-fill");
 		button.classList.remove("icon-right"); // Elimina la clase que alinea el ícono a la derecha
 		button.classList.add("icon-left"); // Agrega la clase que alinea el ícono a la izquierda
 	}

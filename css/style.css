@@ -215,12 +215,11 @@ section {
 /* About me */
 
 .about-me {
-	/* background-image: url("/img/background/freepik_5_23_12_21_9.jpg");
-	background-position: center;
-	background-size: cover; */
-	background-repeat: no-repeat;
-	height: 500px;
-	padding: 10px;
+	padding: 20px;
+}
+
+.about-me-img {
+	width: 50%;
 }
 
 .about-me .container-mine {
@@ -509,6 +508,37 @@ footer {
 .footer-text span {
 	display: block;
 	width: 100%;
+}
+
+.footer-links {
+	margin: 1.5em auto;
+}
+
+.footer-links ul {
+	display: flex;
+	gap: 1.5em;
+}
+
+.footer-links li {
+	list-style: none;
+}
+
+.footer-links a {
+	text-decoration: none;
+}
+
+.footer-info {
+	display: flex;
+	gap: 2em;
+}
+
+.footer-info > * {
+	font-family: "Qicksand", sans-serif;
+	color: #0d6efd;
+	background-color: #0a0a23;
+	padding: 0.1em 0.5em;
+	border-radius: 5px;
+	cursor: text;
 }
 
 .social-media-icons a {

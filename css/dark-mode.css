@@ -82,6 +82,7 @@
 }
 
 .btn-toggle-mode {
+	margin-left: 10px;
 	border: none;
 	background-color: transparent;
 	font-size: 1.5rem;
