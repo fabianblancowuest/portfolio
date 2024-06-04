@@ -80,7 +80,6 @@ async function changeLanguage(language) {
 		".form-control[placeholder]",
 	);
 
-	formPlaceholders.forEach((item) => console.log(item));
 	// Contact Form
 	document.getElementById("contactModalLabel").textContent =
 		languageTexts.contactFormTitle;
@@ -125,8 +124,13 @@ async function changeLanguage(language) {
 	}
 
 	for (let i = 0; i < cvProjectLinks.length; i++) {
-		for (let j = 0; j < cvProjectLinks[i].length; j++) {
-			cvProjectLinks[j].textContent = cvTexts.cvProjectLinks[j];
+		if (
+			cvProjectLinks[i].textContent.charAt(0) === "W" ||
+			cvProjectLinks[i].textContent.charAt(0) === "S"
+		) {
+			cvProjectLinks[i].textContent = cvTexts.cvProjectLinks[0];
+		} else {
+			cvProjectLinks[i].textContent = cvTexts.cvProjectLinks[1];
 		}
 	}
 

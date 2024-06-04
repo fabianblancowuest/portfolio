@@ -215,6 +215,10 @@ section {
 /* About me */
 
 .about-me {
+	/* background-image: url("/img/background/freepik_5_23_12_21_9.jpg");
+	background-position: center;
+	background-size: cover; */
+	background-repeat: no-repeat;
 	height: 500px;
 	padding: 10px;
 }
