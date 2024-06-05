@@ -516,7 +516,7 @@ footer {
 
 .footer-links ul {
 	display: flex;
-	gap: 3em;
+	gap: 2em;
 }
 
 .footer-links li {
