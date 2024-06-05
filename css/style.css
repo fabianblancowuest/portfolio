@@ -511,16 +511,19 @@ footer {
 }
 
 .footer-links {
+	max-width: 100%;
 	margin: 2.5em auto;
 	width: 100%;
+	text-align: center;
 }
 
 .footer-links ul {
-	max-width: 100%;
 	width: 500px;
+	max-width: 100%;
 	display: flex;
 	justify-content: space-evenly;
 	padding-left: 0;
+	margin: 0 auto;
 }
 
 .footer-links li {
