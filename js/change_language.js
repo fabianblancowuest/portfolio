@@ -4,6 +4,7 @@ import { updateContentBasedOnScreenSize } from "./resize.js";
 const aboutMe = document.querySelectorAll("#about-me-description p");
 const btnProjectsIco = document.getElementById("btn-projects-icon");
 const contactIco = document.getElementById("contact-icon");
+const footerLinks = document.querySelectorAll(".footer-links-a li a");
 
 // Modal elements
 const smahhTasks = document.querySelectorAll("#cv-smahh-tasks li");
@@ -81,12 +82,16 @@ async function changeLanguage(language) {
 	document.getElementById("contact-link").textContent =
 		languageTexts.nav.contactLink;
 
+	for (let i = 0; i < footerLinks.length; i++) {
+		footerLinks[i].textContent = languageTexts.footerLinks[i];
+	}
+
+	// Contact Form
 	const formLabels = document.querySelectorAll(".form-label");
 	const formPlaceholders = document.querySelectorAll(
 		".form-control[placeholder]",
 	);
 
-	// Contact Form
 	document.getElementById("contactModalLabel").textContent =
 		languageTexts.contactFormTitle;
 

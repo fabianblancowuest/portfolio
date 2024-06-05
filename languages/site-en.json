@@ -35,6 +35,7 @@
 		"I learn and create every day.",
 		"Let's do a project together."
 	],
+	"footerLinks": ["CV", "Projects", "About me", "Contact"],
 	"btnProjects": "See more projects ",
 	"contactFormTitle": "Contact Form",
 	"contactForm": ["Name", "Email address", "Subject", "Message"],
