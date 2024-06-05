@@ -13,8 +13,8 @@
 .swal2-content {
 	font-family: "Quicksand", sans-serif;
 	font-size: 1.3rem;
-	background: red;
 }
+
 .swal2-popup .swal2-actions button {
 	margin-top: 1rem;
 	font-family: Arial, sans-serif;
@@ -511,12 +511,12 @@ footer {
 }
 
 .footer-links {
-	margin: 1.5em auto;
+	margin: 2.5em auto;
 }
 
 .footer-links ul {
 	display: flex;
-	gap: 1.5em;
+	gap: 3em;
 }
 
 .footer-links li {
