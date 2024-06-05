@@ -515,6 +515,7 @@ footer {
 }
 
 .footer-links ul {
+	max-width: 100%;
 	display: flex;
 	gap: 2em;
 }
