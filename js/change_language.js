@@ -135,6 +135,13 @@ async function changeLanguage(language) {
 		mpcTasks[i].textContent = cvTexts.mpcTasks[i];
 	}
 
+	document.getElementById("cv-simpsons-description").textContent =
+		cvTexts.theSimpsonsApp;
+
+	for (let i = 0; i < simpsonsTasks.length; i++) {
+		mpcTasks[i].textContent = cvTexts.theSimpsonsAppTasks[i];
+	}
+
 	for (let i = 0; i < cvProjectLinks.length; i++) {
 		if (
 			cvProjectLinks[i].textContent.charAt(0) === "W" ||
