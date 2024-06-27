@@ -10,7 +10,7 @@ const footerLinks = document.querySelectorAll(".footer-links-a li a");
 const smahhTasks = document.querySelectorAll("#cv-smahh-tasks li");
 const rymTasks = document.querySelectorAll("#cv-rym-tasks li");
 const mpcTasks = document.querySelectorAll("#cv-mpc-tasks li");
-const simpsonsTasks = document.querySelectorAll("#cv-simpson-tasks li");
+const simpsonsTasks = document.querySelectorAll("#cv-simpsons-tasks li");
 const techUsedTitle = document.getElementsByClassName("cv-techs-used");
 const cvProjectLinks = document.querySelectorAll(".cv-project-links a");
 const sectionTitles = document.getElementsByClassName("section-subtitle");
@@ -139,7 +139,7 @@ async function changeLanguage(language) {
 		cvTexts.theSimpsonsApp;
 
 	for (let i = 0; i < simpsonsTasks.length; i++) {
-		mpcTasks[i].textContent = cvTexts.theSimpsonsAppTasks[i];
+		simpsonsTasks[i].textContent = cvTexts.theSimpsonsAppTasks[i];
 	}
 
 	for (let i = 0; i < cvProjectLinks.length; i++) {
