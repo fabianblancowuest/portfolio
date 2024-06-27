@@ -18,15 +18,14 @@
 		"Work with cascading style sheets with the CSS design language.",
 		"No CSS frameworks or libraries were used."
 	],
-	"theSimpsonsApp": "This project involves a responsive application themed around the TV series "The Simpsons." Upon entering the site, cards with information and images of all the characters from the series are displayed. Additionally, it is possible to access the details of each character by clicking on their card. The application includes a character search functionality through a search input, a section with the history of the series, and an About Me section. The application is entirely developed with HTML, CSS, and Vanilla JavaScript, without using any JavaScript libraries or frameworks, although the CSS framework Bootstrap was employed. This application demonstrates my skills in the use of Vanilla JavaScript, such as DOM manipulation, API consumption, asynchrony, array and object iteration, etc.",
+	"theSimpsonsApp": "This project involves a responsive application themed around the TV series The Simpsons. Upon entering the site, cards with information and images of all the characters from the series are displayed. Additionally, it is possible to access the details of each character by clicking on their card. The application includes a character search functionality through a search input, a section with the history of the series, and an About Me section. The application is entirely developed with HTML, CSS, and Vanilla JavaScript, without using any JavaScript libraries or frameworks, although the CSS framework Bootstrap was employed. This application demonstrates my skills in the use of Vanilla JavaScript, such as DOM manipulation, API consumption, asynchrony, array and object iteration, etc.",
 	"theSimpsonsAppTasks": [
 		"Designed and developed an app featuring dynamic rendering of character cards",
-	"Character search by name",
-	"Access to character details",
-	"Intuitive navigation through different pages of the project",
-	"100% responsive design",
-	"No JavaScript libraries or frameworks used"
-
+		"Character search by name",
+		"Access to character details",
+		"Intuitive navigation through different pages of the project",
+		"100% responsive design",
+		"No JavaScript libraries or frameworks used"
 	],
 	"cvProjectLinks": ["Website", "Repository on GitHub"],
 	"sectionTitle": [
