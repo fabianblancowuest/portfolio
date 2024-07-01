@@ -2,4 +2,4 @@
 
 <p>Here I include my skills, experience, projects and much more</p>
 
-<a href="https://fabianblancowuest.netlify.app/" target="_blank">Visit it!</a>
+<a href="https://fabianblancowuest.netlify.app/" target="_blank" rel="noopener noreferrer">Visit it!</a>
