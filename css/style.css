@@ -1,6 +1,6 @@
 :root {
 	--background-color: #f5f6f7;
-	--dark-color: #1b1b32;
+	--dark-color: #14191e;
 }
 
 /* Sweet Alert */
@@ -176,6 +176,16 @@ section {
 	color: #615151;
 }
 
+.hero-inferior-image-container {
+	width: 100%;
+	text-align: center;
+}
+
+.hero-inferior-image {
+	max-width: 100%;
+	border-radius: 10px;
+}
+
 #subtitle {
 	height: 2rem;
 }
@@ -216,6 +226,10 @@ section {
 
 .about-me {
 	padding: 20px;
+	font-family: "Quicksand", sans-serif;
+	font-weight: 400;
+	letter-spacing: 1px;
+	line-height: 2;
 }
 
 .about-me-img {
@@ -223,7 +237,7 @@ section {
 }
 
 .about-me .container-mine {
-	max-width: 800px;
+	max-width: 1000px;
 	text-align: center;
 }
 
