@@ -194,8 +194,9 @@ section {
 	/* text-align: center; */
 	margin-top: 3em;
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: center;
-	gap: 0 4em;
+	gap: 2em 4em;
 }
 
 .hero-inferior-image {
