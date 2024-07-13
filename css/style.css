@@ -229,6 +229,9 @@ section {
 /* About me */
 
 .about-me {
+	display: flex;
+	flex-direction: column;
+	gap: 4em;
 	padding: 20px;
 	font-family: "Quicksand", sans-serif;
 	font-weight: 400;
