@@ -120,6 +120,7 @@ section {
 
 .text-section {
 	font-size: 1.1rem;
+	max-width: 1200px;
 	/* letter-spacing: 0.1rem; */
 	font-weight: bold;
 }
@@ -231,8 +232,13 @@ section {
 	padding: 20px;
 	font-family: "Quicksand", sans-serif;
 	font-weight: 400;
-	line-height: 1.9;
+	line-height: 2;
 	height: 100vh;
+	text-align: center;
+}
+
+.about-me-description {
+	/* max-width: 1000px; */
 }
 
 .about-me-img {
@@ -240,7 +246,7 @@ section {
 }
 
 .about-me .container-mine {
-	max-width: 1000px;
+	max-width: 1200px;
 	text-align: center;
 }
 
