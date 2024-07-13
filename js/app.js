@@ -2,7 +2,11 @@ const htmlLanguage = document.querySelector("html");
 
 document.addEventListener("DOMContentLoaded", function () {
 	// Change image logo dinamically
-	const images = ["img/icons/codigo.png", "img/icons/click-here.png"]; // Rutas de las imágenes del logo
+	const images = [
+		"img/icons/codigo.png",
+		"img/icons/click-here.png",
+		"/img/icons/js.png",
+	]; // Rutas de las imágenes del logo
 	const logo = document.getElementById("logo-img");
 	let index = 0;
 
