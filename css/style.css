@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+
 :root {
 	--background-color: #f8f8ff;
 	--dark-color: #14191e;
@@ -119,10 +121,11 @@ section {
 }
 
 .text-section {
-	font-size: 1.1rem;
+	font-size: 1rem;
 	max-width: 1200px;
 	/* letter-spacing: 0.1rem; */
 	font-weight: bold;
+	text-shadow: 1px 1px 5px black;
 }
 
 .btn-info {
@@ -167,7 +170,7 @@ section {
 /* Hero Section */
 
 .hero {
-	background-color: var(--background-color);
+	background-color: rgba(248, 248, 255, 0.142);
 	min-height: 450px;
 	text-align: center;
 }
@@ -241,7 +244,16 @@ section {
 }
 
 .about-me-description {
-	/* max-width: 1000px; */
+	max-width: 1000px;
+	margin: 0 auto;
+	/* font-family: "Merriweather", serif; */
+	letter-spacing: 1px;
+	/* border: solid 0.1px white; */
+	color: rgba(255, 255, 255, 0.765);
+	border-radius: 10px;
+	padding: 2em 6em;
+	box-shadow: 0.5px 0.5px 0.5px 3px rgba(148, 148, 148, 0.217);
+	background-color: rgb(32, 37, 42);
 }
 
 .about-me-img {
