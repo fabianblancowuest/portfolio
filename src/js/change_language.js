@@ -35,8 +35,8 @@ let currentLanguageTexts;
 
 // To change language
 async function changeLanguage(language) {
-	const languageTexts = await loadJSON(`/languages/site-${language}.json`);
-	const cvTexts = await loadJSON(`/languages/cv-${language}.json`);
+	const languageTexts = await loadJSON(`/src/languages/site-${language}.json`);
+	const cvTexts = await loadJSON(`/src/languages/cv-${language}.json`);
 	currentLanguageTexts = languageTexts;
 
 	showLanguageMode.textContent = document
@@ -186,7 +186,7 @@ async function changeLanguage(language) {
 
 	// to download cv depending on the language
 	const downloadCVRoute = document.getElementById("link-download-cv");
-	downloadCVRoute.href = `./docs/CV-fabian-blanco-wuest-${language}.pdf`;
+	downloadCVRoute.href = `../docs/CV-fabian-blanco-wuest-${language}.pdf`;
 	downloadCVRoute.download = `CV-fabian-blanco-wuest-${language}.pdf`;
 }
 
