@@ -19,5 +19,9 @@
 	"bugs": {
 		"url": "https://github.com/fabianblancowuest/portfolio/issues"
 	},
-	"homepage": "https://github.com/fabianblancowuest/portfolio#readme"
+	"homepage": "https://github.com/fabianblancowuest/portfolio#readme",
+	"devDependencies": {
+		"webpack": "^5.93.0",
+		"webpack-cli": "^5.1.4"
+	}
 }
