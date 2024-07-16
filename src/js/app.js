@@ -24,7 +24,7 @@ const logo = document.getElementById("logo");
 let index = 0;
 
 logo.addEventListener("click", () => {
-	fetch("../languages/programming-phrases.json")
+	fetch("/src/languages/programming-phrases.json")
 		.then((response) => response.json())
 		.then((data) => {
 			console.log(data);
