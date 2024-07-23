@@ -30,6 +30,12 @@
 	width: 50vw;
 }
 
+@media (max-width: 768px) {
+	.swal2-popup {
+		width: 100vw;
+	}
+}
+
 /* General styles */
 
 section {
@@ -713,7 +719,13 @@ footer {
 
 @media screen and (max-width: 768px) {
 	.navbar-brand {
-		display: none;
+		position: absolute;
+		right: 5px;
+		top: 20px;
+	}
+
+	.navbar-brand img {
+		width: 50px;
 	}
 
 	.navbar {
