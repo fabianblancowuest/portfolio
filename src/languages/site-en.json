@@ -19,7 +19,8 @@
 	"aboutMe": "Let me introduce myself",
 	"presentation": [
 		"I am a passionate developer based in Argentina, who began his career in the world of front-end development. Over time, I have expanded my skills and now specialize in developing client/server applications using the MERN and PERN stacks. My goal is to contribute to innovative and challenging projects that not only enrich my professional experience, but also mark a significant milestone in my career.",
-		"Below you will find a selection of my most recent projects. Each one of them reflects my dedication, creativity and technical skills. If something you see catches your attention or if you have any collaboration proposals, do not hesitate to contact me. I am always open to new opportunities and challenges."
+		"Below you will find a selection of my most recent projects. Each one of them reflects my dedication, creativity and technical skills. If something you see catches your attention or if you have any collaboration proposals, do not hesitate to contact me. I am always open to new opportunities and challenges.",
+		"Explore my portfolio, you will find my projects, my resume, programmer phrases, a form where you can contact me and more."
 	],
 	"webDevelopment": "Web Development",
 	"webDevelopmentDescription": "Full Stack Developer with training in JavaScript, ReactJS, Node.js, Nextjs, TypeScript, Java, Express, CSS, HTML, MongoDB, Postgre SQL and Sequelize, specialized in Front-end. Knowledge of agile methodologies, GIT, UX, UI, data structure, algorithms.",
