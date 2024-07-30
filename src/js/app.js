@@ -79,7 +79,7 @@ document.addEventListener("DOMContentLoaded", function () {
 		// cambio de ícono del footer
 		isDarkMode
 			? (logoImgFooter.src = "/src/assets/img/icons/codigo3.png")
-			: (logoImgFooter.src = "/src/assets/img/icons/codigo2.png");
+			: null;
 
 		navbar.classList.toggle("dark-nav-bar");
 		barBtn.classList.toggle("dark-btn-bars");
