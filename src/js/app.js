@@ -22,6 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
 	const logoImg = document.getElementById("logo-img");
 	const logoImgFooter = document.getElementById("logo-img-footer");
 	const logo = document.getElementById("logo");
+	const selectLanguage = document.getElementById("select-language");
 	const sections = document.getElementsByClassName("section");
 	const texts = document.getElementsByClassName("text");
 	const icons = document.getElementsByClassName("icon");
@@ -65,6 +66,27 @@ document.addEventListener("DOMContentLoaded", function () {
 			.catch((error) => console.log("Error fetching the JSON:", error));
 	});
 
+	function focusSelect() {
+		// document.getElementById("language-selector").focus();
+		// document.getElementById("language-selector").click();
+		// console.log(document.getElementById("language-selector"));
+		// console.log("Hiciste click en select language");
+
+		const selectElement = document.getElementById("language-selector");
+		selectElement.focus();
+		// Usar un temporizador para asegurarse de que el focus ocurra antes del click
+		setTimeout(() => {
+			const event = new MouseEvent("mousedown", {
+				view: window,
+				bubbles: true,
+				cancelable: true,
+			});
+			selectElement.dispatchEvent(event);
+		}, 0);
+	}
+
+	selectLanguage.addEventListener("click", focusSelect);
+
 	document.getElementById("btn-toggle").addEventListener("click", () => {
 		isDarkMode = !isDarkMode;
 		isDarkMode
@@ -80,6 +102,10 @@ document.addEventListener("DOMContentLoaded", function () {
 		isDarkMode
 			? (logoImgFooter.src = "/src/assets/img/icons/codigo3.png")
 			: null;
+
+		isDarkMode
+			? (selectLanguage.textContent.style.color = "#C7C8C9")
+			: (selectLanguage.textContent.style.color = "initial");
 
 		navbar.classList.toggle("dark-nav-bar");
 		barBtn.classList.toggle("dark-btn-bars");

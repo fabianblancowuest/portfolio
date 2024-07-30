@@ -60,9 +60,54 @@ section {
 	/* margin-left: 16px; */
 }
 
+.select-language {
+	display: flex;
+	align-items: center;
+	/* background-color: rgb(197, 209, 222); */
+	border-radius: 5px;
+	/* padding: 0 8px; */
+	border: 1px solid #ccc;
+}
+
+.select-language i {
+	font-size: 1.3rem;
+	margin-right: 5px;
+	padding: 4px 4px;
+	padding-left: 12px;
+}
+
+.select-language:focus-within {
+	border-color: #007bff; /* Color del borde cuando el select está enfocado */
+	box-shadow: 0 0 0 0.3rem rgba(38, 143, 255, 0.25); /* Opcional: sombra de enfoque */
+}
+
 .form-select {
-	background-color: rgb(197, 209, 222);
+	background-color: transparent;
+	border: none;
 	font-weight: bold;
+	cursor: pointer;
+	padding-top: 8px;
+	padding-bottom: 8px;
+
+	/* background-image: url("https://e7.pngegg.com/pngimages/317/643/png-clipart-globe-world-map-globe-miscellaneous-globe-thumbnail.png");
+	background-repeat: no-repeat;
+	background-size: 16px 16px;
+	background-position: right 0.75rem center; */
+}
+
+.form-select:active {
+	box-shadow: none;
+	outline: none !important;
+}
+
+.form-select:focus {
+	outline: none !important;
+}
+
+select:focus {
+	outline: none !important;
+	box-shadow: none !important; /* Bootstrap usa box-shadow para el enfoque */
+	/* border-color: initial !important; Ajusta el color del borde si es necesario */
 }
 
 @media (min-width: 1200px) {
