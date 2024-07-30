@@ -103,9 +103,9 @@ document.addEventListener("DOMContentLoaded", function () {
 			? (logoImgFooter.src = "/src/assets/img/icons/codigo3.png")
 			: null;
 
-		isDarkMode
-			? (selectLanguage.textContent.style.color = "#C7C8C9")
-			: (selectLanguage.textContent.style.color = "initial");
+		// isDarkMode
+		// 	? (selectLanguage.textContent.style.color = "#C7C8C9")
+		// 	: (selectLanguage.textContent.style.color = "initial");
 
 		navbar.classList.toggle("dark-nav-bar");
 		barBtn.classList.toggle("dark-btn-bars");
