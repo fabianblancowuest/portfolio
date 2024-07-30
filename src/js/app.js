@@ -23,6 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
 	const logoImgFooter = document.getElementById("logo-img-footer");
 	const logo = document.getElementById("logo");
 	const selectLanguage = document.getElementById("select-language");
+	const languageSelector = document.getElementById("language-selector");
 	const sections = document.getElementsByClassName("section");
 	const texts = document.getElementsByClassName("text");
 	const icons = document.getElementsByClassName("icon");
@@ -103,9 +104,15 @@ document.addEventListener("DOMContentLoaded", function () {
 			? (logoImgFooter.src = "/src/assets/img/icons/codigo3.png")
 			: null;
 
-		// isDarkMode
-		// 	? (selectLanguage.textContent.style.color = "#C7C8C9")
-		// 	: (selectLanguage.textContent.style.color = "initial");
+		isDarkMode
+			? (logoImgFooter.src = "/src/assets/img/icons/codigo3.png")
+			: null;
+
+		isDarkMode
+			? (languageSelector.style.backgroundImage =
+					"url(/src/assets/img/icons/globe-white.svg)")
+			: (languageSelector.style.backgroundImage =
+					"url(/src/assets/img/icons/globe.svg)");
 
 		navbar.classList.toggle("dark-nav-bar");
 		barBtn.classList.toggle("dark-btn-bars");
@@ -121,6 +128,10 @@ document.addEventListener("DOMContentLoaded", function () {
 			.classList.toggle("dark-mode-white-text");
 
 		document.getElementById("btn-download-cv").classList.toggle("btn-light");
+
+		document
+			.getElementById("language-selector")
+			.classList.toggle("dark-mode-select");
 
 		for (let i = 0; i < darkSections.length; i++) {
 			darkSections[i].classList.toggle("dark-sections-mode");

@@ -37,6 +37,15 @@
 	color: var(--text-color) !important;
 }
 
+.dark-mode-select {
+	color: var(--text-color) !important;
+}
+
+.dark-mode-select option {
+	color: var(--text-color);
+	background-color: #22272e;
+}
+
 .dark-mode-white-text {
 	color: #ffffff;
 }

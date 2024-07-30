@@ -65,16 +65,16 @@ section {
 	align-items: center;
 	/* background-color: rgb(197, 209, 222); */
 	border-radius: 5px;
-	/* padding: 0 8px; */
-	border: 1px solid #ccc;
+	padding: 0 8px;
+	/* border: 1px solid #ccc; */
 }
 
-.select-language i {
+/* .select-language i {
 	font-size: 1.3rem;
 	margin-right: 5px;
 	padding: 4px 4px;
 	padding-left: 12px;
-}
+} */
 
 .select-language:focus-within {
 	border-color: #007bff; /* Color del borde cuando el select está enfocado */
@@ -89,10 +89,10 @@ section {
 	padding-top: 8px;
 	padding-bottom: 8px;
 
-	/* background-image: url("https://e7.pngegg.com/pngimages/317/643/png-clipart-globe-world-map-globe-miscellaneous-globe-thumbnail.png");
+	background-image: url(/src/assets/img/icons/globe.svg);
 	background-repeat: no-repeat;
-	background-size: 16px 16px;
-	background-position: right 0.75rem center; */
+	background-size: 24px 24px;
+	background-position: right 0.25rem center;
 }
 
 .form-select:active {
