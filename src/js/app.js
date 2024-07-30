@@ -40,7 +40,8 @@ document.addEventListener("DOMContentLoaded", function () {
 	const button = document.getElementById("btn-toggle");
 	const overlayItems = document.getElementsByClassName("overlay");
 
-	// let index = 0;
+	// Inicio del array que devuelve las frases del archivo programming-phrases.json
+	let index = 0;
 
 	logo.addEventListener("click", () => {
 		fetch("/src/languages/programming-phrases.json")
