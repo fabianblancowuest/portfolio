@@ -114,6 +114,10 @@ document.addEventListener("DOMContentLoaded", function () {
 			: (languageSelector.style.backgroundImage =
 					"url(/src/assets/img/icons/globe.svg)");
 
+		document
+			.getElementsByClassName("active")[0]
+			.classList.toggle("dark-mode-active");
+
 		navbar.classList.toggle("dark-nav-bar");
 		barBtn.classList.toggle("dark-btn-bars");
 		barBtnIcon.classList.toggle("dark-btn-bars");
