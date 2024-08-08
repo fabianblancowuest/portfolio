@@ -261,7 +261,8 @@ select:focus {
 	display: inline-block;
 	width: 0.15em;
 	margin-left: 0.15em;
-	height: 1.1em;
+	position: absolute;
+	height: 1.3em;
 	background-color: orange;
 	animation: blink 0.5s infinite;
 }
