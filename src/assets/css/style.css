@@ -157,6 +157,7 @@ select:focus {
 .light-section {
 	color: black;
 	background-color: var(--background-color);
+	background-color: #e6e6fa;
 }
 
 .title-section {
@@ -394,9 +395,11 @@ select:focus {
 
 .experience {
 	padding: 40px 40px 60px 40px;
+	min-height: 100vh;
 }
 
 .experience .row {
+	padding-top: 60px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -404,6 +407,7 @@ select:focus {
 
 .experience .column {
 	height: 500px;
+
 	width: 500px;
 	font-size: 1.05rem;
 }
@@ -451,6 +455,7 @@ select:focus {
 
 .projects {
 	padding: 40px;
+	min-height: 100vh;
 }
 
 .projects img {
