@@ -14,6 +14,7 @@
     <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <!-- CSS -->
+    <link rel="stylesheet" href="/src/assets/css/nav.css">
     <link rel="stylesheet" href="/src/assets/css/style.css">
     <link rel="stylesheet" href="/src/assets/css/modals.css">
     <link rel="stylesheet" href="/src/assets/css/dark-mode.css">
@@ -65,8 +66,7 @@
                                 class="bi bi-moon-stars-fill"></i></button>
                     </li>
                     <li class="nav-item">
-                        <a id="cv-link" class="nav-link nav-link-small" href="#cv" data-toggle="modal"
-                            data-target="#cvModal">CV</a>
+                        <a id="cv-link" class="nav-link" href="#cv" data-toggle="modal" data-target="#cvModal">CV</a>
                     </li>
                     <li class="nav-item">
                         <a id="about-me-link" class="nav-link active" aria-current="page" href="#about-me">About me</a>
@@ -143,12 +143,12 @@
     </section>
     <!-- Experience -->
     <section class="experience light-section section">
+        <h2 id="experience-description" class="title-section">Experiencia</h2>
         <div class="container text-center">
-            <h2 class="title-section">Experiencia</h2>
             <div class="row">
                 <!-- Web Development -->
                 <div class="column col-12 col-md-6">
-                    <i class="bi bi-laptop"></i>
+                    <i class="description-i bi bi-laptop"></i>
                     <p id="web-development-title" class="title-experience">Web Development</p>
                     <p id="web-development-description">Full Stack Developer with training in JavaScript, ReactJS,
                         Node.js, Java, Express, CSS, HTML,
@@ -169,7 +169,7 @@
                 <!-- Student -->
                 <div class="column col-12 col-md-6">
                     <!-- <i class="bi bi-highlighter"></i> -->
-                    <i class="bi bi-mortarboard"></i>
+                    <i class="description-i bi-mortarboard"></i>
                     <p id="education-title" class="title-experience">Education</p>
                     <p id="education-description">
                         I hold a degree in Technological Specialization in Software Development and have completed
@@ -188,6 +188,10 @@
                 </div>
             </div>
         </div>
+        <a data-target="#cvModal" data-toggle="modal">
+            <button id="btn-experience" class="btn btn-info">Resume <i id="resume-ico"
+                    class="bi bi-file-earmark-person-fill"></i></button>
+        </a>
     </section>
     <!-- Projects -->
     <section id="projects" class="projects light-section d-flex flex-column section">

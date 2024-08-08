@@ -19,6 +19,7 @@ const closeCvIco = document.getElementById("close-cv-ico");
 const technologies = document.getElementsByClassName("technology-text");
 const btnFormIco = document.getElementById("btn-submit-ico");
 const btnSubmitForm = document.getElementById("btn-submit-form");
+const btnResumeIco = document.getElementById("resume-ico");
 
 const dbText = document.getElementsByClassName("database-text");
 const cvLanguages = document.querySelectorAll("#cv-languages li");
@@ -50,6 +51,8 @@ async function changeLanguage(language) {
 	for (let i = 0; i < aboutMe.length; i++) {
 		aboutMe[i].textContent = languageTexts.presentation[i];
 	}
+	document.getElementById("experience-description").textContent =
+		languageTexts.experience;
 	document.getElementById("web-development-title").textContent =
 		languageTexts.webDevelopment;
 	document.getElementById("web-development-description").textContent =
@@ -58,6 +61,10 @@ async function changeLanguage(language) {
 		languageTexts.education;
 	document.getElementById("education-description").textContent =
 		languageTexts.educationDescription;
+	document.getElementById("btn-experience").textContent =
+		languageTexts.btnExperience;
+
+	document.getElementById("btn-experience").appendChild(btnResumeIco);
 	document.getElementById("projects-title").textContent =
 		languageTexts.projects;
 	document.getElementById("projects-description").textContent =
