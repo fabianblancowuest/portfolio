@@ -41,6 +41,16 @@ document.addEventListener("DOMContentLoaded", function () {
 	const icon = document.querySelector("#btn-toggle i");
 	const button = document.getElementById("btn-toggle");
 	const overlayItems = document.getElementsByClassName("overlay");
+	const aboutMeDescription = document.getElementById("about-me-description");
+	const techImages = document.getElementById("hero-inferior-image-container");
+
+	// aboutMeDescription.addEventListener("pointerover", () => {
+	// 	techImages.style.flexDirection = "row-reverse";
+	// });
+
+	// aboutMeDescription.addEventListener("pointerout", () => {
+	// 	techImages.style.flexDirection = "";
+	// });
 
 	// Inicio del array que devuelve las frases del archivo programming-phrases.json
 	let index = 0;
