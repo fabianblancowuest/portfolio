@@ -251,14 +251,6 @@ section {
 	transition: 0.8s ease-in-out;
 }
 
-.about-me-description:hover {
-	/* transform: scale(1.5); */
-	margin-bottom: 50px;
-}
-
-.about-me-description:hover img {
-}
-
 @media (max-width: 900px) {
 	.about-me-description {
 		padding: 1em;
