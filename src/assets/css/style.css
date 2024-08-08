@@ -248,15 +248,22 @@ select:focus {
 	height: 2rem;
 }
 
-.subtitle {
+/* .subtitle {
 	border-right: 0.15em solid orange; /* El borde derecho que simula el cursor parpadeante */
-	white-space: nowrap; /* Evita que el texto se rompa */
-	overflow: hidden; /* Oculta el texto que desborda el contenedor */
-	animation: typing 4s steps(40, end), blink-caret 0.5s step-end infinite; /* Animación para el efecto de máquina de escribir */
-}
+/* white-space: nowrap; Evita que el texto se rompa */
+/* overflow: hidden; Oculta el texto que desborda el contenedor */
+/* width: 0; Comienza con un ancho de 0 */
+/* animation: blink-caret blink-caret 0.7s step-end infinite; Animación para el cursor parpadeante */
+/* } */
 
-.mobile {
-	display: none;
+/* Estilos para el cursor del efecto de máquina de escribir */
+.typing-cursor {
+	display: inline-block;
+	width: 0.15em;
+	margin-left: 0.15em;
+	height: 1.1em;
+	background-color: orange;
+	animation: blink 0.5s infinite;
 }
 
 /* Animación de escritura */
@@ -278,6 +285,22 @@ select:focus {
 	50% {
 		border-color: orange;
 	}
+}
+
+@keyframes blink {
+	0% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.mobile {
+	display: none;
 }
 
 /* About me */
