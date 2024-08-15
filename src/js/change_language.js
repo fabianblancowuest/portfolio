@@ -85,6 +85,8 @@ async function changeLanguage(language) {
 	document.getElementById("cv-link").textContent = languageTexts.nav.cvLink;
 	document.getElementById("about-me-link").textContent =
 		languageTexts.nav.aboutMeLink;
+	document.getElementById("experience-link").textContent =
+		languageTexts.nav.experienceLink;
 	document.getElementById("projects-link").textContent =
 		languageTexts.nav.projectsLink;
 	document.getElementById("contact-link").textContent =
