@@ -305,7 +305,7 @@ section {
 .experience .column {
 	height: 500px;
 	width: 500px;
-	font-size: 1.05rem;
+	font-size: 1rem;
 }
 
 .experience .column {
@@ -318,11 +318,17 @@ section {
 	transition: all 0.2s ease-in;
 	box-shadow: 3px 3px 7px rgba(255, 255, 255, 0.3);
 	border-radius: 5px;
+	background-color: var(--dark-color);
+	color: white;
+	transition: 0.5s ease-in-out;
 }
 
 .experience .column:hover {
-	color: white;
-	background-color: var(--dark-color);
+	/* opacity: 0.5; */
+	/* transform: scale(1.025); */
+	/* margin: 0 30px; */
+	background-color: black;
+	/* margin: 0 7px; */
 }
 
 .experience .description-i {
@@ -332,6 +338,11 @@ section {
 	padding: 8px 16px;
 	border-radius: 50%;
 }
+
+/* @media screen and (max-width: 768px) {
+	.experience .column:hover {
+	}
+} */
 
 .link-btn {
 	width: 200px;
@@ -719,7 +730,7 @@ footer {
 	}
 
 	.about-me .text-section {
-		font-size: 1.05rem;
+		font-size: 0.9rem;
 	}
 
 	.experience,
