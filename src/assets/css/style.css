@@ -218,11 +218,11 @@ section {
 	/* border: solid 0.1px white; */
 	color: rgba(255, 255, 255, 0.765);
 	border-radius: 10px;
-	padding: 2em 6em;
+	padding: 4em 6em;
 	/* box-shadow: 0.5px 0.5px 0.5px 3px rgba(148, 148, 148, 0.217); */
 	background-color: rgb(32, 37, 42);
 	text-align: justify;
-	box-shadow: 3px 3px 7px rgba(255, 255, 255, 0.3);
+	box-shadow: 3px 3px 15px rgba(255, 255, 255, 0.3);
 	transition: 0.8s ease-in-out;
 }
 
