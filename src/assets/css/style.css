@@ -109,31 +109,6 @@ section {
 	color: white;
 }
 
-/* Navbar */
-
-.navbar {
-	padding: 2rem;
-	background-color: var(--background-color);
-}
-
-.navbar-collapse {
-	align-items: center;
-	justify-content: flex-end;
-}
-
-.navbar-brand {
-	animation: ilustrationAnimate ease-in 1s infinite alternate;
-}
-
-@keyframes ilustrationAnimate {
-	0% {
-		transform: scale(1);
-	}
-	100% {
-		transform: scale(1.1);
-	}
-}
-
 /* Hero Section */
 
 .hero {
@@ -734,24 +709,6 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-	.navbar-brand {
-		position: absolute;
-		right: 5px;
-		top: 20px;
-	}
-
-	.navbar-brand img {
-		width: 50px;
-	}
-
-	.navbar {
-		padding-bottom: 1em;
-	}
-
-	.mobile {
-		display: block;
-	}
-
 	.hero-principal {
 		padding-top: 1em;
 		padding-bottom: 1em;
@@ -778,11 +735,6 @@ footer {
 
 	.projects .btn-info {
 		margin-bottom: 120px;
-	}
-
-	.navbar li a {
-		font-size: 1.2rem;
-		margin-top: 10px;
 	}
 }
 
