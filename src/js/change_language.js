@@ -82,7 +82,7 @@ async function changeLanguage(language) {
 		languageTexts.btnProjects;
 	document.getElementById("btn-projects").appendChild(btnProjectsIco);
 	document.getElementById("contact-btn").appendChild(contactIco);
-	document.getElementById("cv-link").textContent = languageTexts.nav.cvLink;
+	// document.getElementById("cv-link").textContent = languageTexts.nav.cvLink;
 	document.getElementById("about-me-link").textContent =
 		languageTexts.nav.aboutMeLink;
 	document.getElementById("experience-link").textContent =
