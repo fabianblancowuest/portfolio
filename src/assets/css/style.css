@@ -630,6 +630,10 @@ footer {
 	text-decoration: none;
 }
 
+.footer-links-a li {
+	font-size: 1.1rem;
+}
+
 .footer-info {
 	display: flex;
 	gap: 2em;
