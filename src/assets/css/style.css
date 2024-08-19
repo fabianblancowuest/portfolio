@@ -673,9 +673,14 @@ footer {
 }
 
 .copyright {
+	margin-top: 20px;
+	width: 100%;
+	text-align: center;
 	font-size: 15px;
-	color: #aeaeae;
-	padding: 20px;
+	/* color: #aeaeae; */
+	color: white;
+	padding: 10px;
+	background-color: #0f0f14;
 }
 
 /* Responsive design */
