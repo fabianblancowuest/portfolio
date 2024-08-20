@@ -211,6 +211,9 @@ document.addEventListener("DOMContentLoaded", function () {
 		// CV sections subtitle
 		for (let i = 0; i < sectionsSubtitle.length; i++) {
 			sectionsSubtitle[i].classList.toggle("dark-mode-white-text");
+		}
+
+		for (let i = 0; i < sectionsSubtitle.length; i++) {
 			sectionsSubtitle[i].classList.toggle("dark-mode-black-background");
 		}
 
