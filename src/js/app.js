@@ -64,6 +64,8 @@ document.addEventListener("DOMContentLoaded", function () {
 	const aboutMeDescription = document.getElementById("about-me-description");
 	const techImages = document.getElementById("hero-inferior-image-container");
 
+	const sectionsSubtitle = document.getElementsByClassName("section-subtitle");
+
 	// aboutMeDescription.addEventListener("pointerover", () => {
 	// 	techImages.style.flexDirection = "row-reverse";
 	// });
@@ -204,6 +206,12 @@ document.addEventListener("DOMContentLoaded", function () {
 		// Texts from form contact
 		for (let i = 0; i < formsLabels.length; i++) {
 			formsLabels[i].classList.toggle("dark-mode-white-text");
+		}
+
+		// CV sections subtitle
+		for (let i = 0; i < sectionsSubtitle.length; i++) {
+			sectionsSubtitle[i].classList.toggle("dark-mode-white-text");
+			sectionsSubtitle[i].classList.toggle("dark-mode-black-background");
 		}
 
 		if (icon.classList.contains("bi-moon-stars-fill")) {

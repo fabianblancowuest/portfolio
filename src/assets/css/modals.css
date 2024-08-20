@@ -26,6 +26,10 @@
 	font-size: 0.9rem;
 }
 
+.cv-title {
+	font-weight: bold;
+}
+
 .cv-modal button {
 	font-size: 0.9rem !important;
 }

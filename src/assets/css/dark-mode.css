@@ -50,6 +50,10 @@
 	color: #ffffff;
 }
 
+.dark-mode-black-background {
+	background-color: black;
+}
+
 .dark-mode-btn-text {
 	color: white;
 	text-shadow: 1px 1px 3px black;
