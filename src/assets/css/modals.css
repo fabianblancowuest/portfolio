@@ -86,7 +86,16 @@
 
 .cv-download {
 	width: fit-content;
-	margin-left: 0.5em;
+	margin-left: 1em;
+}
+
+.cv-see {
+	margin-left: 1em;
+}
+
+.cv-see i {
+	font-size: 1.1rem;
+	color: black;
 }
 
 .bi-download {

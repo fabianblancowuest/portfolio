@@ -449,8 +449,14 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="cvModalLabel">Curriculum Vitae</h5>
+                    <!-- Button download CV -->
                     <a href="./docs/CV-fabian-blanco-wuest.pdf" download="CV-fabian-blanco-wuest.pdf"
                         class="cv-download"><i id="btn-download-cv-i" class="bi bi-download btn-modal-dark"></i></a>
+                    <!-- Button see CV -->
+                    <a id="link-see-cv" href="/docs/CV-fabian-blanco-wuest-en.pdf" target="_blank"
+                        rel="noopener noreferrer" class="cv-see">
+                        <i id="btn-view-cv-i" class="bi bi-eye-fill btn-modal-dark"></i>
+                    </a>
                     <button type="button" class="btn-close btn-modal-dark" data-dismiss="modal" aria-label="Close">
                         <!-- <span aria-hidden="true">&times;</span> -->
                     </button>
@@ -709,6 +715,11 @@
                             download="CV-fabian-blanco-wuest.pdf" class="cv-download">
                             <button id="btn-download-cv" class="btn btn-secondary">Descargar CV <i id="download-cv-ico"
                                     class="bi bi-cloud-arrow-down-fill"></i></button>
+                        </a>
+                        <a id="link-see-cv" href="/docs/CV-fabian-blanco-wuest-en.pdf" target="_blank"
+                            rel="noopener noreferrer">
+                            <button id="btn-view-cv" class="btn btn-success">Ver CV in PDF <i id="view-cv-ico"
+                                    class="bi bi-eye-fill"></i></button>
                         </a>
                     </div>
                     <div class="modal-footer">

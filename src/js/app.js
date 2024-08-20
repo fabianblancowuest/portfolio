@@ -195,6 +195,7 @@ document.addEventListener("DOMContentLoaded", function () {
 		document
 			.getElementById("btn-download-cv-i")
 			.classList.toggle("dark-mode-text");
+		document.getElementById("btn-view-cv-i").classList.toggle("dark-mode-text");
 
 		for (let i = 0; i < overlayItems.length; i++) {
 			overlayItems[i].classList.toggle("dark-mode-white-text");
