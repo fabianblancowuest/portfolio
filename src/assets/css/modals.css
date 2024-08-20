@@ -21,10 +21,23 @@
 	line-height: 2;
 }
 
+.cv-modal p,
+.cv-modal li {
+	font-size: 0.9rem;
+}
+
+.cv-modal button {
+	font-size: 0.9rem !important;
+}
+
 .cv-header {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+}
+
+.cv-header h2 {
+	font-size: 1.7rem;
 }
 
 .cv-header h2,
@@ -42,6 +55,7 @@
 
 .cv-info {
 	/* margin-bottom: 1em; */
+	font-size: 0.9rem;
 }
 .cv-header-links {
 	text-align: center;
@@ -57,14 +71,22 @@
 	width: 100%;
 	font-weight: bold;
 	margin: 1em 0;
-	background-color: rgba(220, 220, 220, 0.2);
-	/* letter-spacing: 1px; */
+	background-color: rgba(220, 220, 220, 1);
+	padding: 5px;
+	letter-spacing: 1px;
+	font-size: 1.3rem;
 }
 
 .cv-project-title h3 {
-	font-size: 1.5rem;
+	font-size: 1.3rem;
 	font-weight: bold;
 	margin-top: 0.5em;
+}
+
+.cv-techs-used {
+	font-size: 1.1rem;
+	letter-spacing: 1px;
+	font-weight: bold;
 }
 
 .cv-project-links {
