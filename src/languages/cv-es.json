@@ -54,6 +54,7 @@
 		"Argentina Programa – Primera Etapa. 2023."
 	],
 	"languages": ["Inglés B2 - Upper Intermediate", "Español Nativo"],
-	"btnDownload": "Descargar CV ",
+	"btnDownload": "Descargar CV en PDF ",
+	"btnView": "Ver CV en PDF ",
 	"btnClose": "Cerrar "
 }

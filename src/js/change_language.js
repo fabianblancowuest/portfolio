@@ -15,6 +15,7 @@ const techUsedTitle = document.getElementsByClassName("cv-techs-used");
 const cvProjectLinks = document.querySelectorAll(".cv-project-links a");
 const sectionTitles = document.getElementsByClassName("section-subtitle");
 const downloadCvIco = document.getElementById("download-cv-ico");
+const viewCvIco = document.getElementById("view-cv-ico");
 const closeCvIco = document.getElementById("close-cv-ico");
 const technologies = document.getElementsByClassName("technology-text");
 const btnFormIco = document.getElementById("btn-submit-ico");
@@ -181,7 +182,10 @@ async function changeLanguage(language) {
 			cvTexts.complementaryEducation[i];
 	}
 	document.getElementById("btn-download-cv").textContent = cvTexts.btnDownload;
+	document.getElementById("btn-view-cv").textContent = cvTexts.btnView;
 	document.getElementById("btn-download-cv").appendChild(downloadCvIco);
+
+	document.getElementById("btn-view-cv").appendChild(viewCvIco);
 	document.getElementById("btn-close-cv").textContent = cvTexts.btnClose;
 
 	document.getElementById("btn-close-cv").appendChild(closeCvIco);

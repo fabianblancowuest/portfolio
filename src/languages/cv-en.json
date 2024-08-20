@@ -54,6 +54,7 @@
 		"Argentina Programming - First Stage. 2023."
 	],
 	"languages": ["English B2 - Upper Intermediate", "Native Spanish"],
-	"btnDownload": "Download CV ",
+	"btnDownload": "Download CV in PDF ",
+	"btnView": "View Resume in PDF ",
 	"btnClose": "Close "
 }
