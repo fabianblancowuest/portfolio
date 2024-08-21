@@ -139,6 +139,10 @@
 	margin: 1em 0;
 }
 
+.btn-cv {
+	width: 200px;
+}
+
 @media (max-width: 768px) {
 	.btn-download-cv {
 		flex-direction: column;
@@ -211,7 +215,7 @@
 .btn-submit {
 	display: block;
 	margin: 0 auto;
-	width: 130px;
+	width: 180px;
 }
 
 @media (min-width: 700px) and (max-width: 900px) {
