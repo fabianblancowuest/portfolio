@@ -82,7 +82,7 @@
 }
 
 .cv-project-title h3 {
-	font-size: 1.3rem;
+	font-size: 1.2rem;
 	font-weight: bold;
 	margin-top: 0.5em;
 }
@@ -112,7 +112,6 @@
 
 .cv-download {
 	width: fit-content;
-	margin-left: 1em;
 }
 
 .cv-see {
@@ -130,9 +129,18 @@
 }
 
 .btn-download-cv {
-	display: block;
-	text-align: center;
+	display: flex;
+	justify-content: center;
+	gap: 1em;
 	margin: 1em 0;
+}
+
+@media (max-width: 768px) {
+	.btn-download-cv {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
 }
 
 .btn-download-cv button {
@@ -145,7 +153,7 @@
 
 .btn-close-cv {
 	display: block;
-	width: 130px;
+	width: 180px;
 }
 
 @media (max-width: 700px) {
