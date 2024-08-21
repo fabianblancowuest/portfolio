@@ -114,6 +114,10 @@
 	width: fit-content;
 }
 
+#btn-download-cv-i {
+	margin-left: 0.5em;
+}
+
 .cv-see {
 	margin-left: 1em;
 }
