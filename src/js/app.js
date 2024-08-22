@@ -1,3 +1,5 @@
+let isDarkMode = false;
+
 document.addEventListener("DOMContentLoaded", function () {
 	// Animación para que vayan apareciendo los elementos mediante el scroll
 	const elements = document.querySelectorAll(".appear");
@@ -18,8 +20,6 @@ document.addEventListener("DOMContentLoaded", function () {
 	elements.forEach((element) => {
 		observer.observe(element);
 	});
-
-	let isDarkMode = false;
 
 	// Change image logo dinamically
 	// const images = ["img/icons/codigo.png", "img/icons/click-here.png"]; // Rutas de las imágenes del logo
@@ -119,16 +119,6 @@ document.addEventListener("DOMContentLoaded", function () {
 	}
 
 	selectLanguage.addEventListener("click", focusSelect);
-
-	if (isDarkMode && htmlLanguage.lang === "en") {
-		button.title = "Switch to light theme";
-	} else if (isDarkMode && htmlLanguage.lang === "es") {
-		button.title = "Cambiar a tema claro";
-	} else if (!isDarkMode && htmlLanguage.lang === "en") {
-		button.title = "Switch to dark theme";
-	} else if (!isDarkMode && htmlLanguage.lang === "es") {
-		button.title = "Cambiar a tema oscuro";
-	}
 
 	document.getElementById("btn-toggle").addEventListener("click", () => {
 		isDarkMode = !isDarkMode;
@@ -240,3 +230,5 @@ document.addEventListener("DOMContentLoaded", function () {
 		}
 	});
 });
+
+export { isDarkMode };

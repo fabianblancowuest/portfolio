@@ -4,7 +4,8 @@
 		"aboutMeLink": "About me",
 		"experienceLink": "Experience",
 		"projectsLink": "Projects",
-		"contactLink": "Contact"
+		"contactLink": "Contact",
+		"switchTheme": "Switch to dark/light theme"
 	},
 	"hi": "Hi, I'm Fabián Blanco Wuest",
 	"phrases": [

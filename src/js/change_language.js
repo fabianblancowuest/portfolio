@@ -1,6 +1,8 @@
 import { updateContentBasedOnScreenSize } from "./resize.js";
+import { isDarkMode } from "./app.js";
 
 // Content elements
+const btnToggleTheme = document.getElementById("btn-toggle");
 const aboutMe = document.querySelectorAll("#about-me-description p");
 const btnProjectsIco = document.getElementById("btn-projects-icon");
 const contactIco = document.getElementById("contact-icon");
@@ -46,6 +48,8 @@ async function changeLanguage(language) {
 		.lang.toUpperCase();
 
 	updateContentBasedOnScreenSize(languageTexts);
+
+	btnToggleTheme.title = languageTexts.nav.switchTheme;
 
 	document.getElementById("title").textContent = languageTexts.hi;
 	document.getElementById("about-me-title").textContent = languageTexts.aboutMe;
