@@ -11,10 +11,16 @@ document.addEventListener("DOMContentLoaded", () => {
 		// Change language atributte
 		html.lang = selectedLanguage;
 		console.log(html.lang);
+		if (html.lang === "en") {
+			languageSelector.title = "Change language to spanish";
+		} else {
+			languageSelector.title = "Cambiar al idioma inglés";
+		}
 	});
 
 	// Establece el idioma inicial
 
 	changeLanguage(languageSelector.value);
+
 	console.log("select language");
 });

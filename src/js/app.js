@@ -120,6 +120,16 @@ document.addEventListener("DOMContentLoaded", function () {
 
 	selectLanguage.addEventListener("click", focusSelect);
 
+	if (isDarkMode && htmlLanguage.lang === "en") {
+		button.title = "Switch to light theme";
+	} else if (isDarkMode && htmlLanguage.lang === "es") {
+		button.title = "Cambiar a tema claro";
+	} else if (!isDarkMode && htmlLanguage.lang === "en") {
+		button.title = "Switch to dark theme";
+	} else if (!isDarkMode && htmlLanguage.lang === "es") {
+		button.title = "Cambiar a tema oscuro";
+	}
+
 	document.getElementById("btn-toggle").addEventListener("click", () => {
 		isDarkMode = !isDarkMode;
 		isDarkMode
