@@ -205,6 +205,10 @@ async function changeLanguage(language) {
 	const downloadCVRoute = document.getElementById("link-download-cv");
 	downloadCVRoute.href = `../docs/CV-fabian-blanco-wuest-${language}.pdf`;
 	downloadCVRoute.download = `CV-fabian-blanco-wuest-${language}.pdf`;
+
+	// to view cv depending on the language
+	const viewCVRoute = document.getElementById("link-view-cv");
+	viewCVRoute.href = `../../docs/CV-fabian-blanco-wuest-${language}.pdf`;
 }
 
 export { changeLanguage, currentLanguageTexts };
