@@ -155,9 +155,9 @@ document.addEventListener("DOMContentLoaded", function () {
 		barBtnIcon.classList.toggle("dark-btn-bars");
 
 		// Change img in dark mode
-		sections[0].classList.contains("dark-mode")
-			? (imgInProgress.src = "/src/assets/img/folder/work-in-progress.png")
-			: (imgInProgress.src = "/src/assets/img/projects/work-in-progress.png");
+		// sections[0].classList.contains("dark-mode")
+		// 	? (imgInProgress.src = "/src/assets/img/folder/work-in-progress.png")
+		// 	: (imgInProgress.src = "/src/assets/img/projects/work-in-progress.png");
 
 		document
 			.getElementById("contactModalLabel")
