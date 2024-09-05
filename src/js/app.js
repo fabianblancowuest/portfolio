@@ -56,7 +56,7 @@ document.addEventListener("DOMContentLoaded", function () {
 	const showMode = document.getElementById("show-mode");
 	const buttons = document.getElementsByClassName("btn");
 	const linesProjectCv = document.getElementsByClassName("line-project");
-	const imgInProgress = document.getElementById("img-in-progress");
+	// const imgInProgress = document.getElementById("img-in-progress");
 	const formsLabels = document.getElementsByClassName("form-label");
 	const icon = document.querySelector("#btn-toggle i");
 	const button = document.getElementById("btn-toggle");
