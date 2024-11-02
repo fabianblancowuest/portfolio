@@ -87,6 +87,12 @@
 	margin-top: 0.5em;
 }
 
+.project-date {
+	display: block;
+	text-align: right;
+	margin: 0.5em 0;
+}
+
 .cv-techs-used {
 	font-size: 1.1rem;
 	letter-spacing: 1px;
