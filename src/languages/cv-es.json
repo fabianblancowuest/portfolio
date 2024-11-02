@@ -11,12 +11,13 @@
 		"Diseñar y desarrollar una App para estudiantes que incluye: Login de usuario, registro de usuario en base de datos, búsqueda de personajes de la serie, acceso a detalles, guardado en favoritos, filtrado por nombre y género.",
 		"Desarrollar varías páginas de navegación como Home, About y Favorites."
 	],
-	"mpc": "Este proyecto se centra en una aplicación responsive de venta de números, para un sorteo que se realiza el día de la madre en Argentina en el año 2024. Donde el usuario elige uno o más números para participar de dicho sorteo, luego elige los premios en los que desea participar y por último selecciona el método de pago.",
+	"mpc": "Este proyecto se centra en una aplicación responsive de venta de números, para un sorteo que se realizará a fines de Diciembre del año 2024. Donde el usuario elige uno o más números para participar de dicho sorteo, luego elige los premios en los que desea participar y por último selecciona el método de pago.",
 	"mpcTasks": [
-		"Diseñar la maquetación de la aplicación web resposive (optimizada para teléfonos y tablets).",
-		"Maquetador único y principal del proyecto.",
+		"Desarrollador Front-End, estoy a cargo de la lógica del lado del cliente, la maquetación y la interfaz de usuario",
+		"Maquetar la aplicación web resposive (optimizada para teléfonos y tablets).",
 		"Trabajar con hojas de estilos en cascada con el lenguaje de diseño CSS.",
-		"No se utilizaron frameworks ni librerías de CSS."
+		"No se utilizaron frameworks ni librerías de CSS.",
+		"Trabajar con Vanilla JavaScript, manipulación del DOM, validaciones, programación asíncrona"
 	],
 	"theSimpsonsApp": "Este proyecto consiste en una aplicación responsive con temática de la serie de televisión Los Simpson. Al ingresar al sitio, se muestran tarjetas con información e imágenes de todos los personajes de la serie. Además, es posible acceder al detalle de cada personaje al hacer clic en su tarjeta. La aplicación incluye una funcionalidad de búsqueda de personajes a través de un input de búsqueda, una sección con la historia de la serie y una sección Acerca de mí. La aplicación está desarrollada completamente con HTML, CSS y Vanilla JavaScript, sin utilizar bibliotecas o frameworks de JavaScript, aunque se empleó el framework CSS Bootstrap. En esta aplicación se demuestran mis habilidades en el uso de Vanilla JavaScript, como la manipulación del DOM, el consumo de APIs, la asincronía, y la iteración de arreglos y objetos, etc.",
 	"theSimpsonsAppTasks": [

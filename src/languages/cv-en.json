@@ -11,12 +11,13 @@
 		"Design and develop an App for students that includes: User login, user registration in database, search for characters of the series, access to details, saving in favourites, filtering by name and gender.",
 		"Develop various navigation pages such as Home, About and Favorites."
 	],
-	"mpc": "This project focuses on a responsive application for selling numbers, for a draw that takes place on Mother's Day in Argentina in the year 2024. Where the user chooses one or more numbers to participate in said draw, then chooses the prizes in those who wish to participate and finally select the payment method.",
+	"mpc": "This project focuses on a responsive number selling application, for a draw that will take place at the end of December 2024. From where the user chooses one or more numbers to participate in the draw, he then chooses the prizes he wants participate and finally select the payment method.",
 	"mpcTasks": [
-		"Design the layout of the responsive web application (optimized for phones and tablets).",
-		"Sole and main layout designer of the project.",
-		"Work with cascading style sheets with the CSS design language.",
-		"No CSS frameworks or libraries were used."
+		"Front-End Developer, I'm in charge of client-side logic, layout and user interface",
+		"Designing the responsive web application (optimized for phones and tablets)",
+		"Working with cascade style packs with the CSS design language.",
+		"No frameworks or CSS libraries are used.",
+		"Working with Vanilla JavaScript, DOM manipulation, validations, asynchronous programming"
 	],
 	"theSimpsonsApp": "This project involves a responsive application themed around the TV series The Simpsons. Upon entering the site, cards with information and images of all the characters from the series are displayed. Additionally, it is possible to access the details of each character by clicking on their card. The application includes a character search functionality through a search input, a section with the history of the series, and an About Me section. The application is entirely developed with HTML, CSS, and Vanilla JavaScript, without using any JavaScript libraries or frameworks, although the CSS framework Bootstrap was employed. This application demonstrates my skills in the use of Vanilla JavaScript, such as DOM manipulation, API consumption, asynchrony, array and object iteration, etc.",
 	"theSimpsonsAppTasks": [
