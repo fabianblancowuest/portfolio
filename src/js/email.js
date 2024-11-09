@@ -1,7 +1,7 @@
 (function () {
 	// https://dashboard.emailjs.com/admin/account
 	emailjs.init({
-		publicKey: "Qj-2BHcvaJJZlfg9O",
+		publicKey: "9JCn0c1qVcEraVknh",
 	});
 })();
 
