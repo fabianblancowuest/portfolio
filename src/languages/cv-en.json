@@ -1,4 +1,18 @@
 {
+	"months": [
+		"January",
+		"February",
+		"March",
+		"April",
+		"May",
+		"June",
+		"July",
+		"August",
+		"September",
+		"October",
+		"November",
+		"December"
+	],
 	"cvInfo": "Full Stack Developer with experience in web development technologies such as JavaScript, React.js, TypeScript, Next.js, Node.js, Express, HTML, CSS, Bootstrap, and databases like MongoDB, PostgreSQL, and Sequelize. Strong skills in Agile methodologies, Git, UX/UI, data structures, and algorithms. Skilled in creating and maintaining scalable applications, integrating both frontend and backend, and managing data architecture. Possesses a problem-solving mindset, adaptability, and self-motivation, with an Upper Intermediate level of English.",
 	"smahh": "Developed a responsive web application for cybersecurity service sales, designed to address real challenges in managing these services within a business environment.",
 	"smahhTasks": [
