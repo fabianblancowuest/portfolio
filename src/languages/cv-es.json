@@ -1,40 +1,38 @@
 {
-	"cvInfo": "Full Stack Developer con formación en JavaScript, ReactJS, Node.js, Java, Express, CSS, Bootstrap, HTML, MongoDB, Postgre SQL y Sequelize. Conocimientos en metodologías ágiles, GIT, UX, UI, estructura de datos, algoritmos. Experiencia en desarrollo de Front End y Back End / arquitectura de datos. Con actitud positiva, adaptabilidad, análisis de problemas y automotivación. Nivel de Inglés: Upper Intermediate.",
-	"smahh": "Este proyecto se centró en el desarrollo de una aplicación para la venta de servicios de ciberseguridad, simulando la implementación de soluciones tecnológicas en un entorno empresarial. Aunque el nombre \"Smahh\" es ficticio, el proyecto se diseñó para abordar desafíos reales en la venta y gestión de servicios de ciberseguridad.",
+	"cvInfo": "Full Stack Developer con experiencia en tecnologías de desarrollo web como JavaScript, React.js, TypeScript, Next.js, Node.js, Express, HTML, CSS, Bootstrap y bases de datos como MongoDB, PostgreSQL y Sequelize. Sólidos conocimientos en metodologías ágiles, Git, UX/UI, estructuras de datos y algoritmos. Experiencia en la creación y mantenimiento de aplicaciones escalables, integrando tanto frontend como backend y gestionando la arquitectura de datos. Poseo una actitud orientada a la resolución de problemas, adaptabilidad y capacidad de automotivación, con un nivel de inglés Upper Intermediate.",
+	"smahh": "Desarrollo de una aplicación web responsive orientada a la venta de servicios de ciberseguridad, diseñada para abordar desafíos reales en la gestión de estos servicios en un entorno empresarial.",
 	"smahhTasks": [
-		"Diseñar y desarrollar una App responsive para clientes que incluye: Login de usuario, registro de usuario en base de datos, envío de formulario y email, alta de tickets de venta de servicios de ciberseguridad.",
-		"Desarrollar Landing Page, Dashboard, About, Services."
+		"Funcionalidades implementadas: Creación de un sistema de autenticación, registro de usuarios, envío de formularios y correo electrónico, y gestión de tickets de venta para servicios de ciberseguridad.",
+		"Diseño y navegación: Desarrollo de varias secciones como Landing Page, Dashboard, About y Services, con una interfaz intuitiva y profesional para clientes.",
+		"Responsabilidades: Responsable del diseño y desarrollo de la interfaz en React.js y CSS, implementando una arquitectura de frontend escalable."
 	],
 	"techsUsed": "Tecnologías utilizadas:",
-	"rym": "Este Proyecto se centró en el desarrollo de una aplicación basada en la famosa serie de televisión “Rick and Morty” en la cual se puede acceder a tarjetas con información de los personajes de la serie a través del consumo del api oficial de Rick and Morty.",
+	"rym": "Desarrollo de una aplicación web inspirada en la serie “Rick and Morty”, que permite a los usuarios explorar y gestionar personajes mediante el consumo de la API oficial.",
 	"rymTasks": [
-		"Diseñar y desarrollar una App para estudiantes que incluye: Login de usuario, registro de usuario en base de datos, búsqueda de personajes de la serie, acceso a detalles, guardado en favoritos, filtrado por nombre y género.",
-		"Desarrollar varías páginas de navegación como Home, About y Favorites."
+		"Funcionalidades principales: Creación de un sistema de autenticación y registro de usuarios, búsqueda de personajes, visualización de detalles, guardado en favoritos y filtrado por nombre y género.",
+		"Navegación y experiencia de usuario: Desarrollo de varias páginas de navegación como Home, About, y Favorites, proporcionando una experiencia de usuario fluida.",
+		"Responsabilidades técnicas: Diseño de la interfaz en React.js con manejo de estados mediante Redux; implementación del backend con Node.js y Express; gestión y consulta de datos en PostgreSQL mediante Sequelize."
 	],
-	"mpc": "Este proyecto se centra en una aplicación responsive de venta de números, para un sorteo que se realizará a fines de Diciembre del año 2024. Donde el usuario elige uno o más números para participar de dicho sorteo, luego elige los premios en los que desea participar y por último selecciona el método de pago.",
+	"mpc": "Desarrollo de una aplicación web responsive para la venta de números de sorteo, donde los usuarios pueden seleccionar sus números, elegir premios y procesar su pago. El sorteo está programado para fin de diciembre de 2024.",
 	"mpcTasks": [
-		"Desarrollador Front-End, estoy a cargo de la lógica del lado del cliente, la maquetación y la interfaz de usuario",
-		"Maquetar la aplicación web resposive (optimizada para teléfonos y tablets).",
-		"Trabajar con hojas de estilos en cascada con el lenguaje de diseño CSS.",
-		"No se utilizaron frameworks ni librerías de CSS.",
-		"Trabajar con Vanilla JavaScript, manipulación del DOM, validaciones, programación asíncrona"
+		"Maquetación y diseño web: Responsable único de la maquetación de la aplicación y de crear una interfaz de usuario amigable y adaptada para teléfonos y tablets.",
+		"Lógica de cliente y UI: Implementación de la lógica del cliente para manejar la selección de números, premios y métodos de pago.",
+		"Tecnologías utilizadas: HTML, CSS para el diseño de la interfaz; JavaScript para la funcionalidad interactiva y lógica de la aplicación."
 	],
-	"theSimpsonsApp": "Este proyecto consiste en una aplicación responsive con temática de la serie de televisión Los Simpson. Al ingresar al sitio, se muestran tarjetas con información e imágenes de todos los personajes de la serie. Además, es posible acceder al detalle de cada personaje al hacer clic en su tarjeta. La aplicación incluye una funcionalidad de búsqueda de personajes a través de un input de búsqueda, una sección con la historia de la serie y una sección Acerca de mí. La aplicación está desarrollada completamente con HTML, CSS y Vanilla JavaScript, sin utilizar bibliotecas o frameworks de JavaScript, aunque se empleó el framework CSS Bootstrap. En esta aplicación se demuestran mis habilidades en el uso de Vanilla JavaScript, como la manipulación del DOM, el consumo de APIs, la asincronía, y la iteración de arreglos y objetos, etc.",
+	"theSimpsonsApp": "Desarrollo de una aplicación web responsive basada en “Los Simpson”, que muestra tarjetas con información e imágenes de los personajes de la serie. La aplicación permite explorar detalles de cada personaje, buscar por nombre y navegar por secciones adicionales como la historia de la serie y una página \"Acerca de mí\".",
 	"theSimpsonsAppTasks": [
-		"Diseñar y desarrollar una app que incluye renderizado dinámico de tarjetas de personajes",
-		"Búsqueda de personajes por nombre",
-		"Acceso a detalle de personajes",
-		"Navegación intuitiva por las distintas páginas del proyecto",
-		"Diseño 100% responsive.",
-		"No se utilizaron bibliotecas ni frameworks de JavaScript."
+		"Diseño y desarrollo de la interfaz: Creación de un diseño intuitivo y 100% responsive, optimizado para diversos dispositivos.",
+		"Renderizado dinámico y manipulación del DOM: Implementación de renderizado dinámico de tarjetas de personajes, sin el uso de frameworks o librerías de JavaScript.",
+		"Funcionalidad de búsqueda: Desarrollo de un buscador de personajes que permite filtrar por nombre.",
+		"Consumo de API y asincronía: Utilización de JavaScript para consumir una API, manejar la asincronía y gestionar datos."
 	],
 	"cvProjectLinks": ["Sitio Web", "Repositorio en GitHub"],
 	"sectionTitle": [
-		"PROYECTOS PRINCIPALES",
-		"TECNOLOGÍAS",
-		"EDUCACIÓN PROFESIONAL",
-		"EDUCACIÓN COMPLEMENTARIA",
-		"IDIOMAS"
+		"EXPERIENCIA: ",
+		"TECNOLOGÍAS: ",
+		"EDUCACIÓN PROFESIONAL: ",
+		"EDUCACIÓN COMPLEMENTARIA: ",
+		"IDIOMAS: "
 	],
 	"textDatabase": "Bases de Datos",
 	"technologies": [

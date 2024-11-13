@@ -1,9 +1,10 @@
 {
-	"cvInfo": "Full Stack Developer with background in JavaScript, ReactJS, Node.js, Java, Express, CSS, Bootstrap, HTML, MongoDB, PostgreSQL and Sequelize, specialized in Front-end. Knowledge in agile methodologies, GIT, UX, UI, data structure, algorithms. Experience in Front End and Back End development / data architecture. Positive attitude, adaptability, problem analysis and self-motivation. English level: Upper Intermediate.",
-	"smahh": "This project focused on the development of an application for the sale of cybersecurity services, simulating the implementation of technological solutions in a business environment. Although the name \"Smahh\" is fictitious, the project was designed to address real challenges in selling and managing cybersecurity services.",
+	"cvInfo": "Full Stack Developer with experience in web development technologies such as JavaScript, React.js, TypeScript, Next.js, Node.js, Express, HTML, CSS, Bootstrap, and databases like MongoDB, PostgreSQL, and Sequelize. Strong skills in Agile methodologies, Git, UX/UI, data structures, and algorithms. Skilled in creating and maintaining scalable applications, integrating both frontend and backend, and managing data architecture. Possesses a problem-solving mindset, adaptability, and self-motivation, with an Upper Intermediate level of English.",
+	"smahh": "Developed a responsive web application for cybersecurity service sales, designed to address real challenges in managing these services within a business environment.",
 	"smahhTasks": [
-		"Design and develop a responsive App for clients that includes: User login, user registration in database, form and email submission, registration of cybersecurity services sales tickets.",
-		"Develop Landing Page, Dashboard, About, Services."
+		"Implemented functionalities: Created a user authentication system, registration, form and email submission, and ticket management for cybersecurity services.",
+		"Design and navigation: Developed sections including Landing Page, Dashboard, About, and Services with an intuitive and professional interface for clients.",
+		"Responsibilities: Responsible for the UI design and development using React.js and CSS, implementing a scalable frontend architecture."
 	],
 	"techsUsed": "Technologies used:",
 	"rym": "This project focused on the development of an application based on the famous TV series \"Rick and Morty\" in which you can access cards with information about the characters of the series through the consumption of the official API of Rick and Morty.",
@@ -11,29 +12,27 @@
 		"Design and develop an App for students that includes: User login, user registration in database, search for characters of the series, access to details, saving in favourites, filtering by name and gender.",
 		"Develop various navigation pages such as Home, About and Favorites."
 	],
-	"mpc": "This project focuses on a responsive number selling application, for a draw that will take place at the end of December 2024. From where the user chooses one or more numbers to participate in the draw, he then chooses the prizes he wants participate and finally select the payment method.",
+	"mpc": "Developed a responsive web application for a raffle number sales platform where users can select numbers, choose prizes, and process payments. The raffle is scheduled for the end of December 2024.",
 	"mpcTasks": [
-		"Front-End Developer, I'm in charge of client-side logic, layout and user interface",
-		"Designing the responsive web application (optimized for phones and tablets)",
+		"Web layout and design: Solely responsible for the application's layout, creating a user-friendly interface optimized for mobile devices and tablets.",
+		"Client-side logic and UI:  Implemented client-side logic for number selection, prize choices, and payment methods.",
 		"Working with cascade style packs with the CSS design language.",
-		"No frameworks or CSS libraries are used.",
-		"Working with Vanilla JavaScript, DOM manipulation, validations, asynchronous programming"
+		"Technologies used: HTML, CSS for UI design; JavaScript for interactive functionality and application logic."
 	],
-	"theSimpsonsApp": "This project involves a responsive application themed around the TV series The Simpsons. Upon entering the site, cards with information and images of all the characters from the series are displayed. Additionally, it is possible to access the details of each character by clicking on their card. The application includes a character search functionality through a search input, a section with the history of the series, and an About Me section. The application is entirely developed with HTML, CSS, and Vanilla JavaScript, without using any JavaScript libraries or frameworks, although the CSS framework Bootstrap was employed. This application demonstrates my skills in the use of Vanilla JavaScript, such as DOM manipulation, API consumption, asynchrony, array and object iteration, etc.",
+	"theSimpsonsApp": "Developed a responsive web application based on “The Simpsons,” displaying character cards with information and images. Users can explore character details, search by name, and navigate additional sections like series history and an \"About Me\" page.  ",
 	"theSimpsonsAppTasks": [
-		"Designed and developed an app featuring dynamic rendering of character cards",
-		"Character search by name",
+		"UI design and development: Created an intuitive and 100% responsive design optimized for various devices.",
 		"Access to character details",
-		"Intuitive navigation through different pages of the project",
-		"100% responsive design",
-		"No JavaScript libraries or frameworks used"
+		"Dynamic rendering and DOM manipulation: Implemented dynamic rendering of character cards without using JavaScript frameworks or libraries.",
+		"Search functionality: Developed a character search feature with name filtering.",
+		"API consumption and asynchrony: Used JavaScript to consume an API, manage asynchrony, and handle data."
 	],
 	"cvProjectLinks": ["Website", "Repository on GitHub"],
 	"sectionTitle": [
-		"PRINCIPAL PROJECTS",
-		"TECHNOLOGIES",
-		"PROFESSIONAL EDUCATION",
-		"COMPLEMENTARY EDUCATION",
+		"EXPERIENCE: ",
+		"TECHNOLOGIES: ",
+		"PROFESSIONAL EDUCATION: ",
+		"COMPLEMENTARY EDUCATION: ",
 		"LANGUAGES"
 	],
 	"textDatabase": "Database",
