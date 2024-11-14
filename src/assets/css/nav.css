@@ -128,3 +128,13 @@ select:focus {
 		letter-spacing: 1px;
 	}
 }
+
+.btn-arrow {
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+}
+
+.arrow {
+	font-size: 3rem;
+}
