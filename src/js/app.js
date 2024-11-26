@@ -217,6 +217,21 @@ document.addEventListener("DOMContentLoaded", function () {
 			sectionsSubtitle[i].classList.toggle("dark-mode-black-background");
 		}
 
+		// Arrow nav
+		// const scrollArrow = document.querySelector("#scroll-arrow i");
+		// const section = document.querySelector(".contact");
+
+		// window.addEventListener("scroll", () => {
+		// 	const rect = section.getBoundingClientRect();
+		// 	if (rect.top >= 0 && rect.bottom <= window.innerHeight) {
+		// 		// Si la sección es visible
+		// 		scrollArrow.style.color = "white"; // Cambia el color
+		// 	} else {
+		// 		// Si no está en la sección
+		// 		scrollArrow.style.color = "inherit";
+		// 	}
+		// });
+
 		if (icon.classList.contains("bi-moon-stars-fill")) {
 			icon.classList.remove("bi-moon-stars-fill");
 			icon.classList.add("bi-brightness-high-fill");

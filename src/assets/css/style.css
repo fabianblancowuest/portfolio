@@ -386,7 +386,7 @@ section {
 }
 
 .projects img {
-	/* height: 100%; */
+	height: 220px;
 	width: 100%;
 	padding: 10px;
 	border: 10px;
