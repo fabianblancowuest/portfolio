@@ -26,12 +26,11 @@
 		"Design and develop an App for students that includes: User login, user registration in database, search for characters of the series, access to details, saving in favourites, filtering by name and gender.",
 		"Develop various navigation pages such as Home, About and Favorites."
 	],
-	"mpc": "Developed a responsive web application for a raffle number sales platform where users can select numbers, choose prizes, and process payments. The raffle is scheduled for the end of December 2024.",
+	"mpc": "Responsible for the development and maintenance of the company's systems frontend, acting as the main interface developer.",
 	"mpcTasks": [
-		"Web layout and design: Solely responsible for the application's layout, creating a user-friendly interface optimized for mobile devices and tablets.",
-		"Client-side logic and UI:  Implemented client-side logic for number selection, prize choices, and payment methods.",
-		"Working with cascade style packs with the CSS design language.",
-		"Technologies used: HTML, CSS for UI design; JavaScript for interactive functionality and application logic."
+		"Web design and layout: Design and development of intuitive interfaces optimized for mobile devices and tablets, ensuring a fluid and accessible user experience.",
+		"Client-side logic and UI implementation: Development of interactive features and client-side logic, ensuring a seamless connection between the frontend and the backend.",
+		"HTML and CSS: Creating responsive and adaptive visual components; JavaScript: Developing dynamic and interactive features, improving the usability and efficiency of systems."
 	],
 	"theSimpsonsApp": "Developed a responsive web application based on “The Simpsons,” displaying character cards with information and images. Users can explore character details, search by name, and navigate additional sections like series history and an \"About Me\" page.  ",
 	"theSimpsonsAppTasks": [

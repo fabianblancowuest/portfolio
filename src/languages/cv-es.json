@@ -27,11 +27,11 @@
 		"Navegación y experiencia de usuario: Desarrollo de varias páginas de navegación como Home, About, y Favorites, proporcionando una experiencia de usuario fluida.",
 		"Responsabilidades técnicas: Diseño de la interfaz en React.js con manejo de estados mediante Redux; implementación del backend con Node.js y Express; gestión y consulta de datos en PostgreSQL mediante Sequelize."
 	],
-	"mpc": "Desarrollo de una aplicación web responsive para la venta de números de sorteo, donde los usuarios pueden seleccionar sus números, elegir premios y procesar su pago. El sorteo está programado para fin de diciembre de 2024.",
+	"mpc": "Responsable del desarrollo y mantenimiento del frontend de los sistemas de la empresa, actuando como principal desarrollador de interfaces.",
 	"mpcTasks": [
-		"Maquetación y diseño web: Responsable único de la maquetación de la aplicación y de crear una interfaz de usuario amigable y adaptada para teléfonos y tablets.",
-		"Lógica de cliente y UI: Implementación de la lógica del cliente para manejar la selección de números, premios y métodos de pago.",
-		"Tecnologías utilizadas: HTML, CSS para el diseño de la interfaz; JavaScript para la funcionalidad interactiva y lógica de la aplicación."
+		"Maquetación y diseño web: Diseño y desarrollo de interfaces intuitivas, optimizadas para dispositivos móviles y tablets, garantizando una experiencia de usuario fluida y accesible.",
+		"Implementación de lógica del cliente y UI: Desarrollo de funcionalidades interactivas y la lógica del cliente, asegurando la conexión fluida entre la interfaz y el backend.",
+		"HTML y CSS: Creación de componentes visuales responsivos y adaptativos.; JavaScript: Desarrollo de funcionalidades dinámicas e interactivas, mejorando la usabilidad y eficiencia de los sistemas."
 	],
 	"theSimpsonsApp": "Desarrollo de una aplicación web responsive basada en “Los Simpson”, que muestra tarjetas con información e imágenes de los personajes de la serie. La aplicación permite explorar detalles de cada personaje, buscar por nombre y navegar por secciones adicionales como la historia de la serie y una página \"Acerca de mí\".",
 	"theSimpsonsAppTasks": [

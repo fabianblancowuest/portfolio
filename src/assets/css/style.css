@@ -5,6 +5,12 @@
 	--dark-color: #14191e;
 }
 
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
 /* Sweet Alert */
 
 .swal2-title {
@@ -399,6 +405,25 @@ section {
 	margin-bottom: 40px;
 }
 
+.container-cards-projects {
+	display: flex;
+	justify-content: space-evenly;
+	gap: 20px;
+}
+
+.card-project {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border-radius: 10px;
+	box-shadow: 0px 1px 4px 1px blue;
+	min-height: 500px;
+	background-color: #0a0a23;
+	color: white;
+	max-width: 380px;
+}
+
 .overlay {
 	transition: all 0.2s ease;
 	opacity: 0;
@@ -413,6 +438,7 @@ section {
 	font-size: 25px;
 	font-weight: bold;
 	margin-bottom: 0;
+	color: white;
 }
 
 .project {
@@ -449,7 +475,6 @@ section {
 }
 
 .overlay i {
-	color: black;
 	font-size: 60px;
 	margin: 10px;
 }

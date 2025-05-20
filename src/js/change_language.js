@@ -30,6 +30,7 @@ const cvLanguages = document.querySelectorAll("#cv-languages li");
 const showLanguageMode = document.getElementById("language");
 
 // To consume data from any JSON file
+// Para consumir datos desde cualquier archivo JSON
 async function loadJSON(file) {
 	const response = await fetch(file);
 	return await response.json();
@@ -38,6 +39,7 @@ async function loadJSON(file) {
 let currentLanguageTexts;
 
 // To change language
+// Para cambiar de idioma
 async function changeLanguage(language) {
 	const languageTexts = await loadJSON(`/src/languages/site-${language}.json`);
 	const cvTexts = await loadJSON(`/src/languages/cv-${language}.json`);
@@ -102,6 +104,7 @@ async function changeLanguage(language) {
 	}
 
 	// Contact Form
+	// Formulario de contacto
 	const formLabels = document.querySelectorAll(".form-label");
 	const formPlaceholders = document.querySelectorAll(
 		".form-control[placeholder]",
@@ -202,6 +205,7 @@ async function changeLanguage(language) {
 	}
 
 	// to download cv depending on the language
+	// Descargar el CV dependiendo del idioma
 	const downloadCVRoute = document.getElementById("link-download-cv");
 	downloadCVRoute.href = `../../docs/CV-fabian-blanco-wuest-${language}.pdf`;
 	downloadCVRoute.download = `CV-fabian-blanco-wuest-${language}.pdf`;
