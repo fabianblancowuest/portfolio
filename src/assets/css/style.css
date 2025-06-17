@@ -419,7 +419,7 @@ section {
 	justify-content: center;
 	border-radius: 10px;
 	box-shadow: 0px 1px 4px 1px blue;
-	min-height: 500px;
+	min-height: 450px;
 	background-color: #0a0a23;
 	color: white;
 	max-width: 380px;
@@ -482,6 +482,11 @@ section {
 
 .overlay i:hover {
 	color: #0d6efd;
+}
+
+.tech-icons i {
+	color: white;
+	background-color: white;
 }
 
 /* Articles */
