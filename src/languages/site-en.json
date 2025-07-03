@@ -30,9 +30,9 @@
 	],
 	"aboutMe": "Let me introduce myself",
 	"presentation": [
-		"I am a passionate developer based in Argentina🌎. I specialize in developing client/server applications using javascript stack💻. My goal is to contribute to innovative and challenging projects that not only enrich my professional experience, but also mark a significant milestone in my career.🥇",
-		"Below you will find a selection of my most recent projects. Each one of them reflects my dedication, creativity and technical skills🛠. If something you see catches your attention💡 or if you have any collaboration proposals, do not hesitate to contact me🤝. I am always open to new opportunities and challenges.💪",
-		"Explore my portfolio, you will find my projects, my resume, programmer phrases, a form where you can contact me and more."
+		"👋 I'm a software developer from Argentina, specialized in building client-server applications using the JavaScript ecosystem.",
+		"🚀 I'm passionate about creating efficient, scalable, and user-focused solutions. I'm always looking to contribute to innovative and challenging projects that help me grow professionally and make a meaningful impact.",
+		"🛠️ Below you'll find a selection of my most recent projects. Each one reflects my dedication, creativity, and technical skills. If something catches your eye or you'd like to discuss a potential collaboration, feel free to reach out. I'm always open to new opportunities and challenges."
 	],
 	"experience": "Experience",
 	"webDevelopment": "Web Development",
@@ -54,7 +54,7 @@
 		"I'm currently developing a web app that consumes the Videogames API to display detailed information, with a responsive design, intuitive interface, and best practices in API consumption, state management, and performance."
 	],
 	"letsTalk": "Let's Talk!",
-	"contactPhrase": "Contact me to start your web development project and I will make your vision come true.",
+	"contactPhrase": "Looking for a developer who can turn ideas into efficient, scalable web solutions? Reach out and discover how I can contribute to your next project.",
 	"contactBtn": "Contact ",
 	"footerPhrase": [
 		"I learn and create every day.",

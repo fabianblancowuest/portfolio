@@ -31,9 +31,9 @@
 	"subtitleMobile": "Construyo sitios y aplicaciones web. 💻😄",
 	"aboutMe": "Una breve introducción sobre mi",
 	"presentation": [
-		"Soy un apasionado desarrollador de software de Argentina🌎. Me especializo en el desarrollo de aplicaciones cliente/servidor utilizando el ecosistema JavaScript💻. Mi objetivo es contribuir a proyectos innovadores y desafiantes que no sólo enriquezcan mi experiencia profesional, sino que también marquen un hito significativo en mi carrera.🥇",
-		"A continuación encontrarás una selección de mis proyectos más recientes. Cada uno de ellos refleja mi dedicación, creatividad y habilidades técnicas🛠. Si algo que ves te llama la atención💡 o si tienes alguna propuesta de colaboración, no dudes en contactar conmigo🤝. Siempre estoy abierto a nuevas oportunidades y desafíos.💪",
-		"Explora mi portafolio, encontrarás mis proyectos, mi curriculum vitae, frases de programadores, un formulario donde puedas contactarme y más."
+		"👋 Soy un desarrollador de software argentino especializado en el desarrollo de aplicaciones cliente-servidor utilizando tecnologías del ecosistema JavaScript.",
+		"🚀 Me apasiona crear soluciones eficientes, escalables y centradas en el usuario. Busco involucrarme en proyectos innovadores y desafiantes que impulsen mi crecimiento profesional y generen un impacto positivo.",
+		"🛠️ A continuación, encontrarás una selección de mis proyectos más recientes. Cada uno refleja mi compromiso, creatividad y habilidades técnicas. Si alguno te interesa o tenés una propuesta de colaboración, no dudes en contactarme. Siempre estoy abierto a nuevas oportunidades y desafíos."
 	],
 	"experience": "Experiencia",
 	"webDevelopment": "Desarrollo Web",
@@ -55,7 +55,7 @@
 		"Actualmente desarrollo una app web que consume la API de Videogames para mostrar información detallada, con diseño responsive, interfaz intuitiva y buenas prácticas en consumo de APIs, manejo de estado y rendimiento."
 	],
 	"letsTalk": "¡Hablemos!",
-	"contactPhrase": "Contáctame para iniciar tu proyecto de desarrollo web y haré realidad tu visión.",
+	"contactPhrase": "¿Buscás un desarrollador que transforme ideas en soluciones web eficientes y escalables? Contactame y descubrí cómo puedo aportar a tu próximo proyecto.",
 	"contactBtn": "Contacto ",
 	"footerPhrase": [
 		"Aprendo y creo todos los días.",
