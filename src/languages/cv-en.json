@@ -30,7 +30,8 @@
 	"mpcTasks": [
 		"Web design and layout: Design and development of intuitive interfaces optimized for mobile devices and tablets, ensuring a fluid and accessible user experience.",
 		"Client-side logic and UI implementation: Development of interactive features and client-side logic, ensuring a seamless connection between the frontend and the backend.",
-		"HTML and CSS: Creating responsive and adaptive visual components; JavaScript: Developing dynamic and interactive features, improving the usability and efficiency of systems."
+		"HTML and CSS: Creating responsive and adaptive visual components",
+		"JavaScript: Developing dynamic and interactive features, improving the usability and efficiency of systems."
 	],
 	"theSimpsonsApp": "Developed a responsive web application based on “The Simpsons,” displaying character cards with information and images. Users can explore character details, search by name, and navigate additional sections like series history and an \"About Me\" page.  ",
 	"theSimpsonsAppTasks": [
