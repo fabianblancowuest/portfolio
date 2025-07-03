@@ -1,30 +1,27 @@
-(function () {
-	// https://dashboard.emailjs.com/admin/account
-	emailjs.init({
-		publicKey: "iD8pkZpwRpExO651W",
+import emailjs from "@emailjs/browser";
+
+emailjs.init("iD8pkZpwRpExO651W");
+
+window.addEventListener("DOMContentLoaded", () => {
+	const form = document.getElementById("contact-form");
+	form.addEventListener("submit", (event) => {
+		event.preventDefault();
+
+		emailjs
+			.sendForm("service_hre43nq", "template_it5kkwt", form)
+			.then((response) => {
+				console.log("SUCCESS!", response.status, response.text);
+				form.reset();
+
+				const modalElement = document.getElementById("contactModal");
+				const modal = bootstrap.Modal.getInstance(modalElement);
+				modal?.hide();
+			})
+			.catch((error) => {
+				console.error("FAILED...", error);
+			});
 	});
-})();
+});
 
-window.onload = function () {
-	document
-		.getElementById("contact-form")
-		.addEventListener("submit", function (event) {
-			event.preventDefault();
-			// these IDs from the previous steps
-			emailjs.sendForm("service_hre43nq", "template_it5kkwt", this).then(
-				(response) => {
-					console.log("SUCCESS!", response.status, response.text);
-					// Restart form fields
-					document.getElementById("contact-form").reset();
-
-					var modalElement = document.getElementById("contactModal");
-					var modal = bootstrap.Modal.getInstance(modalElement);
-					// Close form
-					modal.hide();
-				},
-				(error) => {
-					console.log("FAILED...", error);
-				},
-			);
-		});
-};
+// emailjs.sendForm("service_hre43nq", "template_it5kkwt", this).then(
+// publicKey: "iD8pkZpwRpExO651W",
