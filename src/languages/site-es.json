@@ -43,6 +43,17 @@
 	"btnExperience": "Ver CV ",
 	"projects": "Mis proyectos",
 	"projectsInfo": "Estos son algunos de los proyectos que he creado y/o trabajado recientemente...",
+	"cardsProjectsTexts": [
+		"Desarrollé una app web responsive de Los Simpson con tarjetas de personajes, usando solo HTML, CSS y JavaScript puro. Me enfoqué en el manejo directo del DOM, consumo de API externa y un diseño claro y adaptable.",
+		"Diseñé y desarrollé la interfaz de una app web responsive para comercializar servicios de ciberseguridad, con foco en empresas. Apliqué principios de UI/UX, accesibilidad y usabilidad para una experiencia profesional y adaptable.",
+		"Desarrollé una app web responsive sobre Rick and Morty que permite buscar, filtrar y gestionar personajes usando su API oficial. Implementé paginación, vistas detalladas y un manejo eficiente del estado y diseño adaptable.",
+		"Diseñé e implementé una interfaz web responsive para una app de sorteos con selección de números, premios y pagos, enfocada en usabilidad, accesibilidad y rendimiento multiplataforma.",
+		"Desarrollé una app web responsive con React para buscar y ver GIFs en tiempo real usando la API de Giphy. Usé hooks, componentes reutilizables y buenas prácticas de UI para una experiencia rápida y adaptable.",
+		"Desarrollé esta app como trabajo práctico para Arquitectura y Sistemas Operativos (UTN), usando React para crear una interfaz modular, responsive y mantenible. Refleja la integración de conceptos académicos con herramientas modernas de desarrollo web.",
+		"Desarrollé esta maqueta como parte de una prueba técnica en tiempo limitado, priorizando la fidelidad visual, el diseño responsive y la organización eficiente del layout para cumplir con los requisitos en plazo corto.",
+		"Estoy desarrollando una tienda virtual con Next.js, centrada en una experiencia rápida, responsive y optimizada para SEO. Incluye catálogo, carrito y pagos seguros, aprovechando SSR y SSG para rendimiento y escalabilidad.",
+		"Actualmente desarrollo una app web que consume la API de Videogames para mostrar información detallada, con diseño responsive, interfaz intuitiva y buenas prácticas en consumo de APIs, manejo de estado y rendimiento."
+	],
 	"letsTalk": "¡Hablemos!",
 	"contactPhrase": "Contáctame para iniciar tu proyecto de desarrollo web y haré realidad tu visión.",
 	"contactBtn": "Contacto ",

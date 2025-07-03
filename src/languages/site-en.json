@@ -42,6 +42,17 @@
 	"btnExperience": "View CV/Resume ",
 	"projects": "My projects",
 	"projectsInfo": "These are some of the projects I have created and/or worked on recently...",
+	"cardsProjectsTexts": [
+		"I developed a responsive web app about The Simpsons with character cards, using only HTML, CSS, and vanilla JavaScript. I focused on direct DOM manipulation, consuming an external API, and creating a clear and adaptable design.",
+		"I designed and developed the interface for a responsive web app aimed at marketing cybersecurity services for businesses. I applied UI/UX principles, accessibility, and usability for a professional and adaptable experience.",
+		"I developed a responsive web app about Rick and Morty that allows searching, filtering, and managing characters using its official API. I implemented pagination, detailed views, and efficient state management with a flexible design.",
+		"I designed and implemented a responsive web interface for a lottery app with number selection, prizes, and payments, focusing on usability, accessibility, and cross-platform performance.",
+		"I developed a responsive web app with React to search and view GIFs in real-time using the Giphy API. I used hooks, reusable components, and UI best practices for a fast and adaptable experience.",
+		"I developed this app as a practical assignment for Architecture and Operating Systems (UTN), using React to create a modular, responsive, and maintainable interface. It reflects the integration of academic concepts with modern web development tools.",
+		"I built this mockup as part of a time-limited technical test, prioritizing visual fidelity, responsive design, and efficient layout organization to meet the requirements within a short deadline.",
+		"I'm developing a virtual store with Next.js, focused on a fast, responsive, and SEO-optimized experience. It includes a catalog, cart, and secure payments, leveraging SSR and SSG for performance and scalability.",
+		"I'm currently developing a web app that consumes the Videogames API to display detailed information, with a responsive design, intuitive interface, and best practices in API consumption, state management, and performance."
+	],
 	"letsTalk": "Let's Talk!",
 	"contactPhrase": "Contact me to start your web development project and I will make your vision come true.",
 	"contactBtn": "Contact ",

@@ -103,6 +103,17 @@ async function changeLanguage(language) {
 		footerLinks[i].textContent = languageTexts.footerLinks[i];
 	}
 
+	// Descripción de cada proyecto
+	const cardsProjectsDescription = document.querySelectorAll(
+		"#cards-projects .project-description",
+	);
+	console.log(cardsProjectsDescription);
+
+	for (let i = 0; i < cardsProjectsDescription.length; i++) {
+		cardsProjectsDescription[i].textContent =
+			languageTexts.cardsProjectsTexts[i];
+	}
+
 	// Contact Form
 	// Formulario de contacto
 	const formLabels = document.querySelectorAll(".form-label");
