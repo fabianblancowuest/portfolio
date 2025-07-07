@@ -93,6 +93,7 @@
 		transition: right 0.8s ease;
 		border-radius: 10px;
 		border-bottom-right-radius: 0px;
+		z-index: 1;
 	}
 
 	.show-icons {
