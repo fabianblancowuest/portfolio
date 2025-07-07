@@ -51,7 +51,7 @@
 		"I developed a responsive web app with React to search and view GIFs in real-time using the Tenor API. I used hooks, reusable components, and UI best practices for a fast and adaptable experience.",
 		"I developed this app as a practical assignment for Architecture and Operating Systems (UTN), using React to create a modular, responsive, and maintainable interface. It reflects the integration of academic concepts with modern web development tools.",
 		"I built this mockup as part of a time-limited technical test, prioritizing visual fidelity, responsive design, and efficient layout organization to meet the requirements within a short deadline.",
-		"I'm developing a virtual store with Next.js, focused on a fast, responsive, and SEO-optimized experience. It includes a catalog, cart, and secure payments, leveraging SSR and SSG for performance and scalability.",
+		"I'm developing a modern e-commerce application using Next.js, focused on delivering a fast, responsive, and SEO-friendly experience. It features a product catalog, shopping cart, and secure payment system, leveraging both SSR and SSG to ensure optimal performance and scalability.",
 		"I'm currently developing a web app that consumes the Videogames API to display detailed information, with a responsive design, intuitive interface, and best practices in API consumption, state management, and performance."
 	],
 	"letsTalk": "Let's Talk!",
