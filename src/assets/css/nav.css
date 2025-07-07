@@ -59,7 +59,7 @@
 .social-media-pre-nav {
 	display: flex;
 	column-gap: 20px;
-	position: fixed;
+	position: absolute;
 }
 
 .logo-pre-nav {
@@ -80,15 +80,16 @@
 		display: unset;
 	}
 	.social-media-pre-nav {
-		color: black !important;
-		background-color: var(--background-color);
-		font-size: 1.5rem;
-		column-gap: 20px;
 		flex-direction: column;
-		width: 60px;
-		padding: 20px;
+		row-gap: 20px;
+		justify-content: center;
+		align-items: center;
 		top: 120px;
 		right: -100px;
+		width: 60px;
+		background-color: var(--background-color);
+		font-size: 2rem;
+		padding: 20px;
 		transition: right 0.8s ease;
 		border-radius: 10px;
 		border-bottom-right-radius: 0px;

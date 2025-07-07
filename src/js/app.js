@@ -229,9 +229,13 @@ document.addEventListener("DOMContentLoaded", function () {
 			sectionsSubtitle[i].classList.toggle("dark-mode-black-background");
 		}
 
-		document
-			.querySelector("#social-media-pre-nav")
-			.classList.toggle("dark-nav-bar");
+		const widthScreen_ = window.innerWidth;
+
+		if (widthScreen_ < 768) {
+			document
+				.querySelector("#social-media-pre-nav")
+				.classList.toggle("dark-nav-bar");
+		}
 
 		// Arrow nav
 		// const scrollArrow = document.querySelector("#scroll-arrow i");
