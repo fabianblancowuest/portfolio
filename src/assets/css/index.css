@@ -3,6 +3,7 @@
 :root {
 	--background-color: #f8f8ff;
 	--dark-color: #14191e;
+	overflow-x: hidden;
 }
 
 .container {
