@@ -7,6 +7,7 @@ const aboutMe = document.querySelectorAll("#about-me-description p");
 const btnProjectsIco = document.getElementById("btn-projects-icon");
 const contactIco = document.getElementById("contact-icon");
 const footerLinks = document.querySelectorAll(".footer-links-a li a");
+const prenavIco = document.getElementById("prenav-ico");
 
 // Modal elements
 const smahhTasks = document.querySelectorAll("#cv-smahh-tasks li");
@@ -52,6 +53,10 @@ async function changeLanguage(language) {
 	updateContentBasedOnScreenSize(languageTexts);
 
 	btnToggleTheme.title = languageTexts.nav.switchTheme;
+
+	const prenavPhrase = document.getElementById("prenav-phrase");
+	prenavPhrase.textContent = languageTexts.nav.prenav;
+	prenavPhrase.appendChild(prenavIco);
 
 	document.getElementById("title").textContent = languageTexts.hi;
 	document.getElementById("about-me-title").textContent = languageTexts.aboutMe;

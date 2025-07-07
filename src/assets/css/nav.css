@@ -1,4 +1,9 @@
 /* Navbar */
+:root {
+	--dark-color: #14191e;
+	--text-color: rgb(197, 209, 222);
+}
+
 .navbar {
 	font-family: "Quicksand", sans-serif;
 	font-size: 1rem;
@@ -33,6 +38,25 @@
 	display: flex;
 	justify-content: center;
 	/* margin-left: 16px; */
+}
+
+.social-media-icons-pre-nav {
+	background-color: var(--dark-color);
+	display: flex;
+	justify-content: flex-end;
+	column-gap: 20px;
+	padding: 5px 20px;
+	font-size: 20px;
+	color: var(--text-color);
+}
+
+.social-media-icons-pre-nav code {
+	font-size: 16px;
+	margin-right: auto;
+}
+
+.logo-pre-nav {
+	width: 30px;
 }
 
 .select-language {
