@@ -66,6 +66,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
 	const sectionsSubtitle = document.getElementsByClassName("section-subtitle");
 
+	// Botón para menú de móviles
+	const btnMenu = document.getElementById("btn-menu");
+
 	// aboutMeDescription.addEventListener("pointerover", () => {
 	// 	techImages.style.flexDirection = "row-reverse";
 	// });
@@ -74,6 +77,14 @@ document.addEventListener("DOMContentLoaded", function () {
 	// 	techImages.style.flexDirection = "";
 	// });
 
+	// Botón para mostrar íconos de redes sociales
+	btnMenu.addEventListener("click", () => {
+		document
+			.getElementById("social-media-pre-nav")
+			.classList.toggle("show-icons");
+	});
+
+	console.log(btnMenu);
 	// Inicio del array que devuelve las frases del archivo programming-phrases.json
 	let index = 0;
 
@@ -120,6 +131,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 	selectLanguage.addEventListener("click", focusSelect);
 
+	// Se dispara este evento haciendo clic en el botón de modo oscuro
 	document.getElementById("btn-toggle").addEventListener("click", () => {
 		isDarkMode = !isDarkMode;
 		isDarkMode
@@ -216,6 +228,10 @@ document.addEventListener("DOMContentLoaded", function () {
 		for (let i = 0; i < sectionsSubtitle.length; i++) {
 			sectionsSubtitle[i].classList.toggle("dark-mode-black-background");
 		}
+
+		document
+			.querySelector("#social-media-pre-nav")
+			.classList.toggle("dark-nav-bar");
 
 		// Arrow nav
 		// const scrollArrow = document.querySelector("#scroll-arrow i");
