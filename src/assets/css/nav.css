@@ -91,7 +91,7 @@ body {
 		justify-content: center;
 		align-items: center;
 		top: 128px;
-		transform: translateX(120%);
+		transform: translateX(110%);
 		width: 60px;
 		background-color: var(--background-color);
 		font-size: 2rem;
@@ -104,7 +104,7 @@ body {
 	}
 
 	.show-icons {
-		transform: translateX(30%);
+		transform: translateX(35%);
 	}
 }
 
