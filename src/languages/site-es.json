@@ -1,6 +1,7 @@
 {
 	"nav": {
 		"prenav": "Frases tech: tocá ",
+		"detectedLanguageText": "Idioma detectado: ",
 		"cvLink": "CV",
 		"aboutMeLink": "Acerca de",
 		"experienceLink": "Experiencia",

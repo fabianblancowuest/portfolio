@@ -88,12 +88,13 @@ document.addEventListener("DOMContentLoaded", function () {
 	// Inicio del array que devuelve las frases del archivo programming-phrases.json
 	let index = 0;
 
+	// Frases de programadores con Sweet Alert
 	logo.addEventListener("click", () => {
 		fetch("/src/languages/programming-phrases.json")
 			.then((response) => response.json())
 			.then((data) => {
 				console.log(data);
-				const phrases = data.phrases[htmlLanguage.lang];
+				const phrases = data.phrases[languageSelector.value.slice(0, 2)];
 				if (index < phrases.length) {
 					// Sweet alert
 					Swal.fire({

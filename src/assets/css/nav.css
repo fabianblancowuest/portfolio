@@ -58,7 +58,7 @@ body {
 
 .icons-pre-nav code {
 	font-size: 16px;
-	margin-right: auto;
+	/* margin-right: auto; */
 }
 
 .social-media-pre-nav {
@@ -81,10 +81,31 @@ body {
 	cursor: pointer;
 }
 
+.site-data {
+	margin-right: auto;
+}
+
+.detected-language-text {
+	color: white;
+	/* margin-right: auto; */
+	font-size: 16px;
+	margin-left: 100px;
+}
+
+.detected-language-text:last-of-type {
+	margin-left: 5px;
+	font-weight: bold;
+}
+
 @media (max-width: 768px) {
 	.btn-menu {
 		display: unset;
 	}
+
+	.detected-language-text {
+		display: none;
+	}
+
 	.social-media-pre-nav {
 		flex-direction: column;
 		row-gap: 20px;

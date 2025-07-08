@@ -1,8 +1,8 @@
 import { changeLanguage } from "./change_language.js";
 
-document.addEventListener("DOMContentLoaded", () => {
-	const languageSelector = document.getElementById("language-selector");
+export const languageSelector = document.getElementById("language-selector");
 
+document.addEventListener("DOMContentLoaded", () => {
 	const html = document.querySelector("html");
 	const idiomaNavegador = navigator.language;
 
@@ -32,6 +32,11 @@ document.addEventListener("DOMContentLoaded", () => {
 			languageSelector.title = "Change language";
 		}
 	});
+
+	console.log("idioma navegador", idiomaNavegador.slice(0, 2));
+
+	document.getElementById("detected-language-text-short").textContent =
+		idiomaNavegador;
 
 	// Establece el idioma inicial
 

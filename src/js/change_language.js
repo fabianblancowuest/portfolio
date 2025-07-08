@@ -58,6 +58,9 @@ async function changeLanguage(language) {
 	prenavPhrase.textContent = languageTexts.nav.prenav;
 	prenavPhrase.appendChild(prenavIco);
 
+	document.getElementById("detected-language-text").textContent =
+		languageTexts.nav.detectedLanguageText;
+
 	document.getElementById("title").textContent = languageTexts.hi;
 	document.getElementById("about-me-title").textContent = languageTexts.aboutMe;
 	for (let i = 0; i < aboutMe.length; i++) {
