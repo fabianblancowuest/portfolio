@@ -217,6 +217,7 @@ select:focus {
 	.navbar-brand {
 		position: absolute;
 		right: 5px;
+		top: 5px;
 	}
 
 	.navbar-brand img {
