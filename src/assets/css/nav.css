@@ -64,7 +64,7 @@ body {
 .social-media-pre-nav {
 	display: flex;
 	column-gap: 20px;
-	position: fixed;
+	position: absolute;
 	z-index: 1;
 }
 
@@ -99,6 +99,7 @@ body {
 	font-weight: bold;
 }
 
+/* Mobile */
 @media (max-width: 768px) {
 	.icons-pre-nav {
 		padding: 0.8em;
