@@ -272,6 +272,10 @@ section {
 	justify-content: space-evenly;
 }
 
+.experience .container {
+	padding: 0 10px;
+}
+
 .experience .row {
 	display: flex;
 	justify-content: center;
