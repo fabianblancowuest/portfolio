@@ -17,7 +17,7 @@ body {
 }
 
 .navbar {
-	padding: 1rem;
+	padding: 1.2rem;
 	background-color: var(--background-color);
 }
 
@@ -100,8 +100,17 @@ body {
 }
 
 @media (max-width: 768px) {
+	.icons-pre-nav {
+		padding: 0.8em;
+	}
+
+	.logo-pre-nav {
+		width: 40px;
+	}
+
 	.btn-menu {
 		display: unset;
+		font-size: 25px;
 	}
 
 	.detected-language-text {
