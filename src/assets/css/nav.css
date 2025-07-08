@@ -66,6 +66,47 @@ body {
 	/* margin-right: auto; */
 }
 
+/* Botón animado */
+.menu-toggle-btn {
+	position: relative;
+	display: none;
+	background: none;
+	border: none;
+	cursor: pointer;
+	padding: 0.5rem;
+	transition: transform 0.3s ease;
+}
+
+.menu-toggle-btn img {
+	width: 40px;
+	height: 40px;
+	transition: transform 0.3s ease, opacity 0.3s ease;
+	position: absolute;
+	top: 0px;
+	right: 5px;
+}
+
+.menu-toggle-btn img:first-of-type {
+	height: 45px;
+	top: -5px;
+}
+
+#iconClose {
+	opacity: 0;
+	transform: scale(0.5) rotate(90deg);
+}
+
+.menu-open #iconOpen {
+	opacity: 0;
+	transform: scale(0.5) rotate(-90deg);
+}
+
+.menu-open #iconClose {
+	opacity: 1;
+	transform: scale(1) rotate(0deg);
+}
+
+/* Iconos de redes sociales nav */
 .social-media-pre-nav {
 	display: flex;
 	column-gap: 20px;
@@ -106,6 +147,10 @@ body {
 
 /* Mobile */
 @media (max-width: 768px) {
+	.menu-toggle-btn {
+		display: unset;
+	}
+
 	.icons-pre-nav {
 		padding: 0.8em;
 	}

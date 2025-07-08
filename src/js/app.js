@@ -78,13 +78,25 @@ document.addEventListener("DOMContentLoaded", function () {
 	// });
 
 	// Botón para mostrar íconos de redes sociales
-	btnMenu.addEventListener("click", () => {
+	// btnMenu.addEventListener("click", () => {
+	// 	document
+	// 		.getElementById("social-media-pre-nav")
+	// 		.classList.toggle("show-icons");
+	// });
+
+	// console.log(btnMenu);
+
+	const btnMenuToggle = document.getElementById("toggleMenuBtn");
+
+	btnMenuToggle.addEventListener("click", () => {
+		btnMenuToggle.classList.toggle("menu-open");
+		// Aquí podrías alternar el menú lateral con:
+		// document.querySelector('.menu-lateral').classList.toggle('visible');
 		document
 			.getElementById("social-media-pre-nav")
 			.classList.toggle("show-icons");
 	});
 
-	console.log(btnMenu);
 	// Inicio del array que devuelve las frases del archivo programming-phrases.json
 	let index = 0;
 
