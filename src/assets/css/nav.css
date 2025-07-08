@@ -122,7 +122,7 @@ body {
 		row-gap: 20px;
 		justify-content: center;
 		align-items: center;
-		top: 128px;
+		top: 145px;
 		transform: translateX(110%);
 		width: 60px;
 		background-color: var(--background-color);
@@ -130,13 +130,14 @@ body {
 		padding: 20px;
 		transition: transform 0.8s ease;
 		border-radius: 10px;
-		border-bottom-right-radius: 0px;
+		border-top-left-radius: 0;
+		border-bottom-right-radius: 0;
 		z-index: 1;
 		overflow-x: hidden;
 	}
 
 	.show-icons {
-		transform: translateX(35%);
+		transform: translateX(40%);
 	}
 }
 
