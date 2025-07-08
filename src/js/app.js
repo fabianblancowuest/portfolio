@@ -102,6 +102,10 @@ document.addEventListener("DOMContentLoaded", function () {
 						confirmButtonColor: "rgb(13,202,240)",
 						confirmButtonColorText: "red",
 						customClass: isDarkMode ? "dark-mode-alert" : null,
+						// Ocultar el overflowX que genera al lanzar la alerta
+						willOpen: () => {
+							document.body.style.overflowY = "hidden";
+						},
 					});
 					index++;
 				} else {

@@ -12,37 +12,6 @@
 	padding: 0 20px;
 }
 
-/* Sweet Alert */
-
-.swal2-title {
-	font-family: "Quicksand", sans-serif;
-	font-size: 1.2rem;
-}
-
-.swal2-content {
-	font-family: "Quicksand", sans-serif;
-	font-size: 1.2rem;
-}
-
-.swal2-popup .swal2-actions button {
-	margin-top: 1rem;
-	font-family: Arial, sans-serif;
-	color: black;
-	font-weight: bold;
-	padding: 0.5rem 3rem;
-}
-/* Aplica un tamaño personalizado al contenedor del diálogo */
-.swal2-popup {
-	padding: 2rem 1rem;
-	width: 50vw;
-}
-
-@media (max-width: 768px) {
-	.swal2-popup {
-		width: 100vw;
-	}
-}
-
 /* General styles */
 
 section {

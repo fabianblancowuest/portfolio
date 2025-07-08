@@ -119,6 +119,7 @@ body {
 	}
 
 	.social-media-pre-nav {
+		position: fixed;
 		flex-direction: column;
 		row-gap: 20px;
 		justify-content: center;
