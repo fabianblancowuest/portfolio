@@ -82,8 +82,8 @@ body {
 	height: 40px;
 	transition: transform 0.3s ease, opacity 0.3s ease;
 	position: absolute;
-	top: 0px;
-	right: 5px;
+	top: 0;
+	right: 0;
 }
 
 .menu-toggle-btn img:first-of-type {
