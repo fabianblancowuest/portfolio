@@ -17,7 +17,7 @@ body {
 }
 
 .navbar {
-	padding: 2rem;
+	padding: 1rem;
 	background-color: var(--background-color);
 }
 
@@ -207,7 +207,6 @@ select:focus {
 	.navbar-brand {
 		position: absolute;
 		right: 5px;
-		top: 20px;
 	}
 
 	.navbar-brand img {
