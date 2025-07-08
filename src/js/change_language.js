@@ -28,8 +28,6 @@ const btnResumeIco = document.getElementById("resume-ico");
 const dbText = document.getElementsByClassName("database-text");
 const cvLanguages = document.querySelectorAll("#cv-languages li");
 
-const showLanguageMode = document.getElementById("language");
-
 // To consume data from any JSON file
 // Para consumir datos desde cualquier archivo JSON
 async function loadJSON(file) {
@@ -45,10 +43,6 @@ async function changeLanguage(language) {
 	const languageTexts = await loadJSON(`/src/languages/site-${language}.json`);
 	const cvTexts = await loadJSON(`/src/languages/cv-${language}.json`);
 	currentLanguageTexts = languageTexts;
-
-	showLanguageMode.textContent = document
-		.querySelector("html")
-		.lang.toUpperCase();
 
 	updateContentBasedOnScreenSize(languageTexts);
 

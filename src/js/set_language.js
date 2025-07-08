@@ -6,8 +6,6 @@ document.addEventListener("DOMContentLoaded", () => {
 	const html = document.querySelector("html");
 	const idiomaNavegador = navigator.language;
 
-	console.log(navigator.language);
-
 	const cambiarIdioma = () => {
 		if (idiomaNavegador.includes("es")) {
 			console.log("Esta en español");
@@ -18,14 +16,14 @@ document.addEventListener("DOMContentLoaded", () => {
 		}
 	};
 
-	console.log(languageSelector[0].textContent);
-
 	languageSelector.addEventListener("change", (event) => {
 		const selectedLanguage = event.target.value;
 		changeLanguage(selectedLanguage);
 		// Change language atributte
 		html.lang = selectedLanguage;
 		console.log(html.lang);
+		showLanguageMode.textContent = languageSelector.value;
+
 		if (idiomaNavegador.includes("es")) {
 			languageSelector.title = "Cambiar idioma";
 		} else {
@@ -38,12 +36,13 @@ document.addEventListener("DOMContentLoaded", () => {
 	document.getElementById("detected-language-text-short").textContent =
 		idiomaNavegador;
 
-	// Establece el idioma inicial
+	// Esto cambia el value del <select> del nav
+	languageSelector.value = cambiarIdioma();
 
-	// changeLanguage(languageSelector.value);
-	languageSelector.value = cambiarIdioma(); // Esto cambia el value del <select>
-
+	// Ahora le pasamos el idioma detectado a la función
 	changeLanguage(cambiarIdioma());
 
-	// console.log("select language");
+	const showLanguageMode = document.getElementById("language");
+	// Establece el valor del span de idioma en el footer
+	showLanguageMode.textContent = cambiarIdioma().toUpperCase();
 });
