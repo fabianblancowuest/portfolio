@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
 		// Change language atributte
 		html.lang = selectedLanguage;
 		console.log(html.lang);
-		showLanguageMode.textContent = languageSelector.value;
+		showLanguageMode.textContent = languageSelector.value.toUpperCase();
 
 		if (idiomaNavegador.includes("es")) {
 			languageSelector.title = "Cambiar idioma";
