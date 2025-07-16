@@ -15,12 +15,22 @@
 
 .dark-mode {
 	background-color: #22272e;
+	background-color: #1d1238;
+	background: linear-gradient(
+		97deg,
+		rgba(49, 12, 89, 1) 0%,
+		rgba(29, 18, 56, 1) 31%,
+		rgba(29, 18, 56, 1) 73%,
+		rgba(58, 20, 195, 1) 200%
+	);
 	color: var(--text-color);
 	/* color: white; */
 }
 
 .dark-sections-mode {
 	background-color: RGB(20, 25, 30);
+	background: #141e30; /* fallback for old browsers */
+	background: #130c25;
 }
 
 .dark-nav-bar {
