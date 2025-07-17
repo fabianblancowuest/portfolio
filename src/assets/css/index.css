@@ -367,19 +367,23 @@ section {
 }
 
 .projects p {
-	font-size: 16px;
+	font-size: 15px;
 }
 
 .project-description {
-	padding-left: 10px;
-	padding-right: 10px;
+	padding: 12px;
+	padding-bottom: 0;
+	text-align: left;
+	min-height: 180px;
+	line-height: 1.6;
 }
 
-.projects img {
-	height: 220px;
+.project > img {
+	height: 200px;
 	width: 100%;
-	padding: 10px;
 	border: 10px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
 	display: block;
 	transition: all 0.2s ease;
 }
@@ -392,7 +396,7 @@ section {
 .container-cards-projects {
 	display: flex;
 	justify-content: space-evenly;
-	gap: 10px 10px;
+	gap: 20px 10px;
 }
 
 .card-project {
@@ -400,13 +404,13 @@ section {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	border-radius: 10px;
-	box-shadow: 1px 1px 5px blue;
-	min-height: 600px;
+	border-radius: 5px;
+	box-shadow: 0 0 10px blue;
 	background-color: #0a0a23;
 	color: white;
-	max-width: 400px;
-	padding: 10px 20px;
+	max-width: 370px;
+	padding: 0 0 10px 0;
+	position: relative;
 }
 
 .overlay {
@@ -479,7 +483,7 @@ section {
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
-	gap: 10px;
+	gap: 20px;
 	/* min-height: 100vh; */
 }
 
@@ -490,8 +494,9 @@ section {
 }
 
 .logos-icos img {
-	height: 60px;
+	height: 55px;
 	width: auto;
+	padding: 10px;
 }
 
 /* .card-project {
