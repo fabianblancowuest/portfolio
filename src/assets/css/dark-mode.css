@@ -1,11 +1,23 @@
 /* Dark Mode */
 :root {
 	--text-color: rgb(197, 209, 222);
+	--text-intense-color: #fff;
+	--section-color: #130c25;
+	--section-intense-color: #0a0614;
+	--gradient: linear-gradient(
+		97deg,
+		rgba(49, 12, 89, 1) 0%,
+		rgba(29, 18, 56, 1) 31%,
+		rgba(29, 18, 56, 1) 73%,
+		rgba(58, 20, 195, 1) 200%
+	);
 }
 
 .dark-mode-alert {
-	background-color: #22272e;
-	color: var(--text-color);
+	/* background-color: #22272e; */
+	/* color: var(--text-color); */
+	background: var(--section-intense-color);
+	color: var(--text-intense-color);
 }
 
 .light-mode-alert {
@@ -16,26 +28,45 @@
 .dark-mode {
 	background-color: #22272e;
 	background-color: #1d1238;
-	background: linear-gradient(
-		97deg,
-		rgba(49, 12, 89, 1) 0%,
-		rgba(29, 18, 56, 1) 31%,
-		rgba(29, 18, 56, 1) 73%,
-		rgba(58, 20, 195, 1) 200%
-	);
-	color: var(--text-color);
+	background: var(--gradient);
+	color: var(--text-intense-color);
 	/* color: white; */
+}
+
+.dark-mode input,
+.dark-mode textarea {
+	background-color: darkslateblue;
+	color: var(--text-intense-color);
+	font-weight: bold;
+}
+
+.dark-mode input::placeholder,
+.dark-mode textarea::placeholder {
+	color: var(--text-intense-color);
+	font-weight: normal;
+}
+
+.dark-mode input:focus,
+.dark-mode textarea:focus,
+.dark-mode input:active,
+.dark-mode textarea:active {
+	background-color: darkslateblue;
+	color: var(--text-intense-color);
+	/* font-weight: normal; */
 }
 
 .dark-sections-mode {
 	background-color: RGB(20, 25, 30);
 	background: #141e30; /* fallback for old browsers */
 	background: #130c25;
+	color: var(--text-intense-color);
 }
 
 .dark-nav-bar {
-	background-color: #1c2128;
-	color: var(--text-color);
+	/* background-color: #1c2128; */
+	/* color: var(--text-color); */
+	background: #130c25;
+	color: var(--text-intense-color);
 }
 
 .dark-btn-bars {
@@ -43,12 +74,10 @@
 	color: #478be6;
 }
 
+.dark-mode-select,
 .dark-mode-text {
-	color: var(--text-color) !important;
-}
-
-.dark-mode-select {
-	color: var(--text-color) !important;
+	/* color: var(--text-color) !important; */
+	color: var(--text-intense-color) !important;
 }
 
 .dark-mode-select option {
@@ -99,7 +128,15 @@
 }
 
 .dark-mode .column:hover {
-	background-color: rgb(20, 25, 30) !important;
+	background-color: rgb(20, 25, 30);
+	background: linear-gradient(
+		97deg,
+		rgba(49, 12, 89, 1) 0%,
+		rgba(29, 18, 56, 1) 31%,
+		rgba(29, 18, 56, 1) 73%,
+		rgba(58, 20, 195, 1) 200%
+	);
+	background: #130c25;
 }
 
 .dark-form-select {
