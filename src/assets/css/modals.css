@@ -37,7 +37,7 @@
 }
 
 .modal-lg-custom {
-	max-width: 60%;
+	max-width: 900px;
 }
 
 .modal-body-cv {
@@ -208,7 +208,7 @@
 	}
 
 	.modal-body-cv {
-		padding: 1em 2em;
+		padding: 1em;
 	}
 
 	.cv-project-links {
@@ -228,6 +228,11 @@
 
 	.mobile-info {
 		display: block;
+	}
+
+	ol,
+	ul {
+		padding-left: 1rem;
 	}
 }
 
@@ -259,14 +264,4 @@
 
 .modal-title {
 	margin-left: auto;
-}
-
-@media (min-width: 700px) and (max-width: 900px) {
-	.modal-lg-custom {
-		max-width: 90%;
-	}
-
-	.modal-body-cv {
-		padding: 1em 3em;
-	}
 }
