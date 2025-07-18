@@ -207,7 +207,7 @@ section {
 @media (max-width: 900px) {
 	.about-me-description {
 		padding: 1em;
-		max-width: 100vw;
+		max-width: 95vw;
 		width: 100vw;
 		margin: 0;
 		box-shadow: none;
@@ -588,6 +588,12 @@ section {
 	padding: 20px;
 }
 
+@media (max-width: 720px) {
+	.contact .container {
+		padding: 20px 5px;
+	}
+}
+
 .contact .rectangle {
 	margin-top: -5rem;
 	/* background-color: rgb(13, 110, 253); */
@@ -753,7 +759,7 @@ footer {
 		max-width: 100vw;
 	}
 	.title-section {
-		font-size: 1.6rem;
+		font-size: 1.8rem;
 	}
 
 	.about-me {
