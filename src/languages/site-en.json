@@ -37,6 +37,7 @@
 		"🛠️ Here are some of my most recent projects. If you have a collaboration proposal, feel free to reach out. I’m open to new opportunities."
 	],
 	"experience": "Experience",
+	"experienceInfo": "A glimpse into my path as a developer...",
 	"webDevelopment": "Web Development",
 	"webDevelopmentDescription": "Full Stack Developer with training in JavaScript, ReactJS, Node.js, Nextjs, TypeScript, Java, Express, CSS, HTML, MongoDB, Postgre SQL and Sequelize, specialized in Front-end. Knowledge of agile methodologies, GIT, UX, UI, data structure, algorithms.",
 	"education": "Education",

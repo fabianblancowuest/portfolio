@@ -60,8 +60,10 @@ async function changeLanguage(language) {
 	for (let i = 0; i < aboutMe.length; i++) {
 		aboutMe[i].textContent = languageTexts.presentation[i];
 	}
-	document.getElementById("experience-description").textContent =
+	document.getElementById("experience-title").textContent =
 		languageTexts.experience;
+	document.getElementById("experience-description").textContent =
+		languageTexts.experienceInfo;
 	document.getElementById("web-development-title").textContent =
 		languageTexts.webDevelopment;
 	document.getElementById("web-development-description").textContent =
