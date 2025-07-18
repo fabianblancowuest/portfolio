@@ -157,16 +157,16 @@ document.addEventListener("DOMContentLoaded", function () {
 
 		// cambio de icono de la nav bar
 		isDarkMode
-			? (logoImg.src = "/src/assets/img/icons/codigo3.png")
+			? (logoImg.src = "/src/assets/img/icons/codigo5.png")
 			: (logoImg.src = "/src/assets/img/icons/codigo2.png");
 
 		// cambio de ícono del footer
 		isDarkMode
-			? (logoImgFooter.src = "/src/assets/img/icons/codigo3.png")
+			? (logoImgFooter.src = "/src/assets/img/icons/codigo5.png")
 			: null;
 
 		isDarkMode
-			? (logoImgFooter.src = "/src/assets/img/icons/codigo3.png")
+			? (logoImgFooter.src = "/src/assets/img/icons/codigo5.png")
 			: null;
 
 		isDarkMode
