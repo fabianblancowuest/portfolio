@@ -1,12 +1,16 @@
 @media (max-width: 768px) {
-	a[data-toggle], a[href="https://github.com/fabianblancowuest?tab=repositories"]
+	a[data-toggle], a[href="https://github.com/fabianblancowuest?tab=repositories"], .btn-download-cv a
 	{
 		width: 100%;
+		max-width: 350px;
 	}
 
 	.btn {
+		max-width: 350px;
 		width: 100%;
 		margin-left: auto;
 		margin-right: auto;
+		padding-top: 8px;
+		padding-bottom: 8px;
 	}
 }
