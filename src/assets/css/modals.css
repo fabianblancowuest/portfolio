@@ -247,6 +247,12 @@
 	margin: 0 auto;
 }
 
+@media (max-width: 768px) {
+	#contact-form .mb-3 {
+		width: 100%;
+	}
+}
+
 .form textarea {
 	min-height: 300px;
 }
