@@ -261,12 +261,6 @@
 	margin-left: auto;
 }
 
-.btn-submit {
-	display: block;
-	margin: 0 auto;
-	width: 180px;
-}
-
 @media (min-width: 700px) and (max-width: 900px) {
 	.modal-lg-custom {
 		max-width: 90%;
