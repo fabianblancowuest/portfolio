@@ -72,12 +72,6 @@ section {
 	text-shadow: 1px 1px 5px black;
 }
 
-.btn-info {
-	font-size: 1rem;
-	margin: 20px;
-	/* font-weight: bold; */
-}
-
 .dark-text {
 	color: black;
 }
@@ -336,10 +330,6 @@ section {
 	.experience .column:hover {
 	}
 } */
-
-.link-btn {
-	width: 200px;
-}
 
 .experience .btn-info i {
 	font-size: unset;
@@ -615,32 +605,6 @@ section {
 	font-size: 1.1rem;
 }
 
-.contact button {
-	color: white;
-	font-weight: bold;
-	background-color: transparent;
-	border: 2px solid white;
-	padding: 1.25em 2em;
-	margin: 10px;
-	border-radius: 100px;
-	transition: all 0.2s ease-in-out;
-}
-
-.contact button i {
-	color: white;
-	font-size: 1.2rem;
-	transition: all 0.2s ease-in-out;
-}
-
-.contact button:hover {
-	background-color: white;
-	color: black;
-}
-
-.contact button:hover i {
-	color: black;
-}
-
 /* Footer */
 
 footer {
@@ -708,34 +672,6 @@ footer {
 	cursor: text;
 }
 
-.social-media-icons a {
-	width: 50px;
-	height: 50px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	padding: 2px;
-	margin: 10px;
-	border: 2px solid white;
-	border-radius: 50%;
-	transition: all 0.2 ease-in;
-}
-
-.social-media-icons i {
-	color: white;
-	font-size: 1.5rem;
-	transition: all 0.2 ease-in;
-}
-
-.social-media-icons a:hover {
-	background-color: white;
-	border: 2px solid rgb(13, 110, 253);
-}
-
-.social-media-icons a:hover i {
-	color: black;
-}
-
 .copyright {
 	margin-top: 60px;
 	width: 100%;
@@ -773,14 +709,6 @@ footer {
 
 	.mobile {
 		font-size: 20px !important;
-	}
-
-	.overlay p {
-		font-size: 18px;
-	}
-
-	.overlay i {
-		font-size: 40px;
 	}
 
 	.carousel-item {
