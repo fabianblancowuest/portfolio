@@ -181,6 +181,25 @@ section {
 	text-align: center;
 }
 
+/* Images and text */
+
+.about-me-description div p {
+	display: inline;
+}
+
+.about-me-description div {
+	display: flex;
+	flex-wrap: wrap;
+	/* gap: 40px 40px; */
+	justify-content: center;
+	align-items: center;
+	margin: 10px 0;
+}
+
+.about-me-description p {
+	margin: 0;
+}
+
 .about-me-description {
 	max-width: 1000px;
 	margin: 0 auto;
@@ -188,7 +207,7 @@ section {
 	letter-spacing: 1px;
 	/* border: solid 0.1px white; */
 	border-radius: 5px;
-	padding: 4em 6em;
+	padding: 4em 4em;
 	/* box-shadow: 0.5px 0.5px 0.5px 3px rgba(148, 148, 148, 0.217); */
 	/* background: #0a0614; */
 	background: var(--blue-color);
@@ -210,7 +229,7 @@ section {
 }
 
 .about-me-img {
-	width: 50%;
+	width: 70px;
 }
 
 .about-me .container-mine {
@@ -246,7 +265,7 @@ section {
 
 .logo-tech {
 	width: 100%;
-	max-width: 60px;
+	max-width: 50px;
 	/* animation: logoTechsAnimate ease-in 1.5s infinite alternate; */
 }
 
