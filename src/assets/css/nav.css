@@ -304,3 +304,8 @@ select:focus {
 	color: #e35026;
 	text-shadow: 1px 1px 2px black;
 }
+
+.date-language {
+	display: flex;
+	gap: 1rem;
+}

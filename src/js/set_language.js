@@ -45,4 +45,25 @@ document.addEventListener("DOMContentLoaded", () => {
 	const showLanguageMode = document.getElementById("language");
 	// Establece el valor del span de idioma en el footer
 	showLanguageMode.textContent = cambiarIdioma().toUpperCase();
+
+	// Fecha y hora en el nav
+	const options = {
+		weekday: "long",
+		year: "numeric",
+		month: "long",
+		day: "numeric",
+		hour: "2-digit",
+		minute: "2-digit",
+		second: "2-digit",
+	};
+
+	function updateDateTime() {
+		document.getElementById("date").textContent = new Date().toLocaleString(
+			languageSelector.value,
+			options,
+		);
+	}
+
+	updateDateTime();
+	setInterval(updateDateTime, 1000);
 });
