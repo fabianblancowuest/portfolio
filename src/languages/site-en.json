@@ -53,7 +53,7 @@
 		"I developed this app as a practical assignment for Architecture and Operating Systems (UTN), using React to create a modular, responsive, and maintainable interface. It reflects the integration of academic concepts with modern web development tools.",
 		"I designed and implemented a responsive web interface for a lottery app with number selection, prizes, and payments, focusing on usability, accessibility, and cross-platform performance.",
 		"I built this mockup as part of a time-limited technical test, prioritizing visual fidelity, responsive design, and efficient layout organization to meet the requirements within a short deadline.",
-		"Gif Expert App – Version 2. New iteration of the Gif Expert application developed with React and TypeScript, incorporating strong typing for components, props, and state, with the goal of achieving a more robust, predictable, and maintainable codebase.",
+		"New iteration of the Gif Expert application developed with React and TypeScript, incorporating strong typing for components, props, and state to achieve more robust, predictable, and maintainable code. The project includes unit and integration tests implemented with Vitest and Testing Library.",
 		"I'm developing a modern e-commerce application using Next.js, focused on delivering a fast, responsive, and SEO-friendly experience. It features a product catalog, shopping cart, and secure payment system, leveraging both SSR and SSG to ensure optimal performance and scalability."
 	],
 	"letsTalk": "Let's Talk!",
