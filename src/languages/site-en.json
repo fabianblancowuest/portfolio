@@ -54,6 +54,7 @@
 		"I designed and implemented a responsive web interface for a lottery app with number selection, prizes, and payments, focusing on usability, accessibility, and cross-platform performance.",
 		"I built this mockup as part of a time-limited technical test, prioritizing visual fidelity, responsive design, and efficient layout organization to meet the requirements within a short deadline.",
 		"New iteration of the Gif Expert application developed with React and TypeScript, incorporating strong typing for components, props, and state to achieve more robust, predictable, and maintainable code. The project includes unit and integration tests implemented with Vitest and Testing Library.",
+		"I developed this word-ordering game using React and TypeScript. State logic is managed through a reducer, and the user interface was built with the shadcn/ui library.",
 		"I'm developing a modern e-commerce application using Next.js, focused on delivering a fast, responsive, and SEO-friendly experience. It features a product catalog, shopping cart, and secure payment system, leveraging both SSR and SSG to ensure optimal performance and scalability."
 	],
 	"letsTalk": "Let's Talk!",

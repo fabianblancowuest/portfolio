@@ -55,6 +55,7 @@
 		"Diseñé e implementé una interfaz web responsive para una app de sorteos con selección de números, premios y pagos, enfocada en usabilidad, accesibilidad y rendimiento multiplataforma.",
 		"Desarrollé esta maqueta como parte de una prueba técnica en tiempo limitado, priorizando la fidelidad visual, el diseño responsive y la organización eficiente del layout para cumplir con los requisitos en plazo corto.",
 		"Nueva iteración de la aplicación Gif Expert desarrollada con React y TypeScript, incorporando tipado fuerte para componentes, props y estados, para un código más robusto, predecible y fácil de mantener. El proyecto incluye tests unitarios y de integración implementados con Vitest y Testing Library.",
+		"Desarrollé este juego de ordenamiento de palabras utilizando React y TypeScript. La lógica de estado está gestionada mediante un reducer, y la interfaz de usuario fue implementada con la librería shadcn/ui.”",
 		"Estoy desarrollando una tienda virtual con Next.js, centrada en una experiencia rápida, responsive y optimizada para SEO. Incluye catálogo, carrito y pagos seguros, aprovechando SSR y SSG para rendimiento y escalabilidad."
 	],
 	"letsTalk": "¡Hablemos!",
