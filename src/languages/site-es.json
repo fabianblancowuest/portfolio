@@ -47,6 +47,7 @@
 	"projects": "Mis proyectos",
 	"projectsInfo": "Estos son algunos de los proyectos que he creado y/o trabajado recientemente...",
 	"cardsProjectsTexts": [
+		"Aplicación web desarrollada con React, TypeScript y NestJS que permite explorar y consultar personajes del universo de héroes. Utiliza TanStack Query para manejo eficiente de datos, Context API para estados globales y Shadcn/UI para una interfaz moderna y responsiva.",
 		"Desarrollé una app web responsive de Los Simpson con tarjetas de personajes, usando solo HTML, CSS y JavaScript puro. Me enfoqué en el manejo directo del DOM, consumo de API externa y un diseño claro y adaptable.",
 		"Diseñé y desarrollé la interfaz de una app web responsive para comercializar servicios de ciberseguridad, con foco en empresas. Apliqué principios de UI/UX, accesibilidad y usabilidad para una experiencia profesional y adaptable.",
 		"Desarrollé una app web responsive sobre Rick and Morty que permite buscar, filtrar y gestionar personajes usando su API oficial. Implementé paginación, vistas detalladas y un manejo eficiente del estado y diseño adaptable.",
